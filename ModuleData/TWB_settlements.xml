@@ -3382,7 +3382,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_V2" name="{=Settlements.Settlement.ECM.castle_V2}Château de Saint-Jean-d'Angle" owner="Faction.clan_vlandia_5" posX="269.929" posY="1000.607" culture="Culture.vlandia" prosperity="1020" gate_posX="270.7027" gate_posY="1000.772">
+  <Settlement id="castle_V2" name="{=Settlements.Settlement.ECM.castle_V2}Château de Saint-Jean-d'Angle" owner="Faction.clan_vlandia_5" posX="269.929" posY="1000.607" culture="Culture.vlandia" prosperity="781" gate_posX="270.7027" gate_posY="1000.772">
     <Components>
       <Town id="castle_comp_V2" is_castle="true" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" />
     </Components>
@@ -3394,7 +3394,7 @@
   </Settlement>
   <Settlement id="castle_village_V2_1" name="{=Settlements.Settlement.ECM.castle_village_V2_1}Hongard" posX="288.933" posY="985.706" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.castle_village_V2_1}Hongard sits in the warm wooded lands near the meandering Trand river. This land, rich in wheat and once the heartland of the Empire, is now the center of the Vlandian kingdom.">
     <Components>
-      <Village id="castle_village_comp_V2_1" village_type="VillageType.wheat_farm" hearth="400" gate_rotation="0.008" bound="Settlement.castle_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_V2_1" village_type="VillageType.wheat_farm" hearth="522" gate_rotation="0.008" bound="Settlement.castle_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_f" />
@@ -3407,7 +3407,7 @@
   </Settlement>
   <Settlement id="castle_village_V2_2" name="{=Settlements.Settlement.ECM.castle_village_V2_2}Ferton" posX="277.683" posY="1023.912" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.castle_village_V2_2}Ferton near a curve of the meandering Trand river, not far from a pass leading seaward over the Biscan Hills. The villagers grow olives on the warm, dry landward side of the hills.">
     <Components>
-      <Village id="castle_village_comp_V2_2" village_type="VillageType.olive_trees" hearth="400" gate_rotation="0.008" bound="Settlement.castle_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_V2_2" village_type="VillageType.vlandian_horse_ranch" hearth="528" gate_rotation="0.008" bound="Settlement.castle_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_k" />
@@ -3418,7 +3418,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_V3" name="{=Settlements.Settlement.ECM.castle_V3}Château de Lantilly" owner="Faction.clan_empire_north_4" posX="376.905" posY="1012.303" prosperity="830" culture="Culture.vlandia" gate_posX="377.3889" gate_posY="1013.22">
+  <Settlement id="castle_V3" name="{=Settlements.Settlement.ECM.castle_V3}Château de Lantilly" owner="Faction.clan_empire_north_4" posX="376.905" posY="1012.303" prosperity="850" culture="Culture.vlandia" gate_posX="377.3889" gate_posY="1013.22">
     <Components>
       <Town id="castle_comp_V3" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" />
     </Components>
@@ -3430,7 +3430,7 @@
   </Settlement>
   <Settlement id="castle_village_V3_1" name="{=Settlements.Settlement.ECM.castle_village_V3_1}Drapand" posX="372.234" posY="1040.917" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.castle_village_V3_1}Drapand sits near the tip of Cape Fal, a promontory just south of the mouth of the Trand River. The villagers venture out far into the seas to cod-rich banks washed by a cold current from the north.">
     <Components>
-      <Village id="castle_village_comp_V3_1" village_type="VillageType.fisherman" hearth="285" gate_rotation="0.258" bound="Settlement.castle_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_V3_1" village_type="VillageType.sheep_farm" hearth="556" gate_rotation="0.258" bound="Settlement.castle_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_i" />
@@ -3464,7 +3464,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_V5" name="{=Settlements.Settlement.ECM.castle_V5}Château de Quélennec" owner="Faction.clan_vlandia_6" posX="195.222" posY="1067.835" culture="Culture.vlandia" prosperity="630" gate_posX="194.1469" gate_posY="1067.606">
+  <Settlement id="castle_V5" name="{=Settlements.Settlement.ECM.castle_V5}Château de Quélennec" owner="Faction.clan_vlandia_6" posX="195.222" posY="1067.835" culture="Culture.vlandia" prosperity="916" gate_posX="194.1469" gate_posY="1067.606">
     <Components>
       <Town id="castle_comp_V5" is_castle="true" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" />
     </Components>
@@ -3476,7 +3476,7 @@
   </Settlement>
   <Settlement id="castle_village_V5_1" name="{=Settlements.Settlement.ECM.castle_village_V5_1}Tirby" posX="209.824" posY="1057.379" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.castle_village_V5_1}Tirby sits in the cold misty waters that lie off of the Ebor peninsula. The low-lying lands on the northern side of the Ebor are suited to the growing of flax.">
     <Components>
-      <Village id="castle_village_comp_V5_1" village_type="VillageType.flax_plant" hearth="640" bound="Settlement.castle_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_V5_1" village_type="VillageType.cattle_farm" hearth="595" bound="Settlement.castle_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_i" />
@@ -3489,7 +3489,7 @@
   </Settlement>
   <Settlement id="castle_village_V5_2" name="{=Settlements.Settlement.ECM.castle_village_V5_2}Sirindac" posX="244.793" posY="1051.84" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.castle_village_V5_2}Sirindac lies beneath the high ridges of the Ebor peninsula, somewhat sheltered from the bitter winds blowing out of the northwest. Migrants come here from across the Vlandian lands to prospect for silver in the mountain streams.">
     <Components>
-      <Village id="castle_village_comp_V5_2" village_type="VillageType.silver_mine" hearth="640" bound="Settlement.castle_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_V5_2" village_type="VillageType.lumberjack" hearth="671" bound="Settlement.castle_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_g" />
@@ -3500,7 +3500,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_V6" name="{=Settlements.Settlement.ECM.castle_V6}Château de la Batisse" owner="Faction.clan_vlandia_5" posX="331.3" posY="995.413" culture="Culture.vlandia" prosperity="760" gate_posX="330.3163" gate_posY="995.264">
+  <Settlement id="castle_V6" name="{=Settlements.Settlement.ECM.castle_V6}Château de la Batisse" owner="Faction.clan_vlandia_5" posX="331.3" posY="995.413" culture="Culture.vlandia" prosperity="868" gate_posX="330.3163" gate_posY="995.264">
     <Components>
       <Town id="castle_comp_V6" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" />
     </Components>
@@ -3512,7 +3512,7 @@
   </Settlement>
   <Settlement id="castle_village_V6_1" name="{=Settlements.Settlement.ECM.castle_village_V6_1}Caleus" posX="307.312" posY="1001.559" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.castle_village_V6_1}Caleus lies on the misty coastal plain south of the Bay of Bergen. Villagers speak a mix of the Vlandian, Sturgian and Battanian tongues. They grow flax in the lowlands here.">
     <Components>
-      <Village id="castle_village_V6_1" village_type="VillageType.flax_plant" hearth="429" bound="Settlement.castle_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_V6_1" village_type="VillageType.flax_plant" hearth="607" bound="Settlement.castle_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_g" />
@@ -3525,7 +3525,7 @@
   </Settlement>
   <Settlement id="castle_village_V6_2" name="{=Settlements.Settlement.ECM.castle_village_V6_2}Deriat" posX="315.916" posY="987.599" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.castle_village_V6_2}Deriat sits between the Bay of Bergen and the ridges of the Ebor peninsula. Villagers here trap beaver and mink in the hills and sometimes pursue seals in the waters of the bay.">
     <Components>
-      <Village id="castle_village_V6_2" village_type="VillageType.trapper" hearth="429" bound="Settlement.castle_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_V6_2" village_type="VillageType.sheep_farm" hearth="582" bound="Settlement.castle_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_k" />
@@ -3536,7 +3536,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_V7" name="{=Settlements.Settlement.ECM.castle_V7}Château d'Aumelas" owner="Faction.clan_vlandia_4" posX="349.586" posY="948.56" culture="Culture.vlandia" prosperity="770" gate_posX="349.9859" gate_posY="947.5662">
+  <Settlement id="castle_V7" name="{=Settlements.Settlement.ECM.castle_V7}Château d'Aumelas" owner="Faction.clan_vlandia_4" posX="349.586" posY="948.56" culture="Culture.vlandia" prosperity="810" gate_posX="349.9859" gate_posY="947.5662">
     <Components>
       <Town id="castle_comp_V7" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" />
     </Components>
@@ -3548,7 +3548,7 @@
   </Settlement>
   <Settlement id="castle_village_V7_1" name="{=Settlements.Settlement.ECM.castle_village_V7_1}Talivel" posX="373.47" posY="959.917" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.castle_village_V7_1}Talivel in the middle of the Trand valley in the heartland of Calradia. Villagers plant olives here on the hillsides.">
     <Components>
-      <Village id="castle_village_V7_1" village_type="VillageType.olive_trees" hearth="667" gate_rotation="0.008" bound="Settlement.castle_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_V7_1" village_type="VillageType.vineyard" hearth="562" gate_rotation="0.008" bound="Settlement.castle_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_n" />
@@ -3559,7 +3559,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_V8" name="{=Settlements.Settlement.ECM.castle_V8}Château des Ducs d'Alençon" owner="Faction.clan_vlandia_8" posX="273.682" posY="1076.765" culture="Culture.vlandia" prosperity="780" gate_posX="274.275" gate_posY="1077.591">
+  <Settlement id="castle_V8" name="{=Settlements.Settlement.ECM.castle_V8}Château des Ducs d'Alençon" owner="Faction.clan_vlandia_8" posX="273.682" posY="1076.765" culture="Culture.vlandia" prosperity="828" gate_posX="274.275" gate_posY="1077.591">
     <Components>
       <Town id="castle_comp_V8" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.508" />
     </Components>
@@ -3571,7 +3571,7 @@
   </Settlement>
   <Settlement id="castle_village_V8_1" name="{=Settlements.Settlement.ECM.castle_village_V8_1}Verecsand" posX="295.355" posY="1081.814" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.castle_village_V8_1}Verecsand sits by the waters of the Ocspool, a small but deep inland lake. Villagers here grow wheat in the gentle downs by the lakeside.">
     <Components>
-      <Village id="castle_village_V8_1" village_type="VillageType.wheat_farm" hearth="230" gate_rotation="0.008" bound="Settlement.castle_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_V8_1" village_type="VillageType.wheat_farm" hearth="530" gate_rotation="0.008" bound="Settlement.castle_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_c" />
@@ -3583,7 +3583,7 @@
     </CommonAreas>
   </Settlement>
   <!-- Lyon, from Calradic Sargythea, Right Whale bay-->
-  <Settlement id="town_V1" name="{=Settlements.Settlement.ECM.town_V1}Lyon" owner="Faction.clan_empire_north_4" posX="399.138" posY="989.273" culture="Culture.vlandia" prosperity="4101" gate_posX="401.6485" gate_posY="985.5443" text="{=ECM_aOn6pa0D}Lyon is a common name for hills, promontories, islands and other defensible positions in western Calradia. It refers to a fortified encampment of the Massa, a tribe allied to the the Vlandians who joined their invasion.  Though the Massa moved on, their stay was often so traumatic for a district that the name remained long after their departure. This Lyon was actually founded on the ruins of an imperial town, resettled by Vlandians, and which has supplanted the memory of the community that came before it.">
+  <Settlement id="town_V1" name="{=Settlements.Settlement.ECM.town_V1}Lyon" owner="Faction.clan_empire_north_4" posX="399.138" posY="989.273" culture="Culture.vlandia" prosperity="3403" gate_posX="401.6485" gate_posY="985.5443" text="{=ECM_aOn6pa0D}Lyon is a common name for hills, promontories, islands and other defensible positions in western Calradia. It refers to a fortified encampment of the Massa, a tribe allied to the the Vlandians who joined their invasion.  Though the Massa moved on, their stay was often so traumatic for a district that the name remained long after their departure. This Lyon was actually founded on the ruins of an imperial town, resettled by Vlandians, and which has supplanted the memory of the community that came before it.">
     <Components>
       <Town id="town_comp_V1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.378" />
     </Components>
@@ -3606,7 +3606,7 @@
   <!-- From the Battanian Caliog, place of Cal -->
   <Settlement id="village_V1_1" name="{=Settlements.Settlement.ECM.village_V1_1}Calioc" posX="403.856" posY="1004.749" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V1_1}Calioc on a flat plain between the Epiric and Biscan hills of the central Vlandian lands. The people of this district grow flax on the marshy lands.">
     <Components>
-      <Village id="village_comp_V1_1" village_type="VillageType.flax_plant" hearth="504" gate_rotation="0.008" bound="Settlement.town_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V1_1" village_type="VillageType.wheat_farm" hearth="504" gate_rotation="0.008" bound="Settlement.town_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_k" />
@@ -3633,7 +3633,7 @@
   <!-- Redstone,  -->
   <Settlement id="castle_village_V7_2" name="{=Settlements.Settlement.ECM.castle_village_V7_2}Rodetan" posX="340.995" posY="940.418" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V1_3}Rodetan takes its name from the ruddy, iron-rich soil of this part of the the Rhennod hills. The mines of this district supply the iron ore for many of the forges of the Vlandian kingdom.">
     <Components>
-      <Village id="castle_village_comp_V7_2" village_type="VillageType.iron_mine" hearth="264" gate_rotation="0.508" bound="Settlement.castle_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_V7_2" village_type="VillageType.clay_mine" hearth="534" gate_rotation="0.508" bound="Settlement.castle_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_i" />
@@ -3645,7 +3645,7 @@
     </CommonAreas>
   </Settlement>
   <!-- From Calradic, Lobster claw  // how about Uxhall precursor - Arma-->
-  <Settlement id="town_V2" name="{=Settlements.Settlement.ECM.town_V2}Bordeaux" owner="Faction.clan_vlandia_3" posX="267.343" posY="982.308" culture="Culture.vlandia" prosperity="4200" gate_posX="268.7029" gate_posY="977.9396" text="{=ECM_nhmBQIC4}Bordeaux is one of the few towns in the Vlandian kingdom that was founded after the seizure of the land from the Empire. This valley was once an isolated holdout of Battanians, centered on the Llyn Modris, a lake in a volcanic caldera that was said to be the  seat of a giant. This land was conquered by the Vlandian warlord Oca, who also gave his name to the nearby Ocspool lake. The Battanian tribes were driven inland, and took their legends with them.">
+  <Settlement id="town_V2" name="{=Settlements.Settlement.ECM.town_V2}Bordeaux" owner="Faction.clan_vlandia_3" posX="267.343" posY="982.308" culture="Culture.vlandia" prosperity="3636" gate_posX="268.7029" gate_posY="977.9396" text="{=ECM_nhmBQIC4}Bordeaux is one of the few towns in the Vlandian kingdom that was founded after the seizure of the land from the Empire. This valley was once an isolated holdout of Battanians, centered on the Llyn Modris, a lake in a volcanic caldera that was said to be the  seat of a giant. This land was conquered by the Vlandian warlord Oca, who also gave his name to the nearby Ocspool lake. The Battanian tribes were driven inland, and took their legends with them.">
     <Components>
       <Town id="town_comp_V2" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" />
     </Components>
@@ -3667,7 +3667,7 @@
   </Settlement>
   <Settlement id="village_V2_1" name="{=Settlements.Settlement.ECM.village_V2_1}Mareiven" posX="266.083" posY="969.709" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V2_1}Mareiven sits on the steep wooded slopes of the Rhennod mountains, overlooking the Ocspool. Villagers harvest the tall trees of the heights, selling the logs to cities on the coast.">
     <Components>
-      <Village id="village_comp_V2_1" village_type="VillageType.lumberjack" hearth="216" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V2_1" village_type="VillageType.fisherman" hearth="595" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_c" />
@@ -3680,7 +3680,7 @@
   </Settlement>
   <Settlement id="village_V2_2" name="{=Settlements.Settlement.ECM.village_V2_2}Oritan" posX="270.759" posY="958.725" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V2_2}Oritan sits on a short river that rushes out of the mountains of the Ebor peninsula and empties into the Ocspool. The river slows as it hits a nearby bend, allowing the collection of potters' clay from the banks.">
     <Components>
-      <Village id="village_comp_V2_2" village_type="VillageType.clay_mine" hearth="347" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V2_2" village_type="VillageType.clay_mine" hearth="512" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_m" />
@@ -3693,7 +3693,7 @@
   </Settlement>
   <Settlement id="village_V2_3" name="{=Settlements.Settlement.ECM.village_V2_3}Fregian" posX="296.723" posY="956.928" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V2_3}Fregian sits on the flatlands north of Metz, where the warmth of the Vlandian south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.">
     <Components>
-      <Village id="village_comp_V2_3" village_type="VillageType.flax_plant" hearth="347" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V2_3" village_type="VillageType.swine_farm" hearth="599" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_g" />
@@ -3706,7 +3706,7 @@
   </Settlement>
   <Settlement id="castle_village_V8_2" name="{=Settlements.Settlement.ECM.castle_village_V8_2}Marin" posX="263.507" posY="1089.286" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V2_4}Marin lies on the slopes west of the Ocspool. Misty mornings cooled by sea drifting south and warm afternoons make this land well-suited to the growing of grapes.">
     <Components>
-      <Village id="castle_village_comp_V8_2" village_type="VillageType.vineyard" hearth="341" gate_rotation="0.008" bound="Settlement.castle_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_V8_2" village_type="VillageType.clay_mine" hearth="595" gate_rotation="0.008" bound="Settlement.castle_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_i" />
@@ -3742,7 +3742,7 @@
   <!-- Valan's Bay (landing place) -->
   <Settlement id="castle_village_V3_2" name="{=Settlements.Settlement.ECM.castle_village_V3_2}Valanby" posX="376.877" posY="1022.004" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V3_1}Valanby sits overlooking the Trand estuary. Villagers plant flax in land reclaimed from the riverside marshes.">
     <Components>
-      <Village id="castle_village_comp_V3_2" village_type="VillageType.vlandian_horse_ranch" hearth="280" gate_rotation="0.008" bound="Settlement.castle_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="castle_village_comp_V3_2" village_type="VillageType.lumberjack" hearth="605" gate_rotation="0.008" bound="Settlement.castle_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_m" />
@@ -3819,7 +3819,7 @@
   </Settlement-->
   <!-- Thali's well -->
   <!-- from archaic Calradic Ialonos, home of the Ialoi tribe -->
-  <Settlement id="town_V5" name="{=Settlements.Settlement.ECM.town_V5}Nantes" owner="Faction.clan_vlandia_6" posX="256.552" posY="1036.64" culture="Culture.vlandia" prosperity="1900" gate_posX="260.894" gate_posY="1038.492" text="{=ECM_79R6gi4l}Nantes overlooks the wave-beaten Biscan coast. It takes in the catch from the Biscan's intrepid fishermen who venture out far into the western ocean, as well as the wool of sheep from the green fog-covered hills. The current line of Vlandian kings comes from the clans who settled in this region during Osric Iron-Arm's invasion.">
+  <Settlement id="town_V5" name="{=Settlements.Settlement.ECM.town_V5}Nantes" owner="Faction.clan_vlandia_6" posX="256.552" posY="1036.64" culture="Culture.vlandia" prosperity="3634" gate_posX="260.894" gate_posY="1038.492" text="{=ECM_79R6gi4l}Nantes overlooks the wave-beaten Biscan coast. It takes in the catch from the Biscan's intrepid fishermen who venture out far into the western ocean, as well as the wool of sheep from the green fog-covered hills. The current line of Vlandian kings comes from the clans who settled in this region during Osric Iron-Arm's invasion.">
     <Components>
       <Town id="town_comp_V5" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" />
     </Components>
@@ -3842,7 +3842,7 @@
   <!-- Dirty stream -->
   <Settlement id="village_V5_1" name="{=Settlements.Settlement.ECM.village_V5_1}Furbec" posX="302.685" posY="1052.505" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V5_1}Furbec sits on a shelf overlooking the rocky Biscan coast of central Vlandia. The climate is warm most of the year, and grapes do well on the slopes of the Biscan hills.">
     <Components>
-      <Village id="village_comp_V5_1" village_type="VillageType.vineyard" hearth="488" gate_rotation="0.008" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V5_1" village_type="VillageType.vlandian_horse_ranch" hearth="524" gate_rotation="0.008" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_g" />
@@ -3856,7 +3856,7 @@
   <!-- Pre-Calradic, red -->
   <Settlement id="village_V5_2" name="{=Settlements.Settlement.ECM.village_V5_2}Meroc" posX="248.414" posY="1028.159" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V5_2}Meroc is a fishing village overlooking a cove in the Biscan Coast. The villagers sail out into the western ocean in search of mullet and bass near the shore, and tuna and sardines amid the islands to the south.">
     <Components>
-      <Village id="village_comp_V5_2" village_type="VillageType.fisherman" hearth="527" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V5_2" village_type="VillageType.fisherman" hearth="587" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_m" />
@@ -3869,7 +3869,7 @@
   </Settlement>
   <Settlement id="village_V5_3" name="{=Settlements.Settlement.ECM.village_V5_3}Nogrent" posX="284.882" posY="1040.954" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V5_3}Nogrent sits on a slope of the Biscan hills in central Vlandia. Villagers here raise sheep on the pastures between the coastal woods and the high crags of the hills.">
     <Components>
-      <Village id="village_comp_V5_3" village_type="VillageType.sheep_farm" hearth="211" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V5_3" village_type="VillageType.sheep_farm" hearth="594" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_k" />
@@ -3882,7 +3882,7 @@
   </Settlement>
   <!-- House of Arromanc - Clan 3 old Jelkala and Charys, by the sea. 4_3, 4_8, 4_14 -->
   <!-- From the pre-Calradic, jackal's den -->
-  <Settlement id="town_V6" name="{=Settlements.Settlement.ECM.town_V6}Orléans" owner="Faction.clan_vlandia_1" posX="322.465" posY="1030.652" culture="Culture.vlandia" prosperity="4000" gate_posX="324.1369" gate_posY="1026.767" text="{=ECM_R6YJsK89}Orléans sits in the warmer southern reaches of the Biscan coast, in rolling hills known for their olive trees. It was once a favored resort of the imperial aristocracy, who hunted wild boars amid the oak forests. The independent peasantry of this region are known for their heterodox ideas. The Brotherhood of the Woods is but the latest of a series of rebellions to have broken out here, sometimes aided by an aristocracy that considers them a tool to use against rival Vlandian houses.">
+  <Settlement id="town_V6" name="{=Settlements.Settlement.ECM.town_V6}Orléans" owner="Faction.clan_vlandia_1" posX="322.465" posY="1030.652" culture="Culture.vlandia" prosperity="3413" gate_posX="324.1369" gate_posY="1026.767" text="{=ECM_R6YJsK89}Orléans sits in the warmer southern reaches of the Biscan coast, in rolling hills known for their olive trees. It was once a favored resort of the imperial aristocracy, who hunted wild boars amid the oak forests. The independent peasantry of this region are known for their heterodox ideas. The Brotherhood of the Woods is but the latest of a series of rebellions to have broken out here, sometimes aided by an aristocracy that considers them a tool to use against rival Vlandian houses.">
     <Components>
       <Town id="town_comp_V6" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" />
     </Components>
@@ -3905,7 +3905,7 @@
   <!-- From the pre-Calradic hero Armac-->
   <Settlement id="village_V6_1" name="{=Settlements.Settlement.ECM.village_V6_1}Arromanc" posX="353.201" posY="1041.787" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V6_1}Arromanc lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the Vlandian south are well-suited to the growing of olives.">
     <Components>
-      <Village id="village_comp_V6_1" village_type="VillageType.olive_trees" hearth="120" gate_rotation="0.058" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V6_1" village_type="VillageType.vineyard" hearth="545" gate_rotation="0.058" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_j" />
@@ -3918,7 +3918,7 @@
   </Settlement>
   <Settlement id="village_V6_2" name="{=Settlements.Settlement.ECM.village_V6_2}Mot" posX="319.427" posY="1044.369" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V6_2}Mot lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the Vlandian south are well-suited to the growing of olives.">
     <Components>
-      <Village id="village_comp_V6_2" village_type="VillageType.olive_trees" hearth="615" gate_rotation="0.008" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V6_2" village_type="VillageType.cattle_farm" hearth="534" gate_rotation="0.008" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_l" />
@@ -3932,7 +3932,7 @@
   <!-- Alderstand-->
   <Settlement id="village_V6_3" name="{=Settlements.Settlement.ECM.village_V6_3}Alorstan" posX="308.116" posY="1019.113" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V6_3}Alorstan sits on a shelf overlooking the sea, at the foot of the Biscan Hills. The warm south of the Vlandian lands is well-suited to the cultivation of olives.">
     <Components>
-      <Village id="village_comp_V6_3" village_type="VillageType.olive_trees" hearth="157" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V6_3" village_type="VillageType.cattle_farm" hearth="532" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_k" />
@@ -3945,7 +3945,7 @@
   </Settlement>
   <Settlement id="village_V6_4" name="{=Settlements.Settlement.ECM.village_V6_4}Chornad" posX="348.48" posY="1018.583" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V6_4}Chornad sits overlooking a pass through the Biscan hills. The villagers of this region, like many in the central Vlandian kingdom, specializing in the raising of pigs.">
     <Components>
-      <Village id="village_comp_V6_4" village_type="VillageType.swine_farm" hearth="157" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V6_4" village_type="VillageType.trapper" hearth="505" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_m" />
@@ -3957,7 +3957,7 @@
     </CommonAreas>
   </Settlement>
   <!-- -->
-  <Settlement id="town_V7" name="{=Settlements.Settlement.ECM.town_V7}Massilia" owner="Faction.clan_empire_south_9" posX="399.346" posY="950.42" culture="Culture.massilia" prosperity="4079" gate_posX="403.7398" gate_posY="950.9413" text="{=ECM_0cZmKO76}The city known today as Marseille is traditionally reckoned to be the first Calradian colony on the shores of their new continent. At the Empire's height, when the capital moved north to Paravenos,  Marseilleea remained a key hub of sea-faring and trade, while imperial aristocrats built their summer homes on the warm shores of the nearby gulf and cruised their pleasure-boats around its islands. When the Vlandians came, Marseille fell into the hands of the ruthless House of dey Cortain, and its wealth funds their ambitions.">
+  <Settlement id="town_V7" name="{=Settlements.Settlement.ECM.town_V7}Massilia" owner="Faction.clan_empire_south_9" posX="399.346" posY="950.42" culture="Culture.massilia" prosperity="3497" gate_posX="403.7398" gate_posY="950.9413" text="{=ECM_0cZmKO76}The city known today as Marseille is traditionally reckoned to be the first Calradian colony on the shores of their new continent. At the Empire's height, when the capital moved north to Paravenos,  Marseilleea remained a key hub of sea-faring and trade, while imperial aristocrats built their summer homes on the warm shores of the nearby gulf and cruised their pleasure-boats around its islands. When the Vlandians came, Marseille fell into the hands of the ruthless House of dey Cortain, and its wealth funds their ambitions.">
     <Components>
       <Town id="town_comp_V7" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" />
     </Components>
@@ -4004,7 +4004,7 @@
     </CommonAreas>
   </Settlement>
   <!-- Harthar and Sunion, to clan 4 -->
-  <Settlement id="town_V8" name="{=ECM.town_V8}Lutetia" owner="Faction.clan_vlandia_8" posX="337.903" posY="1062.896" culture="Culture.vlandia" prosperity="3900" gate_posX="333.4231" gate_posY="1059.037" text="{=ECM_Eb7Lgq10}Paris was a minor imperial port that became a haven for seafarers of the northern oceans. Many were talented corsairs, employed by imperial factions to harry their foes during the latter empire's intermittent civil wars. Indeed, the some of the first Vlandians to come to Calradia's shores settled in the back alleys of this town, and no doubt sent word to their kinsmen of the riches to be had here should anyone invade in earnest.">
+  <Settlement id="town_V8" name="{=ECM.town_V8}Lutetia" owner="Faction.clan_vlandia_8" posX="337.903" posY="1062.896" culture="Culture.vlandia" prosperity="3805" gate_posX="333.4231" gate_posY="1059.037" text="{=ECM_Eb7Lgq10}Paris was a minor imperial port that became a haven for seafarers of the northern oceans. Many were talented corsairs, employed by imperial factions to harry their foes during the latter empire's intermittent civil wars. Indeed, the some of the first Vlandians to come to Calradia's shores settled in the back alleys of this town, and no doubt sent word to their kinsmen of the riches to be had here should anyone invade in earnest.">
     <Components>
       <Town id="town_comp_V8" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" />
     </Components>
@@ -4027,7 +4027,7 @@
   <!-- Hors' spear -->
   <Settlement id="village_V8_1" name="{=Settlements.Settlement.ECM.village_V8_1}Horsger" posX="318.676" posY="1075.699" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V8_1}Horsger is where, according to legend, the warrior Horsa came ashore and planted his spear in the beach. Today it is known for its daring fishermen, who venture out far to find banks, chilled by currents from the north, that are rich in cod.">
     <Components>
-      <Village id="village_comp_V8_1" village_type="VillageType.vlandian_horse_ranch" hearth="454" gate_rotation="0.508" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V8_1" village_type="VillageType.vlandian_horse_ranch" hearth="530" gate_rotation="0.508" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_b" />
@@ -4040,7 +4040,7 @@
   </Settlement>
   <Settlement id="village_V8_2" name="{=Settlements.Settlement.ECM.village_V8_2}Cananc" posX="322.126" posY="1097.958" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V8_2}Cananc lies in the wet wooded hills of the northern Rhennod, where cedars grow tall in the sea-mists. The villagers trap beaver, marten and rabbit for their pelts.">
     <Components>
-      <Village id="village_comp_V8_2" village_type="VillageType.trapper" hearth="340" gate_rotation="0.008" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V8_2" village_type="VillageType.trapper" hearth="595" gate_rotation="0.008" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_l" />
@@ -4053,7 +4053,7 @@
   </Settlement>
   <Settlement id="village_V8_3" name="{=Settlements.Settlement.ECM.village_V8_3}Remental" posX="352.185" posY="1082.493" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V8_3}Remental sits in a gap in the mountains of the Ebor peninsula. Towering fir and spruce grow on the slopes. Villagers trap fur-bearing animals like marten, rabbit and fox. This wild region has recently attracted many settlers drawn to the relative freedom of the woods, where the rule of the Vlandian barons is much lighter than in the south.">
     <Components>
-      <Village id="village_comp_V8_3" village_type="VillageType.trapper" hearth="683" gate_rotation="0.508" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V8_3" village_type="VillageType.trapper" hearth="671" gate_rotation="0.508" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_j" />
@@ -4064,7 +4064,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_V9" name="{=Settlements.Settlement.ECM.town_V9}Toulouse" owner="Faction.clan_vlandia_4" posX="316.178" posY="945.96" culture="Culture.vlandia" prosperity="2800" gate_posX="319.2323" gate_posY="949.2582" text="{=ECM_1SnAH5K8}Rovalatys, in the mountains of the Ebor peninsula, was never fully an imperial town. Nordic migrants, drawn to the region by rumors of riches to be made prospecting for silver or hunting for furs, long outnumbered Calradians even before the Vlandian invasion. The Vlandians too recognized its potential, and despite its harsh winters this land is among the more populous regions of the kingdom, with bountiful fields in the valleys of the mountains feeding the constant flow of settlers from the south drawn here by their hunger for wealth.">
+  <Settlement id="town_V9" name="{=Settlements.Settlement.ECM.town_V9}Toulouse" owner="Faction.clan_vlandia_4" posX="316.178" posY="945.96" culture="Culture.vlandia" prosperity="3531" gate_posX="319.2323" gate_posY="949.2582" text="{=ECM_1SnAH5K8}Rovalatys, in the mountains of the Ebor peninsula, was never fully an imperial town. Nordic migrants, drawn to the region by rumors of riches to be made prospecting for silver or hunting for furs, long outnumbered Calradians even before the Vlandian invasion. The Vlandians too recognized its potential, and despite its harsh winters this land is among the more populous regions of the kingdom, with bountiful fields in the valleys of the mountains feeding the constant flow of settlers from the south drawn here by their hunger for wealth.">
     <Components>
       <Town id="town_comp_V9" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" />
     </Components>
@@ -4087,7 +4087,7 @@
   <!-- From calradic, Antolas, east wind-->
   <Settlement id="village_V9_1" name="{=Settlements.Settlement.ECM.village_V9_1}Alantas" posX="333.268" posY="969.022" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V9_1}Alantas sits in the center of the mountainous Ebor peninsula. The soil here is thin and the weather here is cold, but rich iron deposits sustain the local economy.">
     <Components>
-      <Village id="village_comp_V9_1" village_type="VillageType.iron_mine" hearth="489" gate_rotation="0.258" bound="Settlement.town_V9" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V9_1" village_type="VillageType.swine_farm" hearth="588" gate_rotation="0.258" bound="Settlement.town_V9" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_i" />
@@ -4101,7 +4101,7 @@
   <!-- Hal's wasteland -->
   <Settlement id="village_V9_2" name="{=Settlements.Settlement.ECM.village_V9_2}Halisvust" posX="319.353" posY="966.426" culture="Culture.rural_gallic" text="{=ECM_Settlements.Settlement.text.village_V9_2}Halisvust was once a marshy wasteland, but Vlandian settlers drained the waters and sowed wheat and rye in the valley.">
     <Components>
-      <Village id="village_comp_V9_2" village_type="VillageType.wheat_farm" hearth="282" gate_rotation="0.008" bound="Settlement.town_V9" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_V9_2" village_type="VillageType.vlandian_horse_ranch" hearth="512" gate_rotation="0.008" bound="Settlement.town_V9" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_d" />
