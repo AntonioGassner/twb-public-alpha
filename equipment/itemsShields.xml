@@ -1,0 +1,859 @@
+<Items>
+
+    <!--Shields-->
+    <Item id="hoplon_a" name="Hoplon plain embossed" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_a" culture="Culture.neutral"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_b_worn" name="Hoplon worn edge embossed" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_b_worn" culture="Culture.neutral"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="3" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_b" name="Hoplon plain edge embossed" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_b" culture="Culture.neutral"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_d" name="Hoplon bronzed bannered" using_tableau="true" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_d" culture="Culture.neutral"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1800">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_e" name="Hoplon matte bannered" using_tableau="true" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_e" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1800">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_bird" name="Hoplon bird" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_bird" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_bull" name="Hoplon bull" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_bull" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_face" name="Silver Hoplon" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_face" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1850">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_lahmda" name="Hoplon Lahmda" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_lahmda" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_owl" name="hoplon owl" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_owl" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_pegasus" name="Hoplon pegasus" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_pegasus" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_scorpion" name="Hoplon scorpion" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_scorpion" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_sphinx" name="hoplon sphinx" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_sphinx" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_spiral" name="Hoplon spiral" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_spiral" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_squid" name="hoplon squid" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_squid" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_star" name="Hoplon star" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_star" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_trident" name="hoplon trident" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_trident" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_tripleleg" name="Hoplon tripleleg" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_tripleleg" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.01, 0.00, 0.04" rotation="-24.50, 0.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_twb_1" name="[hellenic] Griffen Hoplon" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_twb_1" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.05,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.00, 0.09, 0.03" rotation="-15.30, 10.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1850">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_twb_2" name="[hellenic] Decorative Hoplon" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_twb_2" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.05,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.00, 0.09, 0.03" rotation="-15.30, 10.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1850">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_twb_3" name="[hellenic] Pegasus Aspis" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_twb_3" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.05,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.00, 0.09, 0.03" rotation="-15.30, 10.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_twb_4" name="[hellenic] Spiral Aspis" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_twb_4" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.05,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.00, 0.09, 0.03" rotation="-15.30, 10.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_twb_5" name="[hellenic] Cyrene Aspis" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_twb_5" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.05,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.00, 0.09, 0.03" rotation="-15.30, 10.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1850">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_twb_6" name="[hellenic] Test Aspis" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_twb_6" culture="Culture.neutral"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.05,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.00, 0.09, 0.03" rotation="-15.30, 10.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1550">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="hoplon_twb_7" name="[punic] Tanit Aspis" using_tableau="false" body_name="bo_cap_hoplon_a"
+          shield_body_name="bo_hoplon_a" recalculate_body="false" mesh="hoplon_twb_7" culture="Culture.neutral"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.05,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.00, 0.09, 0.03" rotation="-15.30, 10.30, 0.90" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1850">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="pelta_a" name="woven pelta" using_tableau="false" body_name="bo_cap_pelta_a" shield_body_name="bo_pelta_a"
+          recalculate_body="false" mesh="pelta_a" culture="Culture.empire" is_merchandise="true" value="3500"
+          weight="10" appearance="3" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true" holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="3" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="0.00, 0.00, 0.03" rotation="-20.40, 6.90, 0.00" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1000">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="pelta_b" name="Wooden Pelta" using_tableau="false" body_name="bo_cap_pelta_a"
+          shield_body_name="bo_pelta_a" recalculate_body="false" mesh="pelta_b" culture="Culture.empire"
+          is_merchandise="true" value="3500" weight="10" appearance="3" Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.00,0.00,0.00">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="70" thrust_damage_type="Blunt"
+                    speed_rating="70" physics_material="wood_shield" item_usage="hand_shield"
+                    position="0.00, 0.00, 0.03" rotation="-20.40, 6.90, 0.00" weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1" hit_points="1150">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+
+    <Item id="round_wood_pelta_3" name="{=round_pelta_3}[Hellenic] Bronze Rimmed Pelta"
+          body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b"
+          recalculate_body="false" mesh="round_pelta_3" culture="Culture.empire" using_tableau="true" weight="3.3"
+          appearance="5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true"
+          holster_position_shift="0.0,0,0.01">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="5"
+                    thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="hand_shield"
+                    position="-0.02, 0.0, 0.0" rotation="195.0,-90.0,-10.0" weapon_length="70"
+                    center_of_mass="0.0,0.065,0.05" hit_points="1250">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true"/>
+    </Item>
+
+    <Item id="aspis_shield_1"
+          name="{=FkaspiUMK}[punic] Tanit Pelta"
+          body_name="bo_cap_aserai_shields_g"
+          shield_body_name="bo_aserai_shields_g"
+          recalculate_body="false"
+          mesh="aspis_shield_1"
+          culture="Culture.khuzait"
+          weight="4"
+          appearance="0.9"
+          Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="-0.1,-0.07,-0.05">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="4"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="metal_shield"
+                    item_usage="shield"
+                    position="0.0, 0.00, 0.00"
+                    rotation="0.0,10.0,40.00"
+                    weapon_length="60"
+                    center_of_mass="0.01, 0.07, 0.1"
+                    hit_points="1250"
+                    modifier_group="shield_metal">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="pelta_twb_shield_1"
+          name="{=FkaspiUMK}[hellenic] Bronze Pelta"
+          body_name="bo_cap_aserai_shields_g"
+          shield_body_name="bo_aserai_shields_g"
+          recalculate_body="false"
+          mesh="pelta_twb_shield_1"
+          culture="Culture.khuzait"
+          weight="4"
+          appearance="0.9"
+          Type="Shield"
+          item_holsters="left_shoulder_targe:shield_kite:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="-0.1,-0.05,0.01">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="5"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="metal_shield"
+                    item_usage="shield"
+                    position="0.0, 0.00, 0.00"
+                    rotation="0.0,10.0,40.00"
+                    weapon_length="60"
+                    center_of_mass="0.01, 0.07, 0.1"
+                    hit_points="1350"
+                    modifier_group="shield_metal">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="pelta_twb_shield_2"
+          name="{=FkaspiUMK}[hellenic] Wicker Round Pelta"
+          body_name="bo_cap_aserai_shields_g"
+          shield_body_name="bo_aserai_shields_g"
+          recalculate_body="false"
+          mesh="pelta_twb_shield_2"
+          culture="Culture.khuzait"
+          weight="4"
+          appearance="0.9"
+          Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="-0.1,-0.07,-0.05">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="3"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="metal_shield"
+                    item_usage="shield"
+                    position="0.0, 0.00, 0.00"
+                    rotation="0.0,10.0,40.00"
+                    weapon_length="60"
+                    center_of_mass="0.01, 0.07, 0.1"
+                    hit_points="1250"
+                    modifier_group="shield_metal">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="scutum_triarii_300"
+          name="{=scutum_triarii_300}Plain Triarii Scutum Shield"
+          body_name="bo_cap_scutum"
+          shield_body_name="bo_scutum"
+          recalculate_body="false"
+          mesh="scutum_triarii_low"
+          culture="Culture.empire"
+          using_tableau="true"
+          weight="4.7"
+          difficulty="0"
+          appearance="0.9"
+          Type="Shield"
+          item_holsters="shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="0,0,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="6"
+                    thrust_speed="86"
+                    thrust_damage="5"
+                    thrust_damage_type="Blunt"
+                    speed_rating="86"
+                    physics_material="wood_shield"
+                    item_usage="hand_shield"
+                    position="-0.02, 0.0, 0.0"
+                    rotation="105.0,-110.0,0.0"
+                    weapon_length="70"
+                    center_of_mass="0, 0, 0"
+                    hit_points="1600"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               ForceAttachOffHandPrimaryItemBone="true"
+               HeldInOffHand="true"/>
+    </Item>
+    <Item id="scutum_hastati_300"
+          name="{=scutum_hastati_300}Plain Hastati Scutum Shield"
+          body_name="bo_cap_scutum"
+          shield_body_name="bo_scutum"
+          recalculate_body="false"
+          mesh="scutum_hastati_low"
+          culture="Culture.empire"
+          using_tableau="true"
+          weight="4.7"
+          difficulty="0"
+          appearance="0.9"
+          Type="Shield"
+          item_holsters="shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="0,0,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="5"
+                    thrust_speed="86"
+                    thrust_damage="5"
+                    thrust_damage_type="Blunt"
+                    speed_rating="86"
+                    physics_material="wood_shield"
+                    item_usage="hand_shield"
+                    position="-0.02, 0.0, 0.0"
+                    rotation="105.0,-110.0,0.0"
+                    weapon_length="70"
+                    center_of_mass="0, 0, 0"
+                    hit_points="1400"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               ForceAttachOffHandPrimaryItemBone="true"
+               HeldInOffHand="true"/>
+    </Item>
+
+    <Item id="celtic_oval_shield"
+          name="{=Mb1hQRyT}Celtic Oval Shield"
+          body_name="bo_cap_shield_aserai_infantary_a"
+          shield_body_name="bo_shield_aserai_infantary_a"
+          recalculate_body="false"
+          mesh="celtic_oval_shield"
+          culture="Culture.vlandia"
+          using_tableau="true"
+          weight="4.7"
+          appearance="1"
+          Type="Shield"
+          item_holsters="shield_oval:shield_4:shield_3:shield_2"
+          has_lower_holster_priority="true"
+          holster_position_shift="-0.04,-0.0,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="4"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="shield"
+                    position="0.0, 0.00, 0.00"
+                    rotation="0.0,10.0,40.00"
+                    weapon_length="110"
+                    center_of_mass="-0.035, 0.1, 0.1"
+                    hit_points="1340"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+	<Item id="celtic_oval_shield_2"
+	  name="{=CelticThureos}Celtic Thureos"
+	  body_name="bo_cap_shield_aserai_infantary_a"
+	  shield_body_name="bo_shield_aserai_infantary_a"
+	  recalculate_body="false"
+	  mesh="AD_shield_infantry_a"
+	  culture="Culture.vlandia"
+	  using_tableau="true"
+	  weight="4.7"
+	  appearance="1"
+	  Type="Shield"
+	  item_holsters="shield_oval:shield_4:shield_3:shield_2"
+	  has_lower_holster_priority="true"
+	  holster_position_shift="-0.04,-0.0,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+                    body_armor="4"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="shield"
+                    position="0.0, 0.00, 0.00"
+                    rotation="0.0,10.0,40.00"
+                    weapon_length="110"
+                    center_of_mass="-0.035, 0.1, 0.1"
+                    hit_points="1340"
+                    modifier_group="shield_wood">
+				<WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+
+    <Item id="libyan_oval_shield"
+          name="{=8nNLS96w}Libyan Oval Shield"
+          body_name="bo_cap_shield_aserai_infantary_b"
+          shield_body_name="bo_shield_aserai_infantary_b"
+          recalculate_body="false"
+          mesh="libyan_oval_shield"
+          culture="Culture.aserai"
+          using_tableau="true"
+          weight="4.7"
+          appearance="0.8"
+          Type="Shield"
+          item_holsters="shield_oval:shield_4:shield_3:shield_2"
+          has_lower_holster_priority="true"
+          holster_position_shift="-0.04,-0.0,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="4"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="shield"
+                    position="0.0, 0.00, 0.00"
+                    rotation="0.0,10.0,40.00"
+                    weapon_length="110"
+                    center_of_mass="-0.035, 0.1, 0.1"
+                    hit_points="1200"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="cletic_round_shield_1"
+          name="{=osa_ar_shield_infantry_m}[celtic] Bronze Celtic Round Shield"
+          using_tableau="true"
+          body_name="bo_cap_aserai_shields_c"
+          shield_body_name="bo_aserai_shields_d"
+          recalculate_body="false"
+          mesh="celtic_round_shield_1"
+          culture="Culture.aserai"
+          weight="7.3"
+          Type="Shield"
+          item_holsters="shield:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="-0.12,-0.15,-0.025">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="4"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="shield"
+                    position="0.0, 0.00, 0.00"
+                    rotation="0.0,10.0,40.00"
+                    weapon_length="60"
+                    center_of_mass="-0.0, 0.1, 0.1"
+                    hit_points="1245"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+
+    <Item id="celtic_scutum_1"
+          name="{=vaas2M5oq}[celtic] Celtic Scutum"
+          body_name="bo_cap_celtic_scutum_1"
+          shield_body_name="bo_celtic_scutum_1"
+          recalculate_body="false"
+          mesh="celtic_scutum_1"
+          culture="Culture.battania"
+          using_tableau="true"
+          weight="6.5"
+          appearance="1"
+          Type="Shield"
+          item_holsters="shield_kite:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="0.0,0.1,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="4"
+                    thrust_speed="82"
+                    thrust_damage="5"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="hand_shield"
+                    position="0.04, -0.01, 0.0"
+                    rotation="274.50,-62.10,8.70"
+                    weapon_length="70"
+                    center_of_mass="0.0,0.065,0.05"
+                    hit_points="1320"
+                    modifier_group="shield">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               ForceAttachOffHandPrimaryItemBone="true"
+               HeldInOffHand="true"/>
+    </Item>
+
+    <Item id="celtic_scutum_2"
+          name="{=vaas2M5oq}[celtic] Wicker Celtic Scutum"
+          body_name="bo_cap_celtic_scutum_1"
+          shield_body_name="bo_celtic_scutum_1"
+          recalculate_body="false"
+          mesh="celtic_scutum_2"
+          culture="Culture.battania"
+          using_tableau="true"
+          weight="6.5"
+          appearance="1"
+          Type="Shield"
+          item_holsters="shield_kite:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="0.0,0.1,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="4"
+                    thrust_speed="82"
+                    thrust_damage="5"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="hand_shield"
+                    position="0.04, -0.01, 0.0"
+                    rotation="274.50,-62.10,8.70"
+                    weapon_length="70"
+                    center_of_mass="0.0,0.065,0.05"
+                    hit_points="1300"
+                    modifier_group="shield">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               ForceAttachOffHandPrimaryItemBone="true"
+               HeldInOffHand="true"/>
+    </Item>
+</Items>

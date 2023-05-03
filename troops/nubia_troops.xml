@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+
+	<NPCCharacter id="nubian_elite_warrior_1"
+		default_group="Ranged"
+		level="21"
+		name="{=Nubian Elite 04 Ranged}Nubian Elite Warrior I"
+		occupation="Soldier"
+		culture="Culture.nubian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nubian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.nubian_elite_warrior_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_2"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_5"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="nubian_elite_warrior_2"
+		default_group="Ranged"
+		level="26"
+		name="{=Nubian Elite 05 Ranged}Nubian Elite Warrior II"
+		occupation="Soldier"
+		culture="Culture.nubian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nubian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="220"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.nubian_elite_warrior_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item1" id="Item.hans_afr_war_bow"/>
+				<equipment slot="Item2" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_2"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item1" id="Item.hans_afr_nomad_bow"/>
+				<equipment slot="Item2" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item1" id="Item.hans_afr_war_bow"/>
+				<equipment slot="Item2" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_5"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item1" id="Item.hans_afr_nomad_bow"/>
+				<equipment slot="Item2" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="nubian_elite_warrior_3"
+		default_group="Ranged"
+		level="31"
+		name="{=Nubian Elite 06 Ranged}Nubian Elite Warrior III"
+		occupation="Soldier"
+		culture="Culture.nubian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nubian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="260"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="260"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item1" id="Item.hans_afr_noble_long_bow"/>
+				<equipment slot="Item2" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_2"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item1" id="Item.hans_afr_noble_long_bow"/>
+				<equipment slot="Item2" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item1" id="Item.hans_afr_noble_long_bow"/>
+				<equipment slot="Item2" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_5"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item1" id="Item.hans_afr_noble_long_bow"/>
+				<equipment slot="Item2" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Item3" id="Item.hans_african_stacked_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="nubian_tribesmen_1"
+		default_group="Infantry"
+		level="11"
+		name="{=Basic 02 Mele}Nubian Tribesmen I"
+		occupation="Soldier"
+		culture="Culture.nubian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nubian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="90"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.nubian_tribesmen_2"/>
+			<upgrade_target id="NPCCharacter.nubian_tribal_bowmen_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_2"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.exomis_cloak_5"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>	
+
+	<NPCCharacter id="nubian_tribal_bowmen_2"
+		default_group="Ranged"
+		level="16"
+		name="{=Nubian 03 Ranged}Nubian Tribal Bowmen II"
+		occupation="Soldier"
+		culture="Culture.nubian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nubian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.nubian_tribal_bowmen_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_afr_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_2"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_afr_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_afr_arrows"/>
+				<equipment slot="Body" id="Item.exomis_cloak_5"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_afr_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="nubian_tribal_bowmen_3"
+		default_group="Ranged"
+		level="21"
+		name="{=Nubian 04 Ranged}Nubian Tribal Bowmen III"
+		occupation="Soldier"
+		culture="Culture.nubian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nubian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="170"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_afr_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_2"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_afr_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_afr_arrows"/>
+				<equipment slot="Body" id="Item.exomis_cloak_5"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.hans_afr_composite_steppe_bow"/>
+				<equipment slot="Item3" id="Item.hans_afr_arrows"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="nubian_tribesmen_2"
+		default_group="Infantry"
+		level="16"
+		name="{=Nubian 03 Mele}Nubian Tribesmen II"
+		occupation="Soldier"
+		culture="Culture.nubian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nubian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.nubian_tribesmen_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_2"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.exomis_cloak_5"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>	
+	<NPCCharacter id="nubian_tribesmen_3"
+		default_group="Infantry"
+		level="21"
+		name="{=Nubian 04 Mele}Nubian Tribesmen III"
+		occupation="Soldier"
+		culture="Culture.nubian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nubian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="170"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_2"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.exomis_cloak_5"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear_a"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+				<equipment slot="Item3" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+				<equipment slot="Body" id="Item.exomis_cloak_4"/>
+				<equipment slot="Leg" id="Item.tassels_barefoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>	
+</NPCCharacters>

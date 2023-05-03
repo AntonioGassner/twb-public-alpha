@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <!-- Factions Troops -->
+    <!-- baltic Troops -->
+    <NPCCharacter id="baltic_tribesmem"
+                  default_group="Infantry"
+                  level="6"
+                  name="{=Baltic Tribesmen}Baltic Tribesmen"
+                  occupation="Soldier"
+                  is_basic_troop="true"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="50"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_spearmen"/>
+            <upgrade_target id="NPCCharacter.baltic_hunter"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.Caledonian_round_shield"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.Caledonian_round_shield"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.Caledonian_round_shield"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.Caledonian_round_shield"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_noble"
+                  default_group="Cavalry"
+                  level="16"
+                  name="{=Baltic Noble}Baltic Noble"
+                  upgrade_requires="ItemCategory.horse"
+                  occupation="Soldier"
+                  is_basic_troop="true"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="116"/>
+            <skill id="OneHanded" value="120"/>
+            <skill id="TwoHanded" value="120"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="120"/>
+            <skill id="Crossbow" value="120"/>
+            <skill id="Throwing" value="120"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_noble_rider"/>
+            <upgrade_target id="NPCCharacter.baltic_horse_bowmen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.cla_scythian_shield_c"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_a"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+                <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.cla_scythian_shield_c"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.battania_mercenary_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_noble_rider"
+                  default_group="Cavalry"
+                  level="21"
+                  name="{=Baltic Noble Rider}Baltic Noble Rider"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="131"/>
+            <skill id="OneHanded" value="160"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="170"/>
+            <skill id="Bow" value="160"/>
+            <skill id="Crossbow" value="160"/>
+            <skill id="Throwing" value="170"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_noble_horsemen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.cla_scythian_shield_c"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_cav_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.ao_durkhan_horsehair_noble_bronze_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+                <equipment slot="Body" id="Item.AR_battania_armor_a"/>
+                <equipment slot="Leg" id="Item.battania_fur_boots"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.cla_scythian_shield_c"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_saka_armor"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.TV_battania_helmet_f"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.ao_eorling_plates_over_gambeson"/>
+                <equipment slot="Leg" id="Item.battania_fur_boots"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_horse_bowmen"
+                  default_group="HorseArcher"
+                  level="21"
+                  name="{=Baltic Horse Bowmen}Baltic Horse Bowmen"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="131"/>
+            <skill id="OneHanded" value="170"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="170"/>
+            <skill id="Crossbow" value="160"/>
+            <skill id="Throwing" value="160"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_noble_horse_bowmen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_a"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+                <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.battania_mercenary_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_noble_horse_bowmen"
+                  default_group="HorseArcher"
+                  level="26"
+                  name="{=Baltic Noble Horse Bowmen}Baltic Noble Horse Bowmen"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="146"/>
+            <skill id="OneHanded" value="210"/>
+            <skill id="TwoHanded" value="190"/>
+            <skill id="Polearm" value="190"/>
+            <skill id="Bow" value="190"/>
+            <skill id="Crossbow" value="190"/>
+            <skill id="Throwing" value="190"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_noble_bow_horsemen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_a"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.TV_battania_helmet_f"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+                <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.TV_battania_helmet_e"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.battania_mercenary_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_noble_bow_horsemen"
+                  default_group="HorseArcher"
+                  level="31"
+                  name="{=Baltic Noble Bow Horsemen}Baltic Noble Bow Horsemen"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="161"/>
+            <skill id="OneHanded" value="250"/>
+            <skill id="TwoHanded" value="240"/>
+            <skill id="Polearm" value="240"/>
+            <skill id="Bow" value="240"/>
+            <skill id="Crossbow" value="240"/>
+            <skill id="Throwing" value="240"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_a"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.TV_battania_helmet_f"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+                <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_noble_celtic_sword"/>
+                <equipment slot="Item1" id="Item.nordic_shortbow"/>
+                <equipment slot="Item2" id="Item.default_arrows"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.TV_battania_helmet_e"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.battania_mercenary_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_noble_horsemen"
+                  default_group="Cavalry"
+                  level="26"
+                  name="{=Baltic Noble Horsemen}Baltic Noble Horsemen"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="146"/>
+            <skill id="OneHanded" value="210"/>
+            <skill id="TwoHanded" value="190"/>
+            <skill id="Polearm" value="190"/>
+            <skill id="Bow" value="190"/>
+            <skill id="Crossbow" value="190"/>
+            <skill id="Throwing" value="210"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_horse_guard"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.cla_scythian_shield_c"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_cav_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_a"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.ao_durkhan_horsehair_noble_bronze_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+                <equipment slot="Body" id="Item.AR_battania_armor_a"/>
+                <equipment slot="Leg" id="Item.battania_fur_boots"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.cla_scythian_shield_c"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_saka_armor"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_c"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.TV_battania_helmet_f"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.ao_eorling_plates_over_gambeson"/>
+                <equipment slot="Leg" id="Item.battania_fur_boots"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_horse_guard"
+                  default_group="Cavalry"
+                  level="31"
+                  name="{=Baltic Horse Guard}Baltic Horse Guard"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="160"/>
+            <skill id="OneHanded" value="210"/>
+            <skill id="TwoHanded" value="190"/>
+            <skill id="Polearm" value="190"/>
+            <skill id="Bow" value="190"/>
+            <skill id="Crossbow" value="190"/>
+            <skill id="Throwing" value="210"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.cla_scythian_shield_c"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_cav_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_a"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.ao_durkhan_horsehair_noble_bronze_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+                <equipment slot="Body" id="Item.AR_battania_armor_a"/>
+                <equipment slot="Leg" id="Item.battania_fur_boots"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.cla_scythian_shield_c"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.bearskin"/>
+                <equipment slot="Body" id="Item.cla_scythian_saka_armor"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_c"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.western_javelin_2_t3"/>
+                <equipment slot="Item2" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.TV_battania_helmet_f"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.ao_eorling_plates_over_gambeson"/>
+                <equipment slot="Leg" id="Item.battania_fur_boots"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_spearmen"
+                  default_group="Infantry"
+                  level="11"
+                  name="{=Baltic Spearmen}Baltic Spearmen"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="90"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="90"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_tribal_warrior"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_hunter"
+                  default_group="Ranged"
+                  level="11"
+                  name="{=Baltic Hunter}Baltic Hunter"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="90"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="5"/>
+            <skill id="Bow" value="90"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_bowmen"/>
+            <upgrade_target id="NPCCharacter.baltic_slinger"/>
+            <upgrade_target id="NPCCharacter.baltic_mounted_skrimisher"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_bowmen"
+                  default_group="Ranged"
+                  level="16"
+                  name="{=Baltic Bowmen}Baltic Bowmen"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="5"/>
+            <skill id="Bow" value="130"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_tribal_bowmen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.AR_battania_helmet_w2"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_a"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.AR_battania_helmet_w"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_helmet_c"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_mounted_skrimisher"
+                  default_group="Cavalry"
+                  level="16"
+                  name="{=Baltic Mounted Skrimisher}Baltic Mounted Skrimisher"
+                  upgrade_requires="ItemCategory.horse"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="100"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="130"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Item3" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Item3" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Item3" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Item3" id="Item.Caledonian_round_shield_vet"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_c"/>
+                <equipment slot="Horse" id="Item.sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_tribal_bowmen"
+                  default_group="Ranged"
+                  level="21"
+                  name="{=Baltic Tribal Bowmen}Baltic Tribal Bowmen"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="170"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="5"/>
+            <skill id="Bow" value="170"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c2"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+                <equipment slot="Body" id="Item.tv_battania_armor_e"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c2"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+                <equipment slot="Item2" id="Item.range_arrows"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+                <equipment slot="Body" id="Item.tv_battania_armor_e"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_slinger"
+                  default_group="Ranged"
+                  level="16"
+                  name="{=Baltic Slinger}Baltic Slinger"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="5"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="130"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.AR_sling_b"/>
+                <equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c2"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.AR_sling_b"/>
+                <equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.AR_sling_b"/>
+                <equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c2"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.germanic_short_sword"/>
+                <equipment slot="Item1" id="Item.AR_sling_b"/>
+                <equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+                <equipment slot="Body" id="Item.Caledonian_thick_tartan"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_tribal_warrior"
+                  default_group="Infantry"
+                  level="16"
+                  name="{=Baltic Tribal Warrior}Baltic Tribal Warrior"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="130"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.baltic_heavy_spearmen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c2"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.celtic_oval_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.AR_battania_armor_h"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c2"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.celtic_oval_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.battania_fur_cap"/>
+                <equipment slot="Body" id="Item.AR_battania_armor_h"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="baltic_heavy_spearmen"
+                  default_group="Infantry"
+                  level="21"
+                  name="{=Baltic Heavy Spearmen}Baltic Heavy Spearmen"
+                  occupation="Soldier"
+                  culture="Culture.sturgia">
+        <face>
+            <face_key_template value="BodyProperty.villager_sturgia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="170"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="170"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+                <equipment slot="Cape" id="Item.TV_battania_shoulders_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c1"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.celtic_oval_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Cape" id="Item.rough_bearskin"/>
+                <equipment slot="Body" id="Item.battania_mercenary_armor"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.TV_battania_helmet_m"/>
+                <equipment slot="Cape" id="Item.TV_battania_shoulders_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.celtic_oval_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Cape" id="Item.rough_bearskin"/>
+                <equipment slot="Body" id="Item.battania_mercenary_armor"/>
+                <equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

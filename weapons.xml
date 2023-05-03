@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <CraftedItem id="xiphos_a"
+                 name="{=BroXiph}Bronze Xiphos"
+                 crafting_template="OneHandedGreekSword"
+                 culture="Culture.empire">
+        <Pieces>
+            <Piece id="xiphos_blade_a"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="xiphos_guard_a"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="xiphos_handle_a"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="xiphos_pommel_a"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="kopis_a"
+                 name="{=IroKopi}Iron Kopis"
+                 crafting_template="OneHandedGreekSword"
+                 culture="Culture.empire">
+        <Pieces>
+            <Piece id="kopis_blade_a"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="kopis_guard_a"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="kopis_handle_a"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="kopis_pommel_a"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="doru_a"
+                 name="{=AshDoru}Ash Doru"
+                 crafting_template="GreekPolearmDoru"
+                 culture="Culture.empire">
+        <Pieces>
+            <Piece id="doru_spear_tip_a"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="doru_handle_a_ash"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="doru_saurotor_a"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="sarissa_a"
+                 name="{=CornSari}Cornel Sarissa"
+                 crafting_template="GreekPolearmSarissa"
+                 culture="Culture.empire">
+        <Pieces>
+            <Piece id="sarissa_spear_tip_a"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="sarissa_handle_a_cornel"
+                   Type="Handle"
+                   scale_factor="130"/>
+            <Piece id="sarissa_saurotor_a"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="xyston_a"
+                 name="{=CornXyst}Cornel Xyston"
+                 crafting_template="GreekPolearmXyston"
+                 culture="Culture.empire">
+        <Pieces>
+            <Piece id="xyston_spear_tip_a"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="xyston_handle_a_cornel"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="xyston_saurotor_a"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="germanic_spear"
+                 name="{=GrmcSpr}Germanic Spear"
+                 crafting_template="GermanicPolearm"
+                 culture="Culture.battania">
+        <Pieces>
+            <Piece id="germanic_spear_04_blade"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="germanic_spear_04_handle"
+                   Type="Handle"
+                   scale_factor="180"/>
+
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="germanic_sword"
+                 name="{=Grmcswrd}Germanic Sword"
+                 crafting_template="OneHandedGermanicSword"
+                 culture="Culture.battania">
+        <Pieces>
+            <Piece id="germanic_sword_04_blade"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="germanic_sword_04_guard"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="germanic_sword_04_handle"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="germanic_sword_04_pommel"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="celtic_javelin"
+                 name="{=ObGN145P}Celtic Javelin"
+                 crafting_template="Celtic_Javelin"
+                 culture="Culture.battania"
+                 modifier_group="spear_dart_throwing">
+        <Pieces>
+            <Piece id="spear_blade_14"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="default_polearm_guard"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="spear_handle_2"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="default_polearm_pommel"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="roman_sword"
+                 name="{=Rmnswrd}Roman Sword"
+                 crafting_template="OneHandedRomanSword"
+                 culture="Culture.empire">
+        <Pieces>
+            <Piece id="twb_roman_blade"
+                   Type="Blade"
+                   scale_factor="65"/>
+            <Piece id="cleaver_guard_3"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="vlandian_grip_1"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="sturgian_pommel_3"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="roman_cavalry_sword"
+                 name="{=Rmnswrd}Roman Equite Sword"
+                 crafting_template="OneHandedRomanSword"
+                 culture="Culture.empire">
+        <Pieces>
+            <Piece id="twb_roman_blade"
+                   Type="Blade"
+                   scale_factor="90"/>
+            <Piece id="cleaver_guard_3"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="vlandian_grip_1"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="sturgian_pommel_3"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="hasta_spear"
+                 name="{=RmnSpr}Hasta"
+                 crafting_template="RomanPolearm"
+                 culture="Culture.empire">
+        <Pieces>
+            <Piece id="spear_blade_42"
+                   Type="Blade"
+                   scale_factor="120"/>
+            <Piece id="spear_handle_15"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="spear_pommel_10"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+
+	<CraftedItem id="hasta_spear_cavalry"
+                 name="{=RmnSpr}Equite Hasta"
+                 crafting_template="RomanPolearm"
+                 culture="Culture.empire">
+		<Pieces>
+			<Piece id="spear_blade_42"
+                   Type="Blade"
+                   scale_factor="120"/>
+			<Piece id="spear_handle_15"
+                   Type="Handle"
+                   scale_factor="170"/>
+			<Piece id="spear_pommel_10"
+                   Type="Pommel"
+                   scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+
+    <CraftedItem id="germanic_short_sword"
+                 name="{=3Pv0SlYj}Germanic Short Sword"
+                 crafting_template="OneHandedGermanicSword"
+                 culture="Culture.scordisci">
+        <Pieces>
+            <Piece id="dagger_blade_3"
+                   Type="Blade"
+                   scale_factor="120"/>
+            <Piece id="sturgian_dagger_guard_8"
+                   Type="Guard"
+                   scale_factor="90"/>
+            <Piece id="aserai_grip_3"
+                   Type="Handle"
+                   scale_factor="110"/>
+            <Piece id="khuzait_pommel_2"
+                   Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 61 Weight: 0.52 SwingSpeed: 135 ThrustSpeed: 112 SwingDamage: 4B, 18S ThrustDamage: 11B, 33S -->
+    </CraftedItem>
+    <CraftedItem id="baltic_2hsword_4_t4"
+                 name="{=TWBbalt1}Baltic Falxs"
+                 crafting_template="TwoHandedSword"
+                 culture="Culture.scordisci"
+                 modifier_group="sword">
+        <Pieces>
+            <Piece id="battania_blade_6"
+                   Type="Blade"
+                   scale_factor="110"/>
+            <Piece id="battania_guard_1"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="sturgian_grip_16"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="battania_pommel_2"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="baltic_falx_1hsword_1_t2"
+                 name="{=TWBbalt2}Baltic Falx Sword"
+                 crafting_template="OneHandedSword"
+                 culture="Culture.scordisci"
+                 modifier_group="sword">
+        <Pieces>
+            <Piece id="battania_blade_6"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="battania_guard_1"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="sturgian_grip_14"
+                   Type="Handle"
+                   scale_factor="100"/>
+            <Piece id="battania_noble_pommel_1"
+                   Type="Pommel"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="baltic_sica"
+                 name="{=TWBbalt3}Baltic Sica"
+                 crafting_template="Dagger"
+                 culture="Culture.battania"
+                 modifier_group="sword">
+        <Pieces>
+            <Piece id="dagger_blade_9"
+                   Type="Blade"
+                   scale_factor="106"/>
+            <Piece id="battania_dagger_guard_1"
+                   Type="Guard"/>
+            <Piece id="sturgian_grip_14"
+                   Type="Handle"/>
+            <Piece id="battania_pommel_2"
+                   Type="Pommel"/>
+        </Pieces>
+        <!-- Length: 65 Weight: 0.92 SwingSpeed: 120 ThrustSpeed: 104 SwingDamage: 8B, 35S ThrustDamage: 10B, 31S -->
+    </CraftedItem>
+
+	<CraftedItem id="cantabrian_two_handed_club_with_pommel_36"
+		   name="{=gYpNILVC}Cantabrian Two Handed Club"
+		   crafting_template="TwoHandedMace"
+		   culture="Culture.cantabri">
+		<Pieces>
+			<Piece id="twb_mace_head_2"
+				   Type="Blade"
+				   scale_factor="102" />
+			<Piece id="mace_handle_19"
+				   Type="Handle" />
+			<Piece id="battania_noble_pommel_1"
+				   Type="Pommel" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="cantabrian_two_handed_club_36"
+				 name="{=gYpNILVC}Cantabrian Two Handed Club"
+				 crafting_template="TwoHandedMace"
+				 culture="Culture.cantabri">
+		<Pieces>
+			<Piece id="twb_mace_head_2"
+				   Type="Blade"
+				   scale_factor="102" />
+			<Piece id="mace_handle_19"
+				   Type="Handle" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="twb_wooden_club"
+			 name="{=6WjgfkTr0}Wooden Club"
+			 crafting_template="Mace"
+			 modifier_group="cheap_weapon">
+		<Pieces>
+			<Piece id="twb_mace_head_1"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="blacksmith_hammer_handle_1"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+</Items>

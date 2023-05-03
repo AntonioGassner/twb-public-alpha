@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <!-- Caledonian Square Shields -->
+    <Item id="Caledonian_Square_shield_AR" name="{=osa_ar_shield_infantry_v1}Caledonian Wooden Square Shield"
+          body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b"
+          recalculate_body="false" mesh="AR_shield_infantry_v" culture="Culture.caledones" using_tableau="false"
+          weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5"
+                    thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield"
+                    position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80"
+                    center_of_mass="0.0,0.065,0.05" hit_points="1200" modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+    <!-- Caledonian Small Round Shields -->
+    <Item id="Caledonian_small_round"
+          name="{=Caledonian2}Caledonian Small Round Shield"
+          using_tableau="true"
+          body_name="bo_cap_battania_targe_b"
+          shield_body_name="bo_battania_targe_b"
+          recalculate_body="false"
+          mesh="battania_targe_b"
+          culture="Culture.caledones"
+          weight="2.5"
+          appearance="1.1"
+          Type="Shield"
+          item_holsters="shield_kite:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="0.0,0.0,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="1"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="shield"
+                    position="0.18, -0.04, 0.00"
+                    rotation="-5.90,19.00,38.50"
+                    weapon_length="70"
+                    center_of_mass="-0.0, 0.12, 0.1"
+                    hit_points="1200"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+    <Item id="Caledonian_reinforeced_small_round"
+          name="{=Caledonian3}Caledonian Reinforced Small Round Shield"
+          using_tableau="true"
+          body_name="bo_cap_battania_shield_targe_a"
+          shield_body_name="bo_battania_shield_targe_a"
+          recalculate_body="false"
+          mesh="battania_shield_targe_a"
+          culture="Culture.caledones"
+          weight="2.5"
+          appearance="1.6"
+          Type="Shield"
+          item_holsters="shield_kite:shield_2:shield_3:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="0.0,0.0,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="1"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="shield"
+                    position="0.12, 0.08, 0.01"
+                    rotation="3.40,5.10,25.00"
+                    weapon_length="70"
+                    center_of_mass="-0.0, 0.12, 0.1"
+                    hit_points="1300"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+    <!-- Caledonian Large Round Shields -->
+    <Item id="Caledonian_round_shield"
+          name="{=Caledonian4}Caledonian Round Shield"
+          body_name="bo_cap_shield_sturgia_infantary_a"
+          shield_body_name="bo_cap_shield_sturgia_infantary_b"
+          recalculate_body="false"
+          mesh="shield_sturgia_infantary_b"
+          culture="Culture.caledones"
+          using_tableau="false"
+          weight="3.3"
+          difficulty="0"
+          appearance="1"
+          Type="Shield"
+          item_holsters="shield_round:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="0.0,0,0.01">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="5"
+                    thrust_speed="82"
+                    thrust_damage="5"
+                    thrust_damage_type="Blunt"
+                    speed_rating="87"
+                    physics_material="wood_shield"
+                    item_usage="hand_shield"
+                    position="-0.02, 0.0, 0.0"
+                    rotation="-195.0,-90.0,-10.0"
+                    weapon_length="70"
+                    center_of_mass="0.0,0.065,0.05"
+                    hit_points="1200"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               ForceAttachOffHandPrimaryItemBone="true"
+               HeldInOffHand="true"/>
+    </Item>
+    <Item id="Caledonian_round_shield_vet"
+          name="{=Caledonian5}Caledonian Reinforced Round Shield"
+          body_name="bo_cap_shield_sturgia_infantary_a"
+          shield_body_name="bo_cap_shield_sturgia_infantary_b"
+          recalculate_body="false"
+          mesh="shield_sturgia_infantary_b"
+          culture="Culture.caledones"
+          using_tableau="false"
+          weight="3.3"
+          difficulty="0"
+          appearance="1"
+          Type="Shield"
+          item_holsters="shield_round:shield_4"
+          has_lower_holster_priority="true"
+          holster_position_shift="0.0,0,0.01">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="5"
+                    thrust_speed="82"
+                    thrust_damage="5"
+                    thrust_damage_type="Blunt"
+                    speed_rating="87"
+                    physics_material="wood_shield"
+                    item_usage="hand_shield"
+                    position="-0.02, 0.0, 0.0"
+                    rotation="-195.0,-90.0,-10.0"
+                    weapon_length="70"
+                    center_of_mass="0.0,0.065,0.05"
+                    hit_points="1320"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               ForceAttachOffHandPrimaryItemBone="true"
+               HeldInOffHand="true"/>
+    </Item>
+    <!-- Caledonian Oval Shields -->
+    <Item id="Caledonian_oval_shield"
+          name="{=Caledonian6}Caledonian Reinforced Oval Shield"
+          body_name="bo_cap_shield_aserai_infantary_b"
+          shield_body_name="bo_shield_aserai_infantary_b"
+          recalculate_body="false"
+          mesh="shield_aserai_infantary_b"
+          culture="Culture.caledones"
+          using_tableau="false"
+          weight="4.7"
+          appearance="0.8"
+          Type="Shield"
+          item_holsters="shield_oval:shield_4:shield_3:shield_2"
+          has_lower_holster_priority="true"
+          holster_position_shift="-0.04,-0.0,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="1"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="shield"
+                    position="0.0, 0.00, 0.00"
+                    rotation="0.0,10.0,40.00"
+                    weapon_length="110"
+                    center_of_mass="-0.035, 0.1, 0.1"
+                    hit_points="1300"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+    <Item id="Caledonian_oval_shield_vet"
+          name="{=Caledonian7}Caledonian Oval Shield"
+          body_name="bo_cap_shield_aserai_infantary_b"
+          shield_body_name="bo_shield_aserai_infantary_b"
+          recalculate_body="false"
+          mesh="shield_aserai_infantary_b"
+          culture="Culture.caledones"
+          using_tableau="false"
+          weight="4.7"
+          appearance="0.8"
+          Type="Shield"
+          item_holsters="shield_oval:shield_4:shield_3:shield_2"
+          has_lower_holster_priority="true"
+          holster_position_shift="-0.04,-0.0,0">
+        <ItemComponent>
+            <Weapon weapon_class="LargeShield"
+                    body_armor="1"
+                    thrust_speed="82"
+                    thrust_damage_type="Blunt"
+                    speed_rating="82"
+                    physics_material="wood_shield"
+                    item_usage="shield"
+                    position="0.0, 0.00, 0.00"
+                    rotation="0.0,10.0,40.00"
+                    weapon_length="110"
+                    center_of_mass="-0.035, 0.1, 0.1"
+                    hit_points="1320"
+                    modifier_group="shield_wood">
+                <WeaponFlags CanBlockRanged="true"
+                             HasHitPoints="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               HeldInOffHand="true"
+               ForceAttachOffHandSecondaryItemBone="true"/>
+    </Item>
+    <!-- Caledonian Tunics -->
+    <Item id="Caledonian_tartan"
+          name="{=Caledonian8}Caledonian Tartan Tunic"
+          mesh="battania_civil_a"
+          culture="Culture.caledones"
+          weight="0.6"
+          appearance="0.2"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   covers_body="true"
+                   modifier_group="cloth"
+                   material_type="Cloth"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"
+               Civilian="true"/>
+    </Item>
+    <Item id="Caledonian_thick_tartan"
+          name="{=Caledonian9}Caledonian Thick Tartan Tunic"
+          mesh="battania_civil_a"
+          culture="Culture.caledones"
+          weight="0.6"
+          appearance="0.2"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   covers_body="true"
+                   modifier_group="cloth"
+                   material_type="Cloth"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"
+               Civilian="true"/>
+    </Item>
+    <Item id="caledonian_leather_tunic_b"
+          name="{=Caledonian10}Caledonian Leather Tunic"
+          mesh="battania_civil_b"
+          culture="Culture.caledones"
+          weight="0.4"
+          appearance="1"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   covers_body="true"
+                   modifier_group="leather"
+                   material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"
+               Civilian="true"/>
+    </Item>
+    <Item id="caledonian_fur_armor_with_strap"
+          name="{=Caledonian14}Caledonian Fur Armor with Strap"
+          mesh="pict_armor_b"
+          subtype="body_armor"
+          culture="Culture.caledones"
+          weight="3.1"
+          difficulty="0"
+          appearance="0.6"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   covers_body="true"
+                   modifier_group="leather"
+                   material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"
+               Civilian="true"/>
+    </Item>
+    <Item id="caledonian_fur_armor"
+          name="{=Caledonian15}Caledonian Fur Armor"
+          subtype="body_armor"
+          mesh="battania_fur_armor_a"
+          culture="Culture.caledones"
+          weight="4.0"
+          difficulty="0"
+          appearance="0.6"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   has_gender_variations="true"
+                   covers_body="true"
+                   modifier_group="leather"
+                   material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"/>
+    </Item>
+    <Item id="caledonian_woodland_cloth"
+          name="{=Caledonian16}Caledonian Woodland Cloth Armor"
+          subtype="body_armor"
+          mesh="battania_cloth_armor_a"
+          culture="Culture.caledones"
+          weight="1.5"
+          difficulty="0"
+          appearance="1"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   has_gender_variations="true"
+                   covers_body="true"
+                   modifier_group="cloth"
+                   material_type="Cloth"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"
+               Civilian="true"/>
+    </Item>
+    <Item id="caledonian_savage_armor"
+          name="{=Caledonian17}Caledonian Woad Armor"
+          subtype="body_armor"
+          mesh="battanian_savage_armor"
+          culture="Culture.caledones"
+          weight="0.8"
+          difficulty="0"
+          appearance="1"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   has_gender_variations="false"
+                   covers_body="false"
+                   modifier_group="cloth"
+                   material_type="Cloth"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"
+               DoesNotHideChest="true"
+               Civilian="true"/>
+    </Item>
+    <!-- Caledonian Dresses -->
+    <Item id="caledonian_tartan_dress_c"
+          name="{=Caledonian11}Caledonian Tartan Long Dress"
+          mesh="battania_dress_c"
+          culture="Culture.caledones"
+          weight="0.7"
+          appearance="1"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   has_gender_variations="false"
+                   covers_body="true"
+                   modifier_group="cloth_unarmoured"
+                   material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="true"
+               UseTeamColor="true"/>
+    </Item>
+    <Item id="caledonian_tartan_dress_a"
+          name="{=Caledonian12}Caledonian Plaid Dress"
+          mesh="battania_dress_a"
+          culture="Culture.caledones"
+          weight="0.9"
+          appearance="1"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   has_gender_variations="false"
+                   covers_body="false"
+                   body_mesh_type="shoulders"
+                   modifier_group="cloth_unarmoured"
+                   material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="true"
+               UseTeamColor="true"/>
+    </Item>
+    <Item id="caledonian_woodland_dress_b"
+          name="{=Caledonian13}Caledonian Woodland Dress"
+          mesh="battania_dress_b"
+          culture="Culture.caledones"
+          weight="0.9"
+          appearance="1"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   has_gender_variations="false"
+                   covers_body="false"
+                   body_mesh_type="shoulders"
+                   modifier_group="cloth_unarmoured"
+                   material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="true"
+               UseTeamColor="true"/>
+    </Item>
+    <!-- #endregion -->
+    <!-- #endregion -->
+</Items>

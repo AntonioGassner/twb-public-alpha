@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+
+    <!-- #region Minor Factions-->
+    <!-- DO NOT USE SKILL TEMPLATES HERE-->
+    <NPCCharacter id="gaetulian_nomad"
+                  default_group="Cavalry"
+                  level="6"
+                  name="{=Gaetulian  Nomad}Gaetulian Nomad"
+                  occupation="Soldier"
+                  is_basic_troop="true"
+                  culture="Culture.aserai">
+        <face>
+            <face_key_template value="BodyProperty.villager_aserai"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="90"/>
+            <skill id="Riding" value="100"/>
+            <skill id="OneHanded" value="30"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="50"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.gaetulian_nomadic_rider"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+                <equipment slot="Body" id="Item.perizoma_1_1"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_i"/>
+                <equipment slot="Body" id="Item.perizoma_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+                <equipment slot="Body" id="Item.perizoma_1_1"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_p"/>
+                <equipment slot="Body" id="Item.perizoma_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="gaetulian_nomadic_rider"
+                  default_group="Cavalry"
+                  level="11"
+                  name="{=Gaetulian Nomadic Rider}Gaetulian Nomadic Rider"
+                  occupation="Soldier"
+                  culture="Culture.aserai">
+        <face>
+            <face_key_template value="BodyProperty.villager_aserai"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="110"/>
+            <skill id="OneHanded" value="85"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="90"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="90"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.gaetulian_nomadic_horsemen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+                <equipment slot="Body" id="Item.exomis_cloak"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_i"/>
+                <equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+                <equipment slot="Body" id="Item.exomis_cloak"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_p"/>
+                <equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="gaetulian_nomadic_horsemen"
+                  default_group="Cavalry"
+                  level="16"
+                  name="{=Gaetulian Nomadic Horsemen}Gaetulian Nomadic Horsemen"
+                  occupation="Soldier"
+                  culture="Culture.aserai">
+        <face>
+            <face_key_template value="BodyProperty.villager_aserai"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="110"/>
+            <skill id="Riding" value="120"/>
+            <skill id="OneHanded" value="125"/>
+            <skill id="TwoHanded" value="50"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="50"/>
+            <skill id="Crossbow" value="50"/>
+            <skill id="Throwing" value="130"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+                <equipment slot="Body" id="Item.exomis_cloak"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_i"/>
+                <equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+                <equipment slot="Body" id="Item.exomis_cloak"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_lance"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item3" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_p"/>
+                <equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+                <equipment slot="Horse" id="Item.hans_barb_horse"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+
+    <!-- jawwal - tuareg-style horsemen and half-naked infantry with wicker shields -->
+    <NPCCharacter id="garamantian_tribal_warrior"
+                  default_group="Infantry"
+                  level="6"
+                  name="{=Garamantian Tribal Warrior}Garamantian Tribal Warrior"
+                  occupation="Soldier"
+                  is_basic_troop="true"
+                  culture="Culture.aserai">
+        <face>
+            <face_key_template value="BodyProperty.villager_aserai"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="20"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="50"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="50"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.garamantian_veteran_tribal_warrior"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.leopard_pelt"/>
+                <equipment slot="Body" id="Item.perizoma_1_1"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+                <equipment slot="Body" id="Item.perizoma_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.leopard_pelt"/>
+                <equipment slot="Body" id="Item.perizoma_1_1"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+                <equipment slot="Body" id="Item.perizoma_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="garamantian_veteran_tribal_warrior"
+                  default_group="Infantry"
+                  level="11"
+                  name="{=Garamantian Veteran Tribal Warrior}Garamantian Veteran Tribal Warrior"
+                  occupation="Soldier"
+                  culture="Culture.aserai">
+        <face>
+            <face_key_template value="BodyProperty.villager_aserai"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="90"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.garamantian_champion"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.leopard_pelt"/>
+                <equipment slot="Body" id="Item.exomis_cloak"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+                <equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.leopard_pelt"/>
+                <equipment slot="Body" id="Item.exomis_cloak"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+                <equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="garamantian_champion"
+                  default_group="Infantry"
+                  level="16"
+                  name="{=Garamantian Champion}Garamantian Champion"
+                  occupation="Soldier"
+                  culture="Culture.aserai">
+        <face>
+            <face_key_template value="BodyProperty.villager_aserai"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="125"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="130"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Item3" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.leopard_pelt"/>
+                <equipment slot="Body" id="Item.Thick_desert_hide_skirt"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Item3" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+                <equipment slot="Body" id="Item.Thick_desert_hide_skirt"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zk"/>
+                <equipment slot="Item3" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Head" id="Item.ao_mabili_feathered_headband"/>
+                <equipment slot="Cape" id="Item.leopard_pelt"/>
+                <equipment slot="Body" id="Item.Thick_desert_hide_skirt"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+                <equipment slot="Item1" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Item2" id="Item.AR_shield_infantry_zl"/>
+                <equipment slot="Item3" id="Item.libyan_tribal_dart_a"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+                <equipment slot="Body" id="Item.Thick_desert_hide_skirt"/>
+                <equipment slot="Leg" id="Item.tassels_barefoot"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+
+    <!-- #endregion -->
+    <!-- #endregion -->
+</NPCCharacters>

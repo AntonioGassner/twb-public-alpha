@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+
+<!-- Linothorax-->
+  <Item id="cla_carthage_linothorax_simple_1" name="{=cla_carthage_linothorax_simple_1}[Hellenic]Gray Linothorax" mesh="cla_carthage_linothorax_simple_1" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_linothorax_simple_2" name="{=cla_carthage_linothorax_simple_2}[Hellenic]Gray Linothorax" mesh="cla_carthage_linothorax_simple_2" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_linothorax_simple_3" name="{=cla_carthage_linothorax_simple_3}[Hellenic]Gray Linothorax" mesh="cla_carthage_linothorax_simple_3" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_linothorax_simple_sleeveless_1" name="{=cla_carthage_linothorax_simple_sleeveless_1}[Hellenic]Gray Linothorax" mesh="cla_carthage_linothorax_simple_sleeveless_1" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_linothorax_simple_sleeveless_2" name="{=cla_carthage_linothorax_simple_sleeveless_2}[Hellenic]Gray Linothorax" mesh="cla_carthage_linothorax_simple_sleeveless_2" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+     <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_linothorax_simple_sleeveless_3" name="{=cla_carthage_linothorax_simple_sleeveless_3}[Hellenic]Gray Linothorax" mesh="cla_carthage_linothorax_simple_sleeveless_3" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+     <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_linothorax_simple_sleeveless_4" name="{=cla_carthage_linothorax_simple_sleeveless_4}[Hellenic]Gray Linothorax" mesh="cla_carthage_linothorax_simple_sleeveless_4" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+     <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_linothorax_simple_sleeveless_5" name="{=cla_carthage_linothorax_simple_sleeveless_5}[Hellenic]Gray Linothorax" mesh="cla_carthage_linothorax_simple_sleeveless_5" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+     <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_linothorax_simple_sleeveless_6" name="{=cla_carthage_linothorax_simple_sleeveless_6}[Hellenic]Gray Linothorax" mesh="cla_carthage_linothorax_simple_sleeveless_6" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+     <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="cla_carthage_body_linothorax_light_1" name="{=cla_carthage_body_linothorax_light_1}[Hellenic]Light Linothorax" mesh="cla_carthage_body_linothorax_light_1" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_linothorax_light_2" name="{=cla_carthage_body_linothorax_light_2}[Hellenic]Light Linothorax" mesh="cla_carthage_body_linothorax_light_2" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_linothorax_light_3" name="{=cla_carthage_body_linothorax_light_3}[Hellenic]Light Linothorax" mesh="cla_carthage_body_linothorax_light_3" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_linothorax_light_4" name="{=cla_carthage_body_linothorax_light_4}[Hellenic]Light Linothorax" mesh="cla_carthage_body_linothorax_light_4" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_linothorax_light_5" name="{=cla_carthage_body_linothorax_light_5}[Hellenic]Light Linothorax" mesh="cla_carthage_body_linothorax_light_5" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="4.6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="17" arm_armor="2" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+     <Flags Civilian="true"/>
+  </Item>
+
+
+<!-- Musculata -->
+
+  <Item id="cla_carthage_body_musculata_bronze_1" name="{=cla_carthage_body_musculata_bronze_1}[Hellenic]Bronze Musculata" mesh="cla_carthage_body_musculata_bronze_1" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="40000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_bronze_2" name="{=cla_carthage_body_musculata_bronze_2}[Hellenic]Bronze Musculata" mesh="cla_carthage_body_musculata_bronze_2" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="40000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_bronze_3" name="{=cla_carthage_body_musculata_bronze_3}[Hellenic]Bronze Musculata" mesh="cla_carthage_body_musculata_bronze_3" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="40000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_bronze_4" name="{=cla_carthage_body_musculata_bronze_4}[Hellenic]Bronze Musculata" mesh="cla_carthage_body_musculata_bronze_4" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="40000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_bronze_5" name="{=cla_carthage_body_musculata_bronze_5}[Hellenic]Bronze Musculata" mesh="cla_carthage_body_musculata_bronze_5" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="40000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_bronze_6" name="{=cla_carthage_body_musculata_bronze_6}[Hellenic]Bronze Musculata" mesh="cla_carthage_body_musculata_bronze_6" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="40000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="cla_carthage_body_musculata_bronze_noble_1" name="{=cla_carthage_body_musculata_bronze_noble_1}[Hellenic]Bronze Musculata" mesh="cla_carthage_body_musculata_bronze_noble_1" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="9400">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_bronze_noble_2" name="{=cla_carthage_body_musculata_bronze_noble_2}[Hellenic]Bronze Musculata" mesh="cla_carthage_body_musculata_bronze_noble_2" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="9400">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_bronze_noble_3" name="{=cla_carthage_body_musculata_bronze_noble_3}[Hellenic]Bronze Musculata" mesh="cla_carthage_body_musculata_bronze_noble_3" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="9400">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_iron_noble_1" name="{=cla_carthage_body_musculata_iron_noble_1}[Hellenic]Iron Musculata" mesh="cla_carthage_body_musculata_iron_noble_1" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="9400">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_iron_noble_2" name="{=cla_carthage_body_musculata_iron_noble_2}[Punic]Iron Musculata" mesh="cla_carthage_body_musculata_iron_noble_2" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="9400">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="cla_carthage_body_musculata_iron_noble_3" name="{=cla_carthage_body_musculata_iron_noble_3}[Punic]Iron Musculata" mesh="cla_carthage_body_musculata_iron_noble_3" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="20" difficulty="0" appearance="1" Type="BodyArmor" value="9400">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+
+	<Item id="cla_carthage_helm_phrygian_simple"
+		  name="{=cla_carthage_helm_phrygian_simple}[Hellenic]Phrygian Simple"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_simple"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_phrygian_simple_paint_1"
+		  name="{=cla_carthage_helm_phrygian_simple_paint_1}[Hellenic]Phrygian Simple Paint 1"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_simple_paint_1"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_phrygian_simple_paint_2"
+		  name="{=cla_carthage_helm_phrygian_simple_paint_2}[Hellenic]Phrygian Simple Paint 2"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_simple_paint_2"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_phrygian_simple_paint_3"
+		  name="{=cla_carthage_helm_phrygian_simple_paint_3}[Hellenic]Phrygian Simple Paint 3"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_simple_paint_3"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_phrygian_simple_paint_4"
+		  name="{=cla_carthage_helm_phrygian_simple_paint_4}[Hellenic]Phrygian Simple Paint 4"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_simple_paint_4"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+	<Item id="cla_carthage_helm_phrygian_beard"
+		  name="{=cla_carthage_helm_phrygian_beard}[Hellenic]Phrygian Beard"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_beard"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_phrygian_beard_paint_1"
+		  name="{=cla_carthage_helm_phrygian_beard_paint_1}[Hellenic]Phrygian Beard Paint 1"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_beard_paint_1"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_phrygian_beard_paint_2"
+		  name="{=cla_carthage_helm_phrygian_beard_paint_2}[Hellenic]Phrygian Beard Paint 2"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_beard_paint_2"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_phrygian_beard_paint_3"
+		  name="{=cla_carthage_helm_phrygian_beard_paint_3}[Hellenic]Phrygian Beard Paint 3"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_beard_paint_3"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_phrygian_beard_paint_4"
+		  name="{=cla_carthage_helm_phrygian_beard_paint_4}[Hellenic]Phrygian Beard Paint 4"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_phrygian_beard_paint_4"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+	<!-- Standard -->
+	<Item id="cla_carthage_helm_standard"
+		  name="{=cla_carthage_helm_standard}[Hellenic]Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="1500">
+		<ItemComponent>
+			<Armor head_armor="75"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_paint_1"
+		  name="{=cla_carthage_helm_standard_paint_1}[Hellenic]Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_paint_1"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="1500">
+		<ItemComponent>
+			<Armor head_armor="75"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_paint_2"
+		  name="{=cla_carthage_helm_standard_paint_2}[Hellenic]Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_paint_2"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="1500">
+		<ItemComponent>
+			<Armor head_armor="75"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_paint_3"
+		  name="{=cla_carthage_helm_standard_paint_3}[Hellenic]Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_paint_3"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="1500">
+		<ItemComponent>
+			<Armor head_armor="75"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_paint_4"
+		  name="{=cla_carthage_helm_standard_paint_4}[Hellenic]Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_paint_4"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="1500">
+		<ItemComponent>
+			<Armor head_armor="75"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_paint_5"
+		  name="{=cla_carthage_helm_standard_paint_5}[Hellenic]Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_paint_5"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="1500">
+		<ItemComponent>
+			<Armor head_armor="75"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+	<!-- Standard Crest -->
+	<Item id="cla_carthage_helm_standard_crest"
+		  name="{=cla_carthage_helm_standard_crest}[Hellenic]Crested Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_crest"
+		  culture="Culture.aserai"
+		  weight="2.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="85"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_crest_paint_1"
+		  name="{=cla_carthage_helm_standard_crest_paint_1}[Hellenic]Crested Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_crest_paint_1"
+		  culture="Culture.aserai"
+		  weight="2.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="85"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_crest_paint_2"
+		  name="{=cla_carthage_helm_standard_crest_paint_2}[Hellenic]Crested Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_crest_paint_2"
+		  culture="Culture.aserai"
+		  weight="2.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="85"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_crest_paint_3"
+		  name="{=cla_carthage_helm_standard_crest_paint_3}[Hellenic]Crested Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_crest_paint_3"
+		  culture="Culture.aserai"
+		  weight="2.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="85"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_crest_paint_4"
+		  name="{=cla_carthage_helm_standard_crest_paint_4}[Hellenic]Crested Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_crest_paint_4"
+		  culture="Culture.aserai"
+		  weight="2.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="85"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_crest_paint_5"
+		  name="{=cla_carthage_helm_standard_crest_paint_5}[Hellenic]Crested Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_crest_paint_5"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="85"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+
+	<!-- Standard High -->
+	<Item id="cla_carthage_helm_standard_high"
+		  name="{=cla_carthage_helm_standard_high}[Hellenic]Decorated Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_high"
+		  culture="Culture.aserai"
+		  weight="2.5"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="5000">
+		<ItemComponent>
+			<Armor head_armor="90"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_high_paint_1"
+		  name="{=cla_carthage_helm_standard_high_paint_1}[Hellenic]Decorated Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_high_paint_1"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="5000">
+		<ItemComponent>
+			<Armor head_armor="90"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_high_paint_2"
+		  name="{=cla_carthage_helm_standard_high_paint_2}[Hellenic]Decorated Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_high_paint_2"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="5000">
+		<ItemComponent>
+			<Armor head_armor="90"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+
+	<Item id="cla_carthage_helm_standard_high_paint_3"
+		  name="{=cla_carthage_helm_standard_high_paint_3}[Hellenic]Decorated Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_high_paint_3"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="5000">
+		<ItemComponent>
+			<Armor head_armor="90"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_high_paint_4"
+		  name="{=cla_carthage_helm_standard_high_paint_4}[Hellenic]Decorated Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_high_paint_4"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="5000">
+		<ItemComponent>
+			<Armor head_armor="90"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_high_paint_3_black"
+		  name="{=cla_carthage_helm_standard_high_paint_3_black}[Hellenic]Decorated Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_high_paint_3_black"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="5000">
+		<ItemComponent>
+			<Armor head_armor="90"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_standard_high_paint_4_black"
+		  name="{=cla_carthage_helm_standard_high_paint_4_black}[Hellenic]Decorated Kanic Helm"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_standard_high_paint_4_black"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="5000">
+		<ItemComponent>
+			<Armor head_armor="90"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Thracian Konos -->
+	<Item id="cla_carthage_helm_thracian_konos"
+		  name="{=cla_carthage_helm_thracian_konos}[Hellenic]Kanic Konos"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_konos"
+		  culture="Culture.aserai"
+		  weight="2.1"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="83"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_konos_paint_1"
+		  name="{=cla_carthage_helm_thracian_konos_paint_1}[Hellenic]Kanic Konos"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_konos_paint_1"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="83"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_konos_paint_2"
+		  name="{=cla_carthage_helm_thracian_konos_paint_2}[Hellenic]Kanic Konos"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_konos_paint_2"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="83"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_konos_paint_3"
+		  name="{=cla_carthage_helm_thracian_konos_paint_3}[Hellenic]Kanic Konos"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_konos_paint_3"
+		  culture="Culture.aserai"
+		  weight="2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="83"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+
+	<!-- Thracian -->
+	<Item id="cla_carthage_helm_thracian"
+		  name="{=cla_carthage_helm_thracian}[Hellenic]Thracian"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian"
+		  culture="Culture.aserai"
+		  weight="3.4"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="3000">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+
+	<Item id="cla_carthage_helm_thracian_simple"
+		  name="{=cla_carthage_helm_thracian_simple}[Hellenic]Thracian Simple"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_1"
+		  name="{=cla_carthage_helm_thracian_simple_paint_1}[Hellenic]Thracian Simple Paint 1"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_1"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_2"
+		  name="{=cla_carthage_helm_thracian_simple_paint_2}[Hellenic]Thracian Simple Paint 2"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_2"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_3"
+		  name="{=cla_carthage_helm_thracian_simple_paint_3}[Hellenic]Thracian Simple Paint 3"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_3"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_4"
+		  name="{=cla_carthage_helm_thracian_simple_paint_4}[Hellenic]Thracian Simple Paint 4"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_4"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+	<Item id="cla_carthage_helm_thracian_simple_paint_1_black"
+		  name="{=cla_carthage_helm_thracian_simple_paint_1_black}[Hellenic]Thracian Simple Paint 1"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_1_black"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_2_black"
+		  name="{=cla_carthage_helm_thracian_simple_paint_2_black}[Hellenic]Thracian Simple Paint 2"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_2_black"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_3_blue_white"
+		  name="{=cla_carthage_helm_thracian_simple_paint_3_blue_white}[Hellenic]Thracian Simple Paint 3"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_3_blue_white"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_3_red_white"
+		  name="{=cla_carthage_helm_thracian_simple_paint_3_red_white}[Hellenic]Thracian Simple Paint 3"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_3_red_white"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_3_black"
+		  name="{=cla_carthage_helm_thracian_simple_paint_3_black}[Hellenic]Thracian Simple Paint 3 Black"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_3_black"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_4_blue_white"
+		  name="{=cla_carthage_helm_thracian_simple_paint_4_blue_white}[Hellenic]Thracian Simple Paint 4"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_4_blue_white"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_4_red_white"
+		  name="{=cla_carthage_helm_thracian_simple_paint_4_red_white}[Hellenic]Thracian Simple Paint 4"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_4_red_white"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_simple_paint_4_black"
+		  name="{=cla_carthage_helm_thracian_simple_paint_4_black}[Hellenic]Thracian Simple Paint 4 Black"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_simple_paint_4_black"
+		  culture="Culture.aserai"
+		  weight="3"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="4400">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+
+	<Item id="cla_carthage_helm_thracian_lord_white"
+		  name="{=cla_carthage_helm_thracian_lord_white}[Hellenic]Thracian Lord White"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_white"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_lord_red"
+		  name="{=cla_carthage_helm_thracian_lord_red}[Hellenic]Thracian Lord Red"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_red"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_lord_white_black"
+		  name="{=cla_carthage_helm_thracian_lord_white_black}[Hellenic]Thracian Lord White Black"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_white_black"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_lord_red_black"
+		  name="{=cla_carthage_helm_thracian_lord_red_black}[Hellenic]Thracian Lord Red Black"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_red_black"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_lord_white_black_white"
+		  name="{=cla_carthage_helm_thracian_lord_white_black_white}[Hellenic]Thracian Lord White Black White"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_white_black_white"
+		  culture="Culture.aserai"
+		 weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_lord_red_black_white"
+		  name="{=cla_carthage_helm_thracian_lord_red_black_white}[Hellenic]Thracian Lord Red Black White"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_red_black_white"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_lord_white_blue_white"
+		  name="{=cla_carthage_helm_thracian_lord_white_blue_white}[Hellenic]Thracian Lord White Blue White"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_white_blue_white"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_lord_red_blue_white"
+		  name="{=cla_carthage_helm_thracian_lord_red_blue_white}[Hellenic]Thracian Lord Red Blue White"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_red_blue_white"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_lord_white_red_white"
+		  name="{=cla_carthage_helm_thracian_lord_white_red_white}[Hellenic]Thracian Lord White Red White"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_white_red_white"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_lord_red_red_white"
+		  name="{=cla_carthage_helm_thracian_lord_red_red_white}[Hellenic]Thracian Lord Red Red White"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_lord_red_red_white"
+		  culture="Culture.aserai"
+		  weight="3.2"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6000">
+		<ItemComponent>
+			<Armor head_armor="95" body_armor="40"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+	<Item id="cla_carthage_helm_thracian_beard"
+		  name="{=cla_carthage_helm_thracian_beard}[Hellenic]Thracian Beard"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_beard"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_beard_paint_1"
+		  name="{=cla_carthage_helm_thracian_beard_paint_1}[Hellenic]Thracian Beard Paint 1"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_beard_paint_1"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_beard_paint_2"
+		  name="{=cla_carthage_helm_thracian_beard_paint_2}[Hellenic]Thracian Beard Paint 2"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_beard_paint_2"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_beard_paint_black_1"
+		  name="{=cla_carthage_helm_thracian_beard_paint_black_1}[Hellenic]Thracian Beard Paint Plume"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_beard_paint_black_1"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_beard_paint_black_2"
+		  name="{=cla_carthage_helm_thracian_beard_paint_black_2}[Hellenic]Thracian Beard Paint Plume"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_beard_paint_black_2"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+	<Item id="cla_carthage_helm_thracian_beard_paint_red_white_1"
+		  name="{=cla_carthage_helm_thracian_beard_paint_red_white_1}[Hellenic]Thracian Beard Paint Plume"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_beard_paint_1_red_white"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_beard_paint_blue_white_1"
+		  name="{=cla_carthage_helm_thracian_beard_paint_blue_white_1}[Hellenic]Thracian Beard Paint Plume"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_beard_paint_1_blue_white"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+	<Item id="cla_carthage_helm_thracian_beard_paint_red_white_2"
+		  name="{=cla_carthage_helm_thracian_beard_paint_red_white_2}[Hellenic]Thracian Beard Paint Plume"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_beard_paint_2_red_white"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_carthage_helm_thracian_beard_paint_blue_white_2"
+		  name="{=cla_carthage_helm_thracian_beard_paint_blue_white_2}[Hellenic]Thracian Beard Paint Plume"
+		  subtype="head_armor"
+		  mesh="cla_carthage_helm_thracian_beard_paint_2_blue_white"
+		  culture="Culture.aserai"
+		  weight="3.8"
+		  difficulty="0"
+		  is_merchandise="true"
+		  appearance="1"
+		  Type="HeadArmor"
+		  value="6100">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="60"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   beard_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+
+	<!-- Iberian Cardiophylax -->
+	<Item id="cla_iberian_body_cardiophylax_1" name="{=cla_iberian_body_cardiophylax_1}[Iberian]Massian Cardiophylax" mesh="cla_iberian_body_cardiophylax_1" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="2" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_iberian_body_cardiophylax_2" name="{=cla_iberian_body_cardiophylax_2}[Iberian]Massian Cardiophylax" mesh="cla_iberian_body_cardiophylax_2" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="2" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_iberian_body_cardiophylax_3" name="{=cla_iberian_body_cardiophylax_3}[Iberian]Massian Cardiophylax" mesh="cla_iberian_body_cardiophylax_3" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="2" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="cla_iberian_body_cardiophylax_4" name="{=cla_iberian_body_cardiophylax_4}[Iberian]Massian Cardiophylax" mesh="cla_iberian_body_cardiophylax_4" subtype="body_armor" culture="Culture.aserai" is_merchandise="true" weight="6" difficulty="0" appearance="1" Type="BodyArmor" value="3000">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="2" arm_armor="2" covers_body="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+
+	<!-- Legs -->
+
+	<Item id="cla_carthage_legs_boots_1" name="{=cla_carthage_legs_boots_1}[Punic]Boots" mesh="cla_carthage_legs_boots_1" culture="Culture.aserai" is_merchandise="true" weight="0.7" difficulty="0" appearance="1" Type="LegArmor" value="500">
+		<ItemComponent>
+			<Armor leg_armor="10" covers_legs="false" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_boots_2" name="{=cla_carthage_legs_boots_2}[Punic]Boots" mesh="cla_carthage_legs_boots_2" culture="Culture.aserai" is_merchandise="true" weight="0.7" difficulty="0" appearance="1" Type="LegArmor" value="500">
+		<ItemComponent>
+			<Armor leg_armor="10" covers_legs="false" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_boots_3" name="{=cla_carthage_legs_boots_3}[Punic]Boots" mesh="cla_carthage_legs_boots_3" culture="Culture.aserai" is_merchandise="true" weight="0.7" difficulty="0" appearance="1" Type="LegArmor" value="500">
+		<ItemComponent>
+			<Armor leg_armor="10" covers_legs="false" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_boots_4" name="{=cla_carthage_legs_boots_4}[Punic]Boots" mesh="cla_carthage_legs_boots_4" culture="Culture.aserai" is_merchandise="true" weight="0.7" difficulty="0" appearance="1" Type="LegArmor" value="500">
+		<ItemComponent>
+			<Armor leg_armor="10" covers_legs="false" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_boots_5" name="{=cla_carthage_legs_boots_5}[Punic]Boots" mesh="cla_carthage_legs_boots_5" culture="Culture.aserai" is_merchandise="true" weight="0.7" difficulty="0" appearance="1" Type="LegArmor" value="500">
+		<ItemComponent>
+			<Armor leg_armor="10" covers_legs="false" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+
+	<Item id="cla_carthage_legs_greaves_single_1" name="{=cla_carthage_legs_greaves_single_1}[Punic]Bronze Greave" mesh="cla_carthage_legs_greaves_single_1" culture="Culture.aserai" is_merchandise="true" weight="2" difficulty="0" appearance="1" Type="LegArmor" value="2000">
+		<ItemComponent>
+			<Armor leg_armor="25" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_single_2" name="{=cla_carthage_legs_greaves_single_2}[Punic]Bronze Greave" mesh="cla_carthage_legs_greaves_single_2" culture="Culture.aserai" is_merchandise="true" weight="2" difficulty="0" appearance="1" Type="LegArmor" value="2000">
+		<ItemComponent>
+			<Armor leg_armor="25" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_single_3" name="{=cla_carthage_legs_greaves_single_3}[Punic]Bronze Greave" mesh="cla_carthage_legs_greaves_single_3" culture="Culture.aserai" is_merchandise="true" weight="2" difficulty="0" appearance="1" Type="LegArmor" value="2000">
+		<ItemComponent>
+			<Armor leg_armor="25" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_single_4" name="{=cla_carthage_legs_greaves_single_4}[Punic]Bronze Greave" mesh="cla_carthage_legs_greaves_single_4" culture="Culture.aserai" is_merchandise="true" weight="2" difficulty="0" appearance="1" Type="LegArmor" value="2000">
+		<ItemComponent>
+			<Armor leg_armor="25" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_single_5" name="{=cla_carthage_legs_greaves_single_5}[Punic]Bronze Greave" mesh="cla_carthage_legs_greaves_single_5" culture="Culture.aserai" is_merchandise="true" weight="2" difficulty="0" appearance="1" Type="LegArmor" value="2000">
+		<ItemComponent>
+			<Armor leg_armor="25" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+
+	<Item id="cla_carthage_legs_greaves_basic_1" name="{=cla_carthage_legs_greaves_basic_1}[Punic]Bronze Greaves" mesh="cla_carthage_legs_greaves_basic_1" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="2600">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_basic_2" name="{=cla_carthage_legs_greaves_basic_2}[Punic]Bronze Greaves" mesh="cla_carthage_legs_greaves_basic_2" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="2600">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_basic_3" name="{=cla_carthage_legs_greaves_basic_3}[Punic]Bronze Greaves" mesh="cla_carthage_legs_greaves_basic_3" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="2600">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_basic_4" name="{=cla_carthage_legs_greaves_basic_4}[Punic]Bronze Greaves" mesh="cla_carthage_legs_greaves_basic_4" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="2600">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_basic_5" name="{=cla_carthage_legs_greaves_basic_5}[Punic]Bronze Greaves" mesh="cla_carthage_legs_greaves_basic_5" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="2600">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+
+
+	<Item id="cla_carthage_legs_greaves_high_1" name="{=cla_carthage_legs_greaves_high_1}[Punic]Bronze Decorated Greaves" mesh="cla_carthage_legs_greaves_high_1" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="3300">
+		<ItemComponent>
+			<Armor leg_armor="35" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_high_2" name="{=cla_carthage_legs_greaves_high_2}[Punic]Bronze Decorated Greaves" mesh="cla_carthage_legs_greaves_high_2" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="3300">
+		<ItemComponent>
+			<Armor leg_armor="35" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_high_3" name="{=cla_carthage_legs_greaves_high_3}[Punic]Bronze Decorated Greaves" mesh="cla_carthage_legs_greaves_high_3" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="3300">
+		<ItemComponent>
+			<Armor leg_armor="35" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_high_4" name="{=cla_carthage_legs_greaves_high_4}[Punic]Bronze Decorated Greaves" mesh="cla_carthage_legs_greaves_high_4" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="3300">
+		<ItemComponent>
+			<Armor leg_armor="35" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="cla_carthage_legs_greaves_high_5" name="{=cla_carthage_legs_greaves_high_5}[Punic]Bronze Decorated Greaves" mesh="cla_carthage_legs_greaves_high_5" culture="Culture.aserai" is_merchandise="true" weight="3.5" difficulty="0" appearance="1" Type="LegArmor" value="3300">
+		<ItemComponent>
+			<Armor leg_armor="35" covers_legs="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+
+
+</Items>

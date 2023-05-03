@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<WeaponDescriptions>
+    <WeaponDescription id="OneHandedGreekSword"
+                       weapon_class="OneHandedSword"
+                       item_usage_features="onehanded:block:shield:swing:thrust">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon"/>
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="xiphos_blade_a"/>
+            <AvailablePiece id="xiphos_guard_a"/>
+            <AvailablePiece id="xiphos_handle_a"/>
+            <AvailablePiece id="xiphos_pommel_a"/>
+            <AvailablePiece id="kopis_blade_a"/>
+            <AvailablePiece id="kopis_guard_a"/>
+            <AvailablePiece id="kopis_handle_a"/>
+            <AvailablePiece id="kopis_pommel_a"/>
+            <AvailablePiece id="germanic_sword_04_blade"/>
+            <AvailablePiece id="germanic_sword_04_guard"/>
+            <AvailablePiece id="germanic_sword_04_handle"/>
+            <AvailablePiece id="germanic_sword_04_pommel"/>
+            <AvailablePiece id="twb_roman_blade"/>
+            <AvailablePiece id="cleaver_guard_3"/>
+            <AvailablePiece id="vlandian_grip_1"/>
+            <AvailablePiece id="sturgian_pommel_3"/>
+            <AvailablePiece id="dagger_blade_3"/>
+            <AvailablePiece id="sturgian_dagger_guard_8"/>
+            <AvailablePiece id="aserai_grip_3"/>
+            <AvailablePiece id="khuzait_pommel_2"/>
+        </AvailablePieces>
+    </WeaponDescription>
+
+    <WeaponDescription id="OneHandedGreekPolearm"
+                       weapon_class="OneHandedPolearm"
+                       item_usage_features="onehanded_polearm:block:long:rshield:thrust">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon"/>
+            <WeaponFlag value="WideGrip"/>
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="doru_spear_tip_a"/>
+            <AvailablePiece id="doru_handle_a_ash"/>
+            <AvailablePiece id="doru_saurotor_a"/>
+            <AvailablePiece id="xyston_spear_tip_a"/>
+            <AvailablePiece id="xyston_handle_a_cornel"/>
+            <AvailablePiece id="xyston_saurotor_a"/>
+            <AvailablePiece id="germanic_spear_04_blade"/>
+            <AvailablePiece id="germanic_spear_04_handle"/>
+            <AvailablePiece id="spear_blade_42"/>
+            <AvailablePiece id="spear_handle_15"/>
+            <AvailablePiece id="spear_pommel_10"/>
+        </AvailablePieces>
+    </WeaponDescription>
+
+    <!--
+    <WeaponDescription id="OneHandedGreekPolearm_Thrown"
+                       weapon_class="Javelin"
+                       item_usage_features="polearm:thrown"
+                       rotated_in_hand="true"
+                       use_center_of_mass_as_hand_base="true">
+      <WeaponFlags>
+        <WeaponFlag value="RangedWeapon"/>
+        <WeaponFlag value="Consumable"/>
+        <WeaponFlag value="AmmoSticksWhenShot"/>
+        <WeaponFlag value="UseHandAsThrowBase"/>
+        <WeaponFlag value="AutoReload"/>
+        <WeaponFlag value="UnloadWhenSheathed"/>
+      </WeaponFlags>
+      <AvailablePieces>
+        <AvailablePiece id="doru_spear_tip_a"/>
+        <AvailablePiece id="doru_handle_a_ash"/>
+        <AvailablePiece id="doru_saurotor_a"/>
+      </AvailablePieces>
+    </WeaponDescription>
+    -->
+
+    <WeaponDescription id="TwoHandedGreekPolearm"
+                       weapon_class="TwoHandedPolearm"
+                       item_usage_features="polearm:block:long:shield:swing:thrust">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon"/>
+            <WeaponFlag value="NotUsableWithOneHand"/>
+            <WeaponFlag value="WideGrip"/>
+            <WeaponFlag value="TwoHandIdleOnMount"/>
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="doru_spear_tip_a"/>
+            <AvailablePiece id="doru_handle_a_ash"/>
+            <AvailablePiece id="doru_saurotor_a"/>
+            <AvailablePiece id="sarissa_spear_tip_a"/>
+            <AvailablePiece id="sarissa_handle_a_cornel"/>
+            <AvailablePiece id="sarissa_saurotor_a"/>
+            <AvailablePiece id="xyston_spear_tip_a"/>
+            <AvailablePiece id="xyston_handle_a_cornel"/>
+            <AvailablePiece id="xyston_saurotor_a"/>
+            <AvailablePiece id="germanic_spear_04_blade"/>
+            <AvailablePiece id="germanic_spear_04_handle"/>
+            <AvailablePiece id="spear_blade_42"/>
+            <AvailablePiece id="spear_handle_15"/>
+            <AvailablePiece id="spear_pommel_10"/>
+        </AvailablePieces>
+    </WeaponDescription>
+
+    <WeaponDescription id="TwoHandedGreekPolearm_Couchable"
+                       weapon_class="TwoHandedPolearm"
+                       item_usage_features="polearm:couch">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon"/>
+            <WeaponFlag value="WideGrip"/>
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="xyston_spear_tip_a"/>
+            <AvailablePiece id="xyston_handle_a_cornel"/>
+            <AvailablePiece id="xyston_saurotor_a"/>
+        </AvailablePieces>
+    </WeaponDescription>
+
+    <WeaponDescription id="TwoHandedGreekPolearm_Bracing"
+                       weapon_class="TwoHandedPolearm"
+                       item_usage_features="polearm:bracing">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon"/>
+            <WeaponFlag value="NotUsableWithOneHand"/>
+            <WeaponFlag value="WideGrip"/>
+            <WeaponFlag value="TwoHandIdleOnMount"/>
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="sarissa_spear_tip_a"/>
+            <AvailablePiece id="sarissa_handle_a_cornel"/>
+            <AvailablePiece id="sarissa_saurotor_a"/>
+            <AvailablePiece id="xyston_spear_tip_a"/>
+            <AvailablePiece id="xyston_handle_a_cornel"/>
+            <AvailablePiece id="xyston_saurotor_a"/>
+        </AvailablePieces>
+    </WeaponDescription>
+
+
+</WeaponDescriptions>

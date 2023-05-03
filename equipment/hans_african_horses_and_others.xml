@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <!-- #region Horses -->
+    <Item id="hans_noble_barb_horse"
+          name="Hans Nobe Barb Horse"
+          mesh="horse_brown"
+          is_merchandise="true"
+          value="1300"
+          subtype="horse"
+          item_category="horse"
+          culture="Culture.libyan"
+          weight="480"
+          difficulty="10"
+          appearance="0.7"
+          Type="Horse">
+        <ItemComponent>
+            <Horse monster="Monster.horse"
+                   maneuver="50"
+                   speed="65"
+                   charge_damage="25"
+                   body_length="100"
+                   is_mountable="true"
+                   extra_health="20"
+                   skeleton_scale="khuzait_horse"
+                   modifier_group="horse">
+                <AdditionalMeshes>
+                    <Mesh name="horse_mane"
+                          affected_by_cover="true"/>
+                </AdditionalMeshes>
+                <Materials>
+                    <Material name="horse_brown_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF010101"
+                                            percentage="0.75"/>
+                            <MeshMultiplier mesh_multiplier="FF909090"
+                                            percentage="0.25"/>
+                        </MeshMultipliers>
+                    </Material>
+                    <Material name="horse_black_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF010101"
+                                            percentage="0.75"/>
+                            <MeshMultiplier mesh_multiplier="FF909090"
+                                            percentage="0.25"/>
+                        </MeshMultipliers>
+                    </Material>
+                    <Material name="horse_grey_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF303030"
+                                            percentage="0.75"/>
+                            <MeshMultiplier mesh_multiplier="FF909090"
+                                            percentage="0.25"/>
+                        </MeshMultipliers>
+                    </Material>
+                    <Material name="horse_white_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF303030"
+                                            percentage="1.0"/>
+                        </MeshMultipliers>
+                    </Material>
+                </Materials>
+            </Horse>
+        </ItemComponent>
+        <Flags Civilian="true"/>
+    </Item>
+    <Item id="hans_barb_horse"
+          name="Hans Barb Horse"
+          mesh="horse_brown"
+          is_merchandise="true"
+          value="500"
+          subtype="horse"
+          item_category="horse"
+          culture="Culture.libyan"
+          weight="365"
+          difficulty="10"
+          appearance="0.7"
+          Type="Horse">
+        <ItemComponent>
+            <Horse monster="Monster.horse"
+                   maneuver="56"
+                   speed="54"
+                   charge_damage="10"
+                   body_length="100"
+                   is_mountable="true"
+                   extra_health="10"
+                   skeleton_scale="khuzait_horse"
+                   modifier_group="horse">
+                <AdditionalMeshes>
+                    <Mesh name="horse_mane"
+                          affected_by_cover="true"/>
+                </AdditionalMeshes>
+                <Materials>
+                    <Material name="horse_brown_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF010101"
+                                            percentage="0.75"/>
+                            <MeshMultiplier mesh_multiplier="FF909090"
+                                            percentage="0.25"/>
+                        </MeshMultipliers>
+                    </Material>
+                    <Material name="horse_black_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF010101"
+                                            percentage="0.75"/>
+                            <MeshMultiplier mesh_multiplier="FF909090"
+                                            percentage="0.25"/>
+                        </MeshMultipliers>
+                    </Material>
+                    <Material name="horse_grey_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF303030"
+                                            percentage="0.75"/>
+                            <MeshMultiplier mesh_multiplier="FF909090"
+                                            percentage="0.25"/>
+                        </MeshMultipliers>
+                    </Material>
+                    <Material name="horse_white_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF303030"
+                                            percentage="1.0"/>
+                        </MeshMultipliers>
+                    </Material>
+                </Materials>
+            </Horse>
+        </ItemComponent>
+        <Flags Civilian="true"/>
+    </Item>
+    <Item id="hans_barb_pack_horse"
+          name="Hans Barb Pack Horse"
+          mesh="horse_brown"
+          is_merchandise="true"
+          value="130"
+          subtype="horse"
+          item_category="horse"
+          culture="Culture.libyan"
+          weight="490"
+          difficulty="10"
+          appearance="0.7"
+          Type="Horse">
+        <ItemComponent>
+            <Horse monster="Monster.horse"
+                   maneuver="52"
+                   speed="45"
+                   charge_damage="4"
+                   body_length="100"
+                   is_mountable="true"
+                   is_pack_animal="true"
+                   extra_health="10"
+                   modifier_group="horse">
+                <AdditionalMeshes>
+                    <Mesh name="horse_mane"
+                          affected_by_cover="true"/>
+                </AdditionalMeshes>
+                <Materials>
+                    <Material name="horse_brown_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF010101"
+                                            percentage="0.75"/>
+                            <MeshMultiplier mesh_multiplier="FF909090"
+                                            percentage="0.25"/>
+                        </MeshMultipliers>
+                    </Material>
+                    <Material name="horse_black_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF010101"
+                                            percentage="0.75"/>
+                            <MeshMultiplier mesh_multiplier="FF909090"
+                                            percentage="0.25"/>
+                        </MeshMultipliers>
+                    </Material>
+                    <Material name="horse_grey_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF303030"
+                                            percentage="0.75"/>
+                            <MeshMultiplier mesh_multiplier="FF909090"
+                                            percentage="0.25"/>
+                        </MeshMultipliers>
+                    </Material>
+                    <Material name="horse_white_mat">
+                        <MeshMultipliers>
+                            <MeshMultiplier mesh_multiplier="FF303030"
+                                            percentage="1.0"/>
+                        </MeshMultipliers>
+                    </Material>
+                </Materials>
+            </Horse>
+        </ItemComponent>
+        <Flags Civilian="true"/>
+    </Item>
+    <!-- #endregion -->
+    <!-- #endregion -->
+    <!-- #region Harnesses -->
+    <Item id="hans_saddle_desert_1"
+          name="Hans Desert Saddle_cloth"
+          mesh="bandit_saddle_desert"
+          culture="Culture.libyan"
+          is_merchandise="true"
+          value="150"
+          subtype="body_armor"
+          weight="21"
+          difficulty="0"
+          appearance="1"
+          Type="HorseHarness">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   mane_cover_type="none"
+                   family_type="1"
+                   modifier_group="cloth"
+                   reins_mesh="bandit_saddle_desert_rein"
+                   material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="true"/>
+        <Flags/>
+    </Item>
+    <Item id="hans_reienforced_saddle_desert"
+          name="Hans Reinforced Desert Saddle"
+          mesh="bandit_saddle_desert"
+          culture="Culture.libyan"
+          is_merchandise="true"
+          value="450"
+          subtype="body_armor"
+          weight="21"
+          difficulty="0"
+          appearance="1"
+          Type="HorseHarness">
+        <ItemComponent>
+            <Armor body_armor="32"
+                   mane_cover_type="none"
+                   family_type="1"
+                   modifier_group="cloth"
+                   reins_mesh="bandit_saddle_desert_rein"
+                   material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="true"/>
+
+    </Item>
+
+</Items>

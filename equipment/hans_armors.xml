@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <!-- #endregion -->
+    <!-- #endregion -->
+    <!-- #region Aserai Body Armors -->
+    <!-- #region Aserai Light Body Armors -->
+    <Item id="Thick_desert_hide_skirt"
+          name="{=AfrTWBm1}Thick Desert Hide Skirt"
+          mesh="AO_mabili_armor_a_converted"
+          culture="Culture.libyan"
+          weight="3.9"
+          appearance="1"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="28"
+                   leg_armor="8"
+                   arm_armor="2"
+                   has_gender_variations="false"
+                   covers_body="false"
+                   modifier_group="leather"
+                   material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"
+               DoesNotHideChest="true"
+               Civilian="true"/>
+    </Item>
+    <!-- #endregion -->
+    <!-- #endregion -->
+</Items>

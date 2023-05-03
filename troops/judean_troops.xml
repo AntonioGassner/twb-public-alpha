@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	
+	<NPCCharacter id="judean_kerathite_I"
+		default_group="Ranged"
+		level="21"
+		name="{=Judean Kerathite I}Judean Kerathite I"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.judean_kerathite_II"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="judean_kerathite_II"
+		default_group="Ranged"
+		level="26"
+		name="{=Judean Kerathite II}Judean Kerathite II"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="220"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.judean_kerathite_III"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="judean_kerathite_III"
+		default_group="Ranged"
+		level="31"
+		name="{=Judean Kerathite III}Judean Kerathite III"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="260"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.TV_battania_helmet_f"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_m"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.TV_battania_helmet_f"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_m"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.TV_battania_helmet_f"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_m"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.barbed_arrows"/>
+				<equipment slot="Item2" id="Item.pelta_twb_shield_2"/>
+				<equipment slot="Item3" id="Item.kopis_a"/>
+				<equipment slot="Head" id="Item.TV_battania_helmet_f"/>
+				<equipment slot="Cape" id="Item.AR_lion_head_d"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_m"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="judean_warrior_I"
+		default_group="Infantry"
+		level="11"
+		name="{=Judean Warrior I}Judean Warrior I"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="90"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.judean_warrior_II"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_k"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_k"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_left"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_k"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_k"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_right"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="judean_warrior_II"
+		default_group="Infantry"
+		level="16"
+		name="{=Judean Warrior II}Judean Warrior II"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.judean_warrior_III"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="judean_warrior_III"
+		default_group="Infantry"
+		level="21"
+		name="{=Judean Warrior III}Judean Warrior III"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="170"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.libyan_oval_shield"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

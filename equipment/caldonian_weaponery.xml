@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <!-- Caledonian spears -->
+    <CraftedItem id="caledonian_pine_militia_Iron_Fork"
+                 name="{=CaledonianM1}Caledonian Militia Iron Fork"
+                 crafting_template="TwoHandedPolearm"
+                 culture="Culture.caledones">
+        <Pieces>
+            <Piece id="spear_blade_32"
+                   Type="Blade"
+                   scale_factor="90"/>
+            <Piece id="spear_handle_14"
+                   Type="Handle"
+                   scale_factor="90"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="caledonian_pine_spear"
+                 name="{=CaledonianM2}Caledonian Simple Pine Spear"
+                 crafting_template="TwoHandedPolearm"
+                 culture="Culture.caledones">
+        <Pieces>
+            <Piece id="spear_blade_15"
+                   Type="Blade"
+                   scale_factor="90"/>
+            <Piece id="default_polearm_guard"
+                   Type="Guard"
+                   scale_factor="90"/>
+            <Piece id="spear_handle_21"
+                   Type="Handle"
+                   scale_factor="90"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="caledonian_pine_spear_vet"
+                 name="{=CaledonianM3}Caledonian Highland Spear"
+                 crafting_template="TwoHandedPolearm"
+                 culture="Culture.caledones">
+        <Pieces>
+            <Piece id="spear_blade_40"
+                   Type="Blade"
+                   scale_factor="90"/>
+            <Piece id="default_polearm_guard"
+                   Type="Guard"
+                   scale_factor="90"/>
+            <Piece id="spear_handle_21"
+                   Type="Handle"
+                   scale_factor="90"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="caledonian_maiden_scyth"
+                 name="{=CaledonianMd}Caledonian Maiden's Battle Scyth"
+                 crafting_template="TwoHandedPolearm"
+                 culture="Culture.caledones">
+        <Pieces>
+            <Piece id="spear_blade_31"
+                   Type="Blade"
+                   scale_factor="90"/>
+            <Piece id="default_polearm_guard"
+                   Type="Guard"
+                   scale_factor="90"/>
+            <Piece id="spear_handle_21"
+                   Type="Handle"
+                   scale_factor="90"/>
+        </Pieces>
+    </CraftedItem>
+    <!-- Caledonian Axes -->
+    <CraftedItem id="Caledonian_simple_axe"
+                 name="{=CaledonianM4}Caledonian Simple Axe"
+                 crafting_template="OneHandedAxe"
+                 culture="Culture.caledones">
+        <Pieces>
+            <Piece id="axe_craft_2_head"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="axe_craft_20_handle"
+                   Type="Handle"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="Caledonian_infantry_axe"
+                 name="{=CaledonianM5}Caledonian Infantry Axe"
+                 crafting_template="OneHandedAxe"
+                 culture="Culture.caledones">
+        <Pieces>
+            <Piece id="axe_craft_21_head"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="axe_craft_5_handle"
+                   Type="Handle"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="Caledonian_infantry_vet_axe"
+                 name="{=CaledonianM6}Caledonian Infantry Axe Vetren"
+                 crafting_template="OneHandedAxe"
+                 culture="Culture.caledones">
+        <Pieces>
+            <Piece id="axe_craft_11_head"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="axe_craft_13_handle"
+                   Type="Handle"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+
+    <!-- #endregion -->
+    <!-- #endregion -->
+</Items>

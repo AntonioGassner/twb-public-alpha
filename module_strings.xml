@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+
+<!-- Factions -->
+    <string id="str_culture_description.vlandia" text="{=str_culture_description.gaul}Long have the Gallic tribes held dominion over the Mountains of the north. They are a hard and unbending people. " />
+    <string id="str_culture_description.battania" text="{=c1Ag8YJS}The Breton paint their faces when going to battle and even their noblemen prefer to fight on foot while using bows and swords with deadly efficiency." />
+    <string id="str_culture_description.khuzait" text="{=HkZ4E94O}The Achaemenid Empire is currently the strongest power in the known world. " />
+    <string id="str_culture_description.sturgia" text="{=HD2wzAxz}Germanics are the descendants of the foreign tribes of northern Germania. They are good hunters and wanderers, travelling far in search of opportunities both for trade and for plunder." />
+    <string id="str_culture_description.aserai" text="{=str_culture_description.Carthage}Carthage is the leading trade power of the seas." />
+    <string id="str_culture_description.empire" text="{=iLEhyGI8}The Roman Republic is still young, they are in a constant state of war with their Italic nieghbors." />
+	<string id="str_culture_description.byzantine" text="{=byzantinedescription}The Macedonians are quickly growing as a potential threat to the other local powers." />
+	<string id="str_culture_description.ayyubid" text="Egypt is a satrap under Persian rule." />
+	
+    <string id="str_culture_rich_name.vlandia" text="{=str_culture_rich_name.dacia}Gallic Tribes" />
+    <string id="str_culture_rich_name.battania" text="{=str_culture_rich_name.celt}Breton Tribes" />
+    <string id="str_culture_rich_name.khuzait" text="{=str_culture_rich_name.scyth}Achaemenids" />
+	<string id="str_culture_rich_name.byzantine" text="{=byzantinemembers}Macedon" />
+    <string id="str_culture_rich_name.sturgia" text="{=str_culture_rich_name.germanic}Germanic Tribes" />
+    <string id="str_culture_rich_name.aserai" text="{=str_culture_rich_name.carthage}Carthage" />
+    <string id="str_culture_rich_name.empire" text="{=str_culture_rich_name.rome}Rome" />
+	<string id="str_culture_rich_name.ayyubid" text="Egypt" />
+
+</strings>

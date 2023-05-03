@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+ <!-- Punic Tunics -->
+ <Item id="punic_chiton_no_faction" name="Punic Chiton with girdle faction" mesh="chiton_girdle_1_1" is_merchandise="true" subtype="body_armor" culture="Culture.aserai" value="1000" weight="3.0" difficulty="0" appearance="3"  Type="BodyArmor">
+        <ItemComponent>
+         <Armor head_armor="0" arm_armor="0" body_armor="24" leg_armor="4" covers_body="false" covers_legs="false"
+                modifier_group="Cloth" material_type="Cloth" has_gender_variations="true" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" Civilian="true" /> 
+    </Item>
+	
+	<Item id="thick_punic_chiton_no_faction" name="Thick Punic Chiton with girdle" mesh="chiton_girdle_1_1" is_merchandise="true" subtype="body_armor" culture="Culture.aserai" value="1000" weight="3.0" difficulty="0" appearance="3"  Type="BodyArmor">
+        <ItemComponent>
+         <Armor head_armor="0" arm_armor="2" body_armor="28" leg_armor="8" covers_body="false" covers_legs="false"
+                modifier_group="Cloth" material_type="Cloth" has_gender_variations="true" />
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true" /> 
+    </Item>
+	
+	 <Item id="punic_chiton_sleeves_1" name="Punic Thick Chiton sleeves" mesh="chiton_sleeves_1" is_merchandise="true" subtype="body_armor"
+          culture="Culture.neutral" value="750" weight="3.0" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="2" body_armor="26" leg_armor="10" covers_body="false" covers_legs="false"
+                   modifier_group="Cloth" material_type="Cloth" has_gender_variations="true"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+ <!-- Punic Armor -->
+	<Item id="punic_linothorax_chain_eastern_no_faction" name="Punic Scaled Hellenic Chain Cuirass" mesh="linothorax_5_eastern_1_complete" is_merchandise="true" subtype="body_armor" culture="Culture.empire" value="15000" weight="5.0" difficulty="0" appearance="3"  Type="BodyArmor">
+        <ItemComponent>
+         <Armor head_armor="4" arm_armor="0" body_armor="75" leg_armor="15" covers_body="true" covers_legs="false"
+                modifier_group="Plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" Civilian="true" /> 
+    </Item>
+	
+	<Item id="punic_musculata_4_1_argosi" name="Sacred Band Argosi Musculata" mesh="musculata_4_1_argosi" is_merchandise="true" subtype="body_armor" culture="Culture.aserai" value="4000" weight="2.0" difficulty="0" appearance="3"  Type="BodyArmor">
+        <ItemComponent>
+         <Armor head_armor="0" arm_armor="0" body_armor="70" leg_armor="10" covers_body="false" covers_legs="false"
+                modifier_group="Leather" material_type="Leather" />
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true" /> 
+    </Item>
+	
+	<Item id="punic_musculata_pteruges" name="Sacred Band Bronze Musculata with Pteruges" mesh="musculata_pteruges" is_merchandise="true" subtype="body_armor" culture="Culture.empire" value="3900" weight="3.0" difficulty="0" appearance="3"  Type="BodyArmor">
+		<ItemComponent>
+			<Armor head_armor="0" arm_armor="0" body_armor="65" leg_armor="15" covers_body="false" covers_legs="false"
+				   modifier_group="Plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+	<Item id="punic_scaled_linothorax_sleeved" name="Punic Scaled Linothorax over Chiton" mesh="linothorax_sleeved" is_merchandise="true" subtype="body_armor" culture="Culture.empire" value="10000" weight="8.0" difficulty="0" appearance="3"  Type="BodyArmor">
+		<ItemComponent>
+			<Armor head_armor="0" arm_armor="0" body_armor="56" leg_armor="10" covers_body="false" covers_legs="false"
+				   modifier_group="Leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+	<!-- Punic Capes-->
+  <Item id="punic_sacred_band_cape_faction"
+        name="{=*}Punic Sacred Band Cloak"
+        mesh="empire_cape_a"
+        culture="Culture.aserai"
+		is_merchandise="true"
+		value="600"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="20"
+             arm_armor="8"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="true" />
+  </Item>
+  <!-- #endregion -->
+  <!-- #endregion -->
+</Items>

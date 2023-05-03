@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <NPCCharacter id="celtiberian_exile"
+                  default_group="Infantry"
+                  level="6"
+                  name="{=Celtiberian Exile}Celtiberian Exile"
+                  occupation="Bandit"
+                  culture="Culture.looters">
+        <face>
+            <face_key_template value="BodyProperty.villager_celtiberian"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="50"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.doru_a"/>
+                <equipment slot="Item1" id="Item.celtic_scutum_1"/>
+                <equipment slot="Head" id="Item.band_1"/>
+                <equipment slot="Body" id="Item.battania_light_armor_a"/>
+                <equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.doru_a"/>
+                <equipment slot="Item1" id="Item.celtic_scutum_1"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Body" id="Item.chiton_sleeves_1"/>
+                <equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.doru_a"/>
+                <equipment slot="Item1" id="Item.celtic_scutum_1"/>
+                <equipment slot="Head" id="Item.band_1"/>
+                <equipment slot="Body" id="Item.battania_light_armor_a"/>
+                <equipment slot="Gloves" id="Item.armwraps"/>
+                <equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.doru_a"/>
+                <equipment slot="Item1" id="Item.celtic_scutum_1"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Body" id="Item.chiton_sleeves_1"/>
+                <equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="greek_exile"
+                  default_group="Infantry"
+                  level="6"
+                  name="{=Greek Exile}Greek Exile"
+                  occupation="Bandit"
+                  culture="Culture.looters">
+        <face>
+            <face_key_template value="BodyProperty.villager_etruscan"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="50"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.doru_a"/>
+                <equipment slot="Item1" id="Item.pelta_twb_shield_2"/>
+                <equipment slot="Head" id="Item.band_1"/>
+                <equipment slot="Body" id="Item.chiton_sleeves_1"/>
+                <equipment slot="Leg" id="Item.sandals_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.doru_a"/>
+                <equipment slot="Item1" id="Item.hoplon_b_worn"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Body" id="Item.exomis_1_1"/>
+                <equipment slot="Leg" id="Item.sandals_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.doru_a"/>
+                <equipment slot="Item1" id="Item.pelta_twb_shield_2"/>
+                <equipment slot="Head" id="Item.band_1"/>
+                <equipment slot="Body" id="Item.chiton_girdle_1_2"/>
+                <equipment slot="Leg" id="Item.sandals_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.doru_a"/>
+                <equipment slot="Item1" id="Item.hoplon_b_worn"/>
+                <equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
+                <equipment slot="Body" id="Item.chiton_girdle_1_1"/>
+                <equipment slot="Leg" id="Item.sandals_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_exile"
+                  default_group="Ranged"
+                  level="6"
+                  name="{=Scythian Exile}Scythian Exile"
+                  occupation="Bandit"
+                  culture="Culture.looters">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="50"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.hunting_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.hunting_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.hunting_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aaa1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.hunting_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aa1"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="italian_exile"
+                  default_group="Infantry"
+                  level="6"
+                  name="{=Italian Exile}Italian Exile"
+                  occupation="Soldier"
+                  culture="Culture.empire">
+        <face>
+            <face_key_template value="BodyProperty.villager_empire"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="0"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="50"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hasta_spear"/>
+                <equipment slot="Item1" id="Item.scutum_hastati_300"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz"/>
+                <equipment slot="Body" id="Item.chiton_sleeves_1"/>
+                <equipment slot="Leg" id="Item.sandals_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hasta_spear"/>
+                <equipment slot="Item1" id="Item.scutum_triarii_300"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz"/>
+                <equipment slot="Body" id="Item.exomis_1_1"/>
+                <equipment slot="Leg" id="Item.sandals_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hasta_spear"/>
+                <equipment slot="Item1" id="Item.scutum_hastati_300"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz"/>
+                <equipment slot="Body" id="Item.chiton_girdle_1_2"/>
+                <equipment slot="Leg" id="Item.sandals_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hasta_spear"/>
+                <equipment slot="Item1" id="Item.scutum_triarii_300"/>
+                <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz"/>
+                <equipment slot="Body" id="Item.chiton_girdle_1_1"/>
+                <equipment slot="Leg" id="Item.sandals_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,286 @@
+<Items>
+
+    <!-- NOTE: The Under Armour (UA) tunics are in gloves, the others are in Body armour -->
+
+
+    <!-- Chest Armour-->
+    <Item id="amazon_chest_1_1" name="Amazon female half scale" mesh="amazon_chest_1_1" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="46" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chest_1_2" name="Amazon female half scale" mesh="amazon_chest_1_2" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="46" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chest_1_3" name="Amazon female half scale" mesh="amazon_chest_1_3" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="46" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chest_2_1" name="Amazon female full scale" mesh="amazon_chest_2_1" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="62" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chest_2_2" name="Amazon female full scale" mesh="amazon_chest_2_2" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="62" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chest_2_3" name="Amazon female full scale" mesh="amazon_chest_2_3" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="62" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chest_3_1" name="Amazon female armoured scale" mesh="amazon_chest_3_1" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="68" leg_armor="10" covers_body="false" covers_legs="false"
+                   modifier_group="Plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chest_3_2" name="Amazon female armoured scale" mesh="amazon_chest_3_2" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="68" leg_armor="10" covers_body="false" covers_legs="false"
+                   modifier_group="Plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chest_3_3" name="Amazon female armoured scale" mesh="amazon_chest_3_3" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="68" leg_armor="10" covers_body="false" covers_legs="false"
+                   modifier_group="Plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chiton_1_1" name="Amazon female backless chiton" mesh="amazon_chiton_1_1" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="1000" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="24" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Cloth" material_type="Cloth" has_gender_variations="true"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chiton_1_2" name="Amazon female backless chiton" mesh="amazon_chiton_1_2" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="1000" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="24" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Cloth" material_type="Cloth" has_gender_variations="true"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chiton_1_3" name="Amazon female backless chiton" mesh="amazon_chiton_1_3" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="1000" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="24" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Cloth" material_type="Cloth" has_gender_variations="true"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chiton_2_1" name="Amazon female belt chiton" mesh="amazon_chiton_2_1" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="1000" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="24" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Cloth" material_type="Cloth" has_gender_variations="true"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chiton_2_2" name="Amazon female belt chiton" mesh="amazon_chiton_2_2" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="1000" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="24" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Cloth" material_type="Cloth" has_gender_variations="true"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_chiton_2_3" name="Amazon female belt chiton" mesh="amazon_chiton_2_3" is_merchandise="true"
+          subtype="body_armor" culture="Culture.empire" value="1000" weight="3.0" difficulty="0" appearance="3"
+          Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="24" leg_armor="4" covers_body="false" covers_legs="false"
+                   modifier_group="Cloth" material_type="Cloth" has_gender_variations="true"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_linothorax_1_1" name="Amazon female checkered linothorax" mesh="amazon_linothorax_1_1"
+          is_merchandise="true" subtype="body_armor" culture="Culture.empire" value="3500" weight="3.0" difficulty="0"
+          appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="50" leg_armor="10" covers_body="false" covers_legs="false"
+                   modifier_group="Leather" material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <!--Leg Armour-->
+    <Item id="amazon_boots_1_1" name="Amazon Female leather boots" mesh="amazon_boots_1_1" is_merchandise="true"
+          subtype="leg_armor" culture="Culture.empire" value="600" weight="1.0" difficulty="0" appearance="3"
+          Type="LegArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="0" leg_armor="22" covers_legs="true"
+                   modifier_group="Leather" material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_boots_2_1" name="Amazon Female leather strapped boots" mesh="amazon_boots_2_1"
+          is_merchandise="true" subtype="leg_armor" culture="Culture.empire" value="600" weight="1.0" difficulty="0"
+          appearance="3" Type="LegArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="0" leg_armor="22" covers_legs="true"
+                   modifier_group="Leather" material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_boots_3_1" name="Amazon bone and scale boots" mesh="amazon_boots_3_1" is_merchandise="true"
+          subtype="leg_armor" culture="Culture.empire" value="600" weight="1.0" difficulty="0" appearance="3"
+          Type="LegArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="0" leg_armor="32" covers_legs="true"
+                   modifier_group="Leather" material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_sandal_1_1" name="Amazon Female ankle sandles" mesh="amazon_sandal_1_1" is_merchandise="true"
+          subtype="leg_armor" culture="Culture.empire" value="600" weight="1.0" difficulty="0" appearance="3"
+          Type="LegArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="0" leg_armor="12" covers_legs="false"
+                   modifier_group="Leather" material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <!--Head armour-->
+    <Item id="amazon_boar_tusk_helm_1_1" name="Amazon female crested boartusk helm" mesh="amazon_boar_tusk_helm_1_1"
+          is_merchandise="true" subtype="head_armor" culture="Culture.empire" value="3500" weight="4.0" difficulty="0"
+          appearance="3" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="70" arm_armor="0" body_armor="0" leg_armor="00" covers_head="false"
+                   hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_boar_tusk_helm_2_1" name="Amazon female boartusk helm" mesh="amazon_boar_tusk_helm_2_1"
+          is_merchandise="true" subtype="head_armor" culture="Culture.empire" value="3500" weight="4.0" difficulty="0"
+          appearance="3" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="60" arm_armor="0" body_armor="0" leg_armor="00" covers_head="false"
+                   hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_helmet_3_1" name="Amazon female crested phrygian helm" mesh="amazon_helmet_3_1"
+          is_merchandise="true" subtype="head_armor" culture="Culture.empire" value="3500" weight="4.0" difficulty="0"
+          appearance="3" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="75" arm_armor="0" body_armor="0" leg_armor="00" covers_head="false"
+                   hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_tiara_1_1" name="Amazon female jeweled tiara" mesh="amazon_tiara_1_1" is_merchandise="true"
+          subtype="head_armor" culture="Culture.empire" value="3500" weight="4.0" difficulty="0" appearance="3"
+          Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="15" arm_armor="0" body_armor="0" leg_armor="00" covers_head="false"
+                   hair_cover_type="none" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <!--shoulder/cloak/belt armour-->
+
+    <Item id="amazon_lino_pteregyes_1_1" name="Amazon Female Pteregyes" mesh="amazon_lino_pteregyes_1_1"
+          is_merchandise="true" subtype="body_armor" culture="Culture.empire" value="1000" weight="1.0" difficulty="0"
+          appearance="3" Type="Cape">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="0" body_armor="0" leg_armor="18" covers_legs="false"
+                   modifier_group="Leather" material_type="Leather"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <!--gloves/arm armour-->
+    <Item id="amazon_bracers_1_1" name="Amazon Female plain bracers" mesh="amazon_bracers_1_1" is_merchandise="true"
+          subtype="hand_armor" culture="Culture.empire" value="8000" weight="1.0" difficulty="0" appearance="3"
+          Type="handArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="32" body_armor="0" leg_armor="0" covers_legs="false"
+                   modifier_group="plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <Item id="amazon_bracers_2_1" name="Amazon Female irregular bracers" mesh="amazon_bracers_2_1" is_merchandise="true"
+          subtype="hand_armor" culture="Culture.empire" value="8000" weight="1.0" difficulty="0" appearance="3"
+          Type="handArmor">
+        <ItemComponent>
+            <Armor head_armor="0" arm_armor="36" body_armor="0" leg_armor="0" covers_legs="false"
+                   modifier_group="plate" material_type="Plate"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true"/>
+    </Item>
+
+    <!--Weapons-->
+
+    <!--Shields-->
+
+</Items>

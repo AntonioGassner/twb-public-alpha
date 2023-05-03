@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- WeaponDescription order is fixed, don't change it. -->
+
+<CraftingTemplates>
+
+    <CraftingTemplate id="OneHandedGreekSword"
+                      item_type="OneHandedWeapon"
+                      modifier_group="sword"
+                      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+                      piece_type_to_scale_holster_with="Blade"
+                      hidden_piece_types_on_holster="Blade"
+                      default_item_holster_position_offset="0,0,-0.1">
+        <PieceDatas>
+            <PieceData piece_type="Handle"
+                       build_order="0"/>
+            <PieceData piece_type="Guard"
+                       build_order="1"/>
+            <PieceData piece_type="Blade"
+                       build_order="2"/>
+            <PieceData piece_type="Pommel"
+                       build_order="-1"/>
+        </PieceDatas>
+        <WeaponDescriptions>
+            <WeaponDescription id="OneHandedGreekSword"/>
+        </WeaponDescriptions>
+        <StatsData>
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="ThrustSpeed"
+                      max_value="200"/>
+            <StatData stat_type="SwingSpeed"
+                      max_value="200"/>
+            <StatData stat_type="ThrustDamage"
+                      max_value="500"/>
+            <StatData stat_type="SwingDamage"
+                      max_value="500"/>
+            <StatData stat_type="Handling"
+                      max_value="200"/>
+            <!--<StatData stat_type="FollowUp" max_value="200" />-->
+        </StatsData>
+        <UsablePieces>
+            <UsablePiece piece_id="xiphos_blade_a"/>
+            <UsablePiece piece_id="xiphos_guard_a"/>
+            <UsablePiece piece_id="xiphos_handle_a"/>
+            <UsablePiece piece_id="xiphos_pommel_a"/>
+            <UsablePiece piece_id="kopis_blade_a"/>
+            <UsablePiece piece_id="kopis_guard_a"/>
+            <UsablePiece piece_id="kopis_handle_a"/>
+            <UsablePiece piece_id="kopis_pommel_a"/>
+        </UsablePieces>
+    </CraftingTemplate>
+
+    <CraftingTemplate id="GreekPolearmDoru"
+                      item_type="Polearm"
+                      modifier_group="polearm"
+                      item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4"
+                      default_item_holster_position_offset="0,0,-0.30"
+                      use_weapon_as_holster_mesh="true">
+        <PieceDatas>
+            <PieceData piece_type="Handle"
+                       build_order="0"/>
+            <PieceData piece_type="Guard"
+                       build_order="1"/>
+            <PieceData piece_type="Blade"
+                       build_order="2"/>
+            <PieceData piece_type="Pommel"
+                       build_order="-1"/>
+        </PieceDatas>
+        <WeaponDescriptions>
+            <WeaponDescription id="OneHandedGreekPolearm"/>
+            <WeaponDescription id="TwoHandedGreekPolearm"/>
+        </WeaponDescriptions>
+        <StatsData>
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="ThrustSpeed"
+                      max_value="200"/>
+            <StatData stat_type="SwingSpeed"
+                      max_value="200"/>
+            <StatData stat_type="ThrustDamage"
+                      max_value="500"/>
+            <StatData stat_type="SwingDamage"
+                      max_value="500"/>
+            <StatData stat_type="Handling"
+                      max_value="200"/>
+            <!--<StatData stat_type="FollowUp" max_value="200" />-->
+        </StatsData>
+        <UsablePieces>
+            <UsablePiece piece_id="doru_spear_tip_a"/>
+            <UsablePiece piece_id="doru_handle_a_ash"/>
+            <UsablePiece piece_id="doru_saurotor_a"/>
+        </UsablePieces>
+    </CraftingTemplate>
+
+    <CraftingTemplate id="GreekPolearmSarissa"
+                      item_type="Polearm"
+                      modifier_group="polearm"
+                      item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4"
+                      default_item_holster_position_offset="0,0,-0.30"
+                      use_weapon_as_holster_mesh="true">
+        <PieceDatas>
+            <PieceData piece_type="Handle"
+                       build_order="0"/>
+            <PieceData piece_type="Guard"
+                       build_order="1"/>
+            <PieceData piece_type="Blade"
+                       build_order="2"/>
+            <PieceData piece_type="Pommel"
+                       build_order="-1"/>
+        </PieceDatas>
+        <WeaponDescriptions>
+            <WeaponDescription id="TwoHandedGreekPolearm"/>
+            <WeaponDescription id="TwoHandedGreekPolearm_Pike"/>
+            <WeaponDescription id="TwoHandedGreekPolearm_Bracing"/>
+        </WeaponDescriptions>
+        <StatsData>
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="ThrustSpeed"
+                      max_value="200"/>
+            <StatData stat_type="SwingSpeed"
+                      max_value="200"/>
+            <StatData stat_type="ThrustDamage"
+                      max_value="500"/>
+            <StatData stat_type="SwingDamage"
+                      max_value="500"/>
+            <StatData stat_type="Handling"
+                      max_value="200"/>
+            <!--<StatData stat_type="FollowUp" max_value="200" />-->
+        </StatsData>
+        <UsablePieces>
+            <UsablePiece piece_id="sarissa_spear_tip_a"/>
+            <UsablePiece piece_id="sarissa_handle_a_cornel"/>
+            <UsablePiece piece_id="sarissa_saurotor_a"/>
+        </UsablePieces>
+    </CraftingTemplate>
+
+    <CraftingTemplate id="GreekPolearmXyston"
+                      item_type="Polearm"
+                      modifier_group="polearm"
+                      item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4"
+                      default_item_holster_position_offset="0,0,-0.30"
+                      use_weapon_as_holster_mesh="true">
+        <PieceDatas>
+            <PieceData piece_type="Handle"
+                       build_order="0"/>
+            <PieceData piece_type="Guard"
+                       build_order="1"/>
+            <PieceData piece_type="Blade"
+                       build_order="2"/>
+            <PieceData piece_type="Pommel"
+                       build_order="-1"/>
+        </PieceDatas>
+        <WeaponDescriptions>
+            <WeaponDescription id="OneHandedGreekPolearm"/>
+            <WeaponDescription id="TwoHandedGreekPolearm"/>
+            <WeaponDescription id="TwoHandedGreekPolearm_Couchable"/>
+            <WeaponDescription id="TwoHandedGreekPolearm_Bracing"/>
+        </WeaponDescriptions>
+        <StatsData>
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="ThrustSpeed"
+                      max_value="200"/>
+            <StatData stat_type="SwingSpeed"
+                      max_value="200"/>
+            <StatData stat_type="ThrustDamage"
+                      max_value="500"/>
+            <StatData stat_type="SwingDamage"
+                      max_value="500"/>
+            <StatData stat_type="Handling"
+                      max_value="200"/>
+            <!--<StatData stat_type="FollowUp" max_value="200" />-->
+        </StatsData>
+        <UsablePieces>
+            <UsablePiece piece_id="xyston_spear_tip_a"/>
+            <UsablePiece piece_id="xyston_handle_a_cornel"/>
+            <UsablePiece piece_id="xyston_saurotor_a"/>
+        </UsablePieces>
+    </CraftingTemplate>
+
+    <CraftingTemplate id="GermanicPolearm"
+                      item_type="Polearm"
+                      modifier_group="polearm"
+                      item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4"
+                      default_item_holster_position_offset="0,0,-0.30"
+                      use_weapon_as_holster_mesh="true">
+        <PieceDatas>
+            <PieceData piece_type="Handle"
+                       build_order="0"/>
+            <PieceData piece_type="Guard"
+                       build_order="1"/>
+            <PieceData piece_type="Blade"
+                       build_order="2"/>
+            <PieceData piece_type="Pommel"
+                       build_order="-1"/>
+        </PieceDatas>
+        <WeaponDescriptions>
+            <WeaponDescription id="OneHandedGreekPolearm"/>
+            <WeaponDescription id="TwoHandedGreekPolearm"/>
+        </WeaponDescriptions>
+        <StatsData>
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="ThrustSpeed"
+                      max_value="200"/>
+            <StatData stat_type="SwingSpeed"
+                      max_value="200"/>
+            <StatData stat_type="ThrustDamage"
+                      max_value="500"/>
+            <StatData stat_type="SwingDamage"
+                      max_value="500"/>
+            <StatData stat_type="Handling"
+                      max_value="200"/>
+            <!--<StatData stat_type="FollowUp" max_value="200" />-->
+        </StatsData>
+        <UsablePieces>
+            <UsablePiece piece_id="germanic_spear_04_blade"/>
+            <UsablePiece piece_id="germanic_spear_04_handle"/>
+
+        </UsablePieces>
+    </CraftingTemplate>
+
+    <CraftingTemplate id="OneHandedGermanicSword"
+                      item_type="OneHandedWeapon"
+                      modifier_group="sword"
+                      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+                      piece_type_to_scale_holster_with="Blade"
+                      hidden_piece_types_on_holster="Blade"
+                      default_item_holster_position_offset="0,0,-0.1">
+        <PieceDatas>
+            <PieceData piece_type="Handle"
+                       build_order="0"/>
+            <PieceData piece_type="Guard"
+                       build_order="1"/>
+            <PieceData piece_type="Blade"
+                       build_order="2"/>
+            <PieceData piece_type="Pommel"
+                       build_order="-1"/>
+        </PieceDatas>
+        <WeaponDescriptions>
+            <WeaponDescription id="OneHandedGreekSword"/>
+        </WeaponDescriptions>
+        <StatsData>
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="ThrustSpeed"
+                      max_value="200"/>
+            <StatData stat_type="SwingSpeed"
+                      max_value="200"/>
+            <StatData stat_type="ThrustDamage"
+                      max_value="500"/>
+            <StatData stat_type="SwingDamage"
+                      max_value="500"/>
+            <StatData stat_type="Handling"
+                      max_value="200"/>
+            <!--<StatData stat_type="FollowUp" max_value="200" />-->
+        </StatsData>
+        <UsablePieces>
+            <UsablePiece piece_id="germanic_sword_04_blade"/>
+            <UsablePiece piece_id="germanic_sword_04_guard"/>
+            <UsablePiece piece_id="germanic_sword_04_handle"/>
+            <UsablePiece piece_id="germanic_sword_04_pommel"/>
+            <UsablePiece piece_id="dagger_blade_3"/>
+            <UsablePiece piece_id="sturgian_dagger_guard_8"/>
+            <UsablePiece piece_id="aserai_grip_3"/>
+            <UsablePiece piece_id="khuzait_pommel_2"/>
+        </UsablePieces>
+    </CraftingTemplate>
+
+    <CraftingTemplate id="OneHandedRomanSword"
+                      item_type="OneHandedWeapon"
+                      modifier_group="sword"
+                      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+                      piece_type_to_scale_holster_with="Blade"
+                      hidden_piece_types_on_holster="Blade"
+                      default_item_holster_position_offset="0,0,-0.1">
+        <PieceDatas>
+            <PieceData piece_type="Handle"
+                       build_order="0"/>
+            <PieceData piece_type="Guard"
+                       build_order="1"/>
+            <PieceData piece_type="Blade"
+                       build_order="2"/>
+            <PieceData piece_type="Pommel"
+                       build_order="-1"/>
+        </PieceDatas>
+        <WeaponDescriptions>
+            <WeaponDescription id="OneHandedGreekSword"/>
+        </WeaponDescriptions>
+        <StatsData>
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="ThrustSpeed"
+                      max_value="200"/>
+            <StatData stat_type="SwingSpeed"
+                      max_value="200"/>
+            <StatData stat_type="ThrustDamage"
+                      max_value="500"/>
+            <StatData stat_type="SwingDamage"
+                      max_value="500"/>
+            <StatData stat_type="Handling"
+                      max_value="200"/>
+            <!--<StatData stat_type="FollowUp" max_value="200" />-->
+        </StatsData>
+        <UsablePieces>
+            <UsablePiece piece_id="twb_roman_blade"/>
+            <UsablePiece piece_id="cleaver_guard_3"/>
+            <UsablePiece piece_id="vlandian_grip_1"/>
+            <UsablePiece piece_id="sturgian_pommel_3"/>
+        </UsablePieces>
+    </CraftingTemplate>
+    <CraftingTemplate id="RomanPolearm"
+                      item_type="Polearm"
+                      modifier_group="polearm"
+                      item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4"
+                      default_item_holster_position_offset="0,0,-0.30"
+                      use_weapon_as_holster_mesh="true">
+        <PieceDatas>
+            <PieceData piece_type="Handle"
+                       build_order="0"/>
+            <PieceData piece_type="Guard"
+                       build_order="1"/>
+            <PieceData piece_type="Blade"
+                       build_order="2"/>
+            <PieceData piece_type="Pommel"
+                       build_order="-1"/>
+        </PieceDatas>
+        <WeaponDescriptions>
+            <WeaponDescription id="OneHandedGreekPolearm"/>
+            <WeaponDescription id="TwoHandedGreekPolearm"/>
+        </WeaponDescriptions>
+        <StatsData>
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="ThrustSpeed"
+                      max_value="200"/>
+            <StatData stat_type="SwingSpeed"
+                      max_value="200"/>
+            <StatData stat_type="ThrustDamage"
+                      max_value="500"/>
+            <StatData stat_type="SwingDamage"
+                      max_value="500"/>
+            <StatData stat_type="Handling"
+                      max_value="200"/>
+            <!--<StatData stat_type="FollowUp" max_value="200" />-->
+        </StatsData>
+        <UsablePieces>
+            <UsablePiece piece_id="spear_blade_42"/>
+            <UsablePiece piece_id="spear_handle_15"/>
+            <UsablePiece piece_id="spear_pommel_10"/>
+        </UsablePieces>
+    </CraftingTemplate>
+
+    <CraftingTemplate id="Celtic_Javelin"
+                      item_type="Thrown"
+                      modifier_group="spear_dart_throwing"
+                      item_holsters="javelins:javelins_2:bow_hip:bow_hip_2"
+                      default_item_holster_position_offset="0,0,-0.10"
+                      piece_type_to_scale_holster_with="Handle"
+                      hidden_piece_types_on_holster="Guard:Handle:Pommel"
+                      rotate_weapon_in_holster="true"
+                      always_show_holster_with_weapon="false">
+        <PieceDatas>
+            <PieceData piece_type="Handle"
+                       build_order="0"/>
+            <PieceData piece_type="Guard"
+                       build_order="1"/>
+            <PieceData piece_type="Blade"
+                       build_order="2"/>
+            <PieceData piece_type="Pommel"
+                       build_order="-1"/>
+        </PieceDatas>
+        <WeaponDescriptions>
+            <WeaponDescription id="Javelin"/>
+            <WeaponDescription id="OneHandedPolearm_JavelinAlternative"/>
+        </WeaponDescriptions>
+        <StatsData weapon_description="Javelin">
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="MissileDamage"
+                      max_value="500"/>
+            <StatData stat_type="MissileSpeed"
+                      max_value="200"/>
+            <StatData stat_type="Accuracy"
+                      max_value="100"/>
+            <StatData stat_type="StackAmount"
+                      max_value="2"/>
+        </StatsData>
+        <StatsData weapon_description="OneHandedPolearm_JavelinAlternative">
+            <StatData stat_type="Weight"
+                      max_value="7.0"/>
+            <StatData stat_type="WeaponReach"
+                      max_value="300"/>
+            <StatData stat_type="ThrustSpeed"
+                      max_value="200"/>
+            <StatData stat_type="SwingSpeed"
+                      max_value="200"/>
+            <StatData stat_type="ThrustDamage"
+                      max_value="500"/>
+            <StatData stat_type="SwingDamage"
+                      max_value="500"/>
+            <StatData stat_type="Handling"
+                      max_value="200"/>
+            <!--<StatData stat_type="FollowUp" max_value="200" />-->
+        </StatsData>
+        <UsablePieces>
+            <UsablePiece piece_id="spear_blade_1"/>
+            <UsablePiece piece_id="spear_blade_9"/>
+            <UsablePiece piece_id="spear_blade_10"/>
+            <UsablePiece piece_id="spear_blade_41"/>
+            <UsablePiece piece_id="spear_blade_14"/>
+            <UsablePiece piece_id="spear_blade_15"/>
+            <UsablePiece piece_id="spear_blade_15_blunt"/>
+            <UsablePiece piece_id="spear_blade_16"/>
+            <UsablePiece piece_id="spear_blade_27"/>
+            <UsablePiece piece_id="spear_blade_35"/>
+            <UsablePiece piece_id="spear_blade_35_blunt"/>
+            <UsablePiece piece_id="spear_blade_37"/>
+            <UsablePiece piece_id="spear_blade_37_blunt"/>
+            <UsablePiece piece_id="spear_blade_38"/>
+            <UsablePiece piece_id="spear_blade_42"/>
+            <UsablePiece piece_id="spear_handle_2"/>
+            <UsablePiece piece_id="spear_handle_9"/>
+            <UsablePiece piece_id="spear_handle_10"/>
+            <UsablePiece piece_id="spear_handle_11"/>
+            <UsablePiece piece_id="spear_handle_12"/>
+
+            <UsablePiece piece_id="default_polearm_guard"/>
+            <UsablePiece piece_id="spear_guard_15"/>
+            <UsablePiece piece_id="spear_guard_7"/>
+            <UsablePiece piece_id="mp_default_polearm_guard"/>
+            <UsablePiece piece_id="mp_spear_guard_4"/>
+            <UsablePiece piece_id="mp_spear_guard_7"/>
+            <UsablePiece piece_id="mp_spear_guard_15"/>
+
+            <UsablePiece piece_id="default_polearm_pommel"/>
+            <UsablePiece piece_id="spear_pommel_5"/>
+            <UsablePiece piece_id="spear_pommel_12"/>
+            <UsablePiece piece_id="mp_default_polearm_pommel"/>
+            <UsablePiece piece_id="mp_spear_pommel_12"/>
+            <UsablePiece piece_id="mp_spear_pommel_8"/>
+
+            <UsablePiece piece_id="mp_javelin_blade"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_javelin_blade_captain"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_javelin_handle"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_javelin_blade_extraammo"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_javelin_blade_extraammo_captain"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_javelin_handle_extraammo"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_light_javelin_blade"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_light_javelin_handle"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_pilum_blade"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_pilum_blade_extraammo"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_jereed_blade_captain"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_jereed_blade_extra_captain"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_jereed_blade"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_jereed_blade_extra"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_jereed_handle"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_sturgia_harpoon_blade"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_sturgia_harpoon_blade_extra"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_sturgia_harpoon_blade_strong"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_sturgia_harpoon_blade_captain"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_sturgia_harpoon_blade_extra_captain"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_sturgia_harpoon_blade_strong_captain"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_sturgia_harpoon_handle"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_battania_javelin_blade"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_battania_javelin_blade_extra"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_battania_javelin_blade_captain"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_battania_javelin_blade_extra_captain"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_battania_javelin_handle"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_plumbata_blade"
+                         mp_piece="true"/>
+            <UsablePiece piece_id="mp_plumbata_handle"
+                         mp_piece="true"/>
+
+        </UsablePieces>
+    </CraftingTemplate>
+
+
+</CraftingTemplates>
+
+        <!--
+        <StatsData>
+          <StatData stat_type="Weight" max_value="7.0" />
+          <StatData stat_type="WeaponReach" max_value="300" />
+          <StatData stat_type="ThrustSpeed" max_value="200" />
+          <StatData stat_type="SwingSpeed" max_value="200" />
+          <StatData stat_type="ThrustDamage" max_value="500" />
+          <StatData stat_type="SwingDamage" max_value="500" />
+          <StatData stat_type="Handling" max_value="200" />
+          <StatData stat_type="FollowUp" max_value="200" />
+          <StatData stat_type="MissileDamage" max_value="500" />
+          <StatData stat_type="MissileSpeed" max_value="200" />
+          <StatData stat_type="Accuracy" max_value="100" />
+        </StatsData>
+        -->

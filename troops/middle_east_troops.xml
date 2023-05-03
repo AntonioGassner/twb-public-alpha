@@ -1,0 +1,2342 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+<!-- phoenician Rural Roster -->
+	<NPCCharacter id="eastern_spearmen_1"
+		default_group="Infantry"
+		level="6"
+		name="{=Eastern Spearmen I}Eastern Spearmen I"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.Aigyptos">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.eastern_slinger_1"/>
+			<upgrade_target id="NPCCharacter.eastern_spearmen_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="eastern_spearmen_2"
+		default_group="Infantry"
+		level="11"
+		name="{=Eastern Spearmen II}Eastern Spearmen II"
+		occupation="Soldier"
+		culture="Culture.Aigyptos">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="90"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.eastern_spearmen_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="eastern_spearmen_3"
+		default_group="Infantry"
+		level="16"
+		name="{=Eastern Spearmen III}Eastern Spearmen III"
+		occupation="Soldier"
+		culture="Culture.Aigyptos">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wide_leaf_spear_t4"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="eastern_slinger_1"
+		default_group="Ranged"
+		level="11"
+		name="{=Eastern Slinger I}Eastern Slinger I"
+		occupation="Soldier"
+		culture="Culture.Aigyptos">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.eastern_slinger_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_a"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_a"/>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_a"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_a"/>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="eastern_slinger_2"
+		default_group="Ranged"
+		level="16"
+		name="{=Eastern Slinger II}Eastern Slinger II"
+		occupation="Soldier"
+		culture="Culture.Aigyptos">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.chiton_no_sleeves_t3_1_2"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- phoenician Rural Elite Roster -->
+	<NPCCharacter id="phoenician_citizen_cav_1"
+		default_group="Cavalry"
+		level="16"
+		name="{=phoenician Citizen Cav I}Phoenician Citizen Cav I"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.Aigyptos">
+		<face>
+			<face_key_template value="BodyProperty.fighter_Phoenician"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="105"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.phoenician_citizen_cav_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_lance"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_lance"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_lance"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_lance"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="phoenician_citizen_cav_2"
+		default_group="Cavalry"
+		level="21"
+		name="{=phoenician Citizen Cav II}Phoenician Citizen Cav II"
+		occupation="Soldier"
+		culture="Culture.Aigyptos">
+		<face>
+			<face_key_template value="BodyProperty.fighter_Phoenician"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="170"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.phoenician_citizen_cav_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_lance"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.hayster_lino_1"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_lance"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_4"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_lance"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.hayster_lino_1"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_lance"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_4"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="phoenician_citizen_cav_3"
+		default_group="Cavalry"
+		level="26"
+		name="{=phoenician Citizen Cav III}Phoenician Citizen Cav III"
+		upgrade_requires="ItemCategory.war_horse"
+		occupation="Soldier"
+		culture="Culture.Aigyptos">
+		<face>
+			<face_key_template value="BodyProperty.fighter_Phoenician"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="135"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="210"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.hayster_lino_1"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_4"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.hayster_lino_1"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_4"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+
+	<!-- Rural Achaemenid troops -->
+
+	<NPCCharacter id="persian_rural_1"
+	default_group="Ranged"
+	level="6"
+	name="{=Persian Levy Slinger}Persian Levy Slinger"
+	occupation="Soldier"
+	is_basic_troop="true"
+	culture="Culture.rural_achaemenid">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_rural_axe_1"/>
+			<upgrade_target id="NPCCharacter.persian_rural_archer_1"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_b3"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_b3"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_b3"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.AR_sling_b"/>
+				<equipment slot="Item2" id="Item.AR_sling_bullets_b3"/>
+				<equipment slot="Head" id="Item.phrygian_cap_1"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="persian_rural_axe_1"
+	default_group="Infantry"
+	level="11"
+	name="{=Persian Gund-i Palta I}Persian Gund-i Palta I"
+	occupation="Soldier"
+	culture="Culture.rural_achaemenid">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="90"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_rural_axe_2"/>
+
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.pelta_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.pelta_a"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.pelta_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.pelta_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_3_tail"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="persian_rural_archer_1"
+		default_group="Ranged"
+		level="11"
+		name="{=Persian Archer I}Persian Archer I"
+		occupation="Soldier"
+		culture="Culture.rural_achaemenid">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="90"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="90"/>
+			<skill id="Bow" value="90"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_rural_archer_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_levy_hoplite_spear"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Item3" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_levy_hoplite_spear"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Item3" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_levy_hoplite_spear"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Item3" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_levy_hoplite_spear"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Item3" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Head" id="Item.phrygian_cap_1"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="persian_rural_archer_2"
+	default_group="Ranged"
+	level="16"
+	name="{=Persian Archer II}Persian Archer II"
+	occupation="Soldier"
+	culture="Culture.rural_achaemenid">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="90"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="90"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_levy_hoplite_spear"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Item3" id="Item.north_african_dagger_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_levy_hoplite_spear"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Item3" id="Item.north_african_dagger_a"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_levy_hoplite_spear"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Item3" id="Item.north_african_dagger_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_levy_hoplite_spear"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.GRE_vlandic_arrows"/>
+				<equipment slot="Item3" id="Item.north_african_dagger_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_1"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="persian_rural_axe_2"
+		default_group="Infantry"
+		level="16"
+		name="{=Persian Gund-i Palta II}Persian Gund-i Palta II"
+		occupation="Soldier"
+		culture="Culture.rural_achaemenid">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="120"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.pelta_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.pelta_a"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.pelta_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.libyan_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.pelta_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_1"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- Rural Elite Achaemenid troops -->
+
+	<NPCCharacter id="persian_rural_elite_1"
+	default_group="Cavalry"
+	level="16"
+	name="{=Persian Light Cavalry I}Persian Light Cavalry I"
+		
+	is_basic_troop="true"
+	occupation="Soldier"
+	culture="Culture.rural_achaemenid">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="115"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="120"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_rural_elite_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.phrygian_cap_1"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="persian_rural_elite_2"
+		default_group="Cavalry"
+		level="21"
+		name="{=Persian Light Cavalry II}Persian Light Cavalry II"
+		occupation="Soldier"
+		culture="Culture.rural_achaemenid">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="170"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="160"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="160"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_rural_elite_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.phrygian_cap_1"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="persian_rural_elite_3"
+		default_group="Cavalry"
+		level="26"
+		name="{=Persian Light Cavalry III}Persian Light Cavalry III"
+		occupation="Soldier"
+		culture="Culture.rural_achaemenid">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="145"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.romanmontefortino_plumed"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.AR_battania_helmet_k"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.romanmontefortino_plumed"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.punic_lance"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.romanmontefortino_plumed"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	
+<!-- phoenician Uban Roster -->
+	
+<NPCCharacter id="phoenician_hoplite_1"
+		default_group="Infantry"
+		level="11"
+		name="{=phoenician Hoplite I}Phoenician Hoplite I"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.ayyubid">
+		<face>
+			<face_key_template value="BodyProperty.fighter_Phoenician"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="90"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.phoenician_hoplite_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_bird"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_left"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_4"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_right"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="phoenician_hoplite_2"
+		default_group="Infantry"
+		level="16"
+		name="{=phoenician Hoplite II}Phoenician Hoplite II"
+		occupation="Soldier"
+		culture="Culture.ayyubid">
+		<face>
+			<face_key_template value="BodyProperty.fighter_Phoenician"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.phoenician_hoplite_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_bird"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_4"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="phoenician_hoplite_3"
+		default_group="Infantry"
+		level="21"
+		name="{=phoenician Hoplite III}Phoenician Hoplite III"
+		occupation="Soldier"
+		culture="Culture.ayyubid">
+		<face>
+			<face_key_template value="BodyProperty.fighter_Phoenician"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="170"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.hayster_lino_2"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_bird"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_5"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.hayster_lino_2"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_4"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_5"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+<!-- phoenician Urban Elite Hoplite Roster -->
+	
+<NPCCharacter id="royal_guard_1"
+		default_group="Infantry"
+		level="21"
+		name="{=Royal Guard I}Royal Guard I"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.ayyubid">
+		<face>
+			<face_key_template value="BodyProperty.fighter_Phoenician"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.royal_guard_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_2"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.hayster_lino_1"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_6"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_bird"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.hayster_lino_1"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_african_tribal_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_4"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_6"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="royal_guard_2"
+		default_group="Infantry"
+		level="26"
+		name="{=Royal Guard II}Royal Guard II"
+		occupation="Soldier"
+		culture="Culture.ayyubid">
+		<face>
+			<face_key_template value="BodyProperty.fighter_Phoenician"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="170"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.palace_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_2"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.hayster_lino_1"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_6"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_bird"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.hayster_lino_1"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_4"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_6"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="palace_guard"
+		default_group="Infantry"
+		level="31"
+		name="{=Palace Guard}Palace Guard"
+		occupation="Soldier"
+		culture="Culture.ayyubid">
+		<face>
+			<face_key_template value="BodyProperty.fighter_Phoenician"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_2"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.hayster_lino_10"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_8"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_bird"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+				<equipment slot="Body" id="Item.hayster_lino_10"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_4"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.hayster_lino_8"/>
+				<equipment slot="Leg" id="Item.sandals_1_bronze_greaves_dual"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	
+	<!-- Persian Urban Roster -->
+
+	<NPCCharacter id="persian_urban_spear_1"
+	default_group="Ranged"
+	level="11"
+	name="{=Sparabara I}Sparabara I"
+	occupation="Soldier"
+	is_basic_troop="true"
+	culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="90"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="90"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_urban_spear_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.libyan_short_sword_a"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_b2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.libyan_short_sword_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.imperial_padded_cloth"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="persian_urban_spear_2"
+		default_group="Ranged"
+		level="16"
+		name="{=Sparabara II}Sparabara II"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_urban_spear_3"/>
+
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.libyan_short_sword_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.imperial_padded_cloth"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.libyan_short_sword_a"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.imperial_padded_cloth"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="persian_urban_spear_3"
+		default_group="Ranged"
+		level="21"
+		name="{=Sparabara III}Sparabara III"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="170"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="170"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.libyan_short_sword_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.imperial_padded_cloth"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.libyan_short_sword_a"/>
+				<equipment slot="Head" id="Item.AR_phrygian_cap_b"/>
+				<equipment slot="Body" id="Item.cla_schytian_tunic_ba"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.cla_scythian_tunic_a"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.AR_darshi_axe_t3"/>
+				<equipment slot="Head" id="Item.phrygian_cap_3_tail"/>
+				<equipment slot="Body" id="Item.imperial_padded_cloth"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_b1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	
+	<!-- Persian Urban Elite Roster -->
+
+	<NPCCharacter id="persian_urban_elite_1"
+	default_group="Ranged"
+	level="21"
+	name="{=Immortal I}Immortal I"
+	occupation="Soldier"
+	is_basic_troop="true"
+	culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="140"/>
+			<skill id="Polearm" value="170"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="140"/>
+			<skill id="Throwing" value="170"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_urban_elite_2"/>
+			<upgrade_target id="NPCCharacter.persian_urban_horse_1"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_a2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_a2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_1"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="persian_urban_horse_1"
+		default_group="HorseArcher"
+		level="26"
+		name="{=Persian Heavy Cavalry I}Persian Heavy Cavalry I"
+		upgrade_requires="ItemCategory.horse"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="145"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="200"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="190"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_urban_horse_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.phrygian_helm_1"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_a2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.phrygian_helm_1"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_a2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_a2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_a2"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="persian_urban_elite_2"
+		default_group="Ranged"
+		level="26"
+		name="{=Immortal II}Immortal II"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="220"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.persian_urban_elite_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_2_ears"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.phrygian_cap_1"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="persian_urban_elite_3"
+		default_group="Ranged"
+		level="31"
+		name="{=Immortal III}Immortal III"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="260"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="260"/>
+			<skill id="Crossbow" value="220"/>
+			<skill id="Throwing" value="250"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_l"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="persian_urban_horse_2"
+		default_group="HorseArcher"
+		level="31"
+		name="{=Persian Heavy Cavalry II}Persian Heavy Cavalry II"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_ayyubid"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="240"/>
+			<skill id="Crossbow" value="190"/>
+			<skill id="Throwing" value="190"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.phrygian_helm_1"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.phrygian_helm_1"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_h"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_late_lance"/>
+				<equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.GRE_arrow_emp_1_a"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Body" id="Item.tv_aserai_lamellar_c"/>
+				<equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.hans_reienforced_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- Nabaatean Urban Roster -->
+
+
+	<NPCCharacter id="muqrabe_1"
+	default_group="Infantry"
+	level="11"
+	name="{=Muqrabe I}Muqrabe I"
+	occupation="Soldier"
+	is_basic_troop="true"
+	culture="Culture.persian">
+		<face>
+			<face_key_template value="BodyProperty.villager_persian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="90"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.muqrabe_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_a"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_a"/>
+				<equipment slot="Body" id="Item.round_plate_tunic"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="muqrabe_2"
+		default_group="Infantry"
+		level="16"
+		name="{=Muqrabe}Muqrabe"
+		occupation="Soldier"
+		culture="Culture.persian">
+		<face>
+			<face_key_template value="BodyProperty.villager_persian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.muqrabe_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_a"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.AR_aserai_helmet_a"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="muqrabe_3"
+		default_group="Infantry"
+		level="21"
+		name="{=Muqrabe III}Muqrabe III"
+		occupation="Soldier"
+		culture="Culture.persian">
+		<face>
+			<face_key_template value="BodyProperty.villager_persian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hans_punic_hoplite_spear_a"/>
+				<equipment slot="Item1" id="Item.hoplon_face"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- Nabaatean Urban Elite Roster -->
+
+
+	<NPCCharacter id="natarin_1"
+	default_group="Infantry"
+	level="21"
+	name="{=Natarin I}Natarin I"
+	occupation="Soldier"
+	is_basic_troop="true"
+	culture="Culture.persian">
+		<face>
+			<face_key_template value="BodyProperty.villager_persian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.natarin_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_2"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.leopard_pelt"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_2"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="natarin_2"
+		default_group="Infantry"
+		level="26"
+		name="{=Natarin II}Natarin II"
+		occupation="Soldier"
+		culture="Culture.persian">
+		<face>
+			<face_key_template value="BodyProperty.villager_persian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.natarin_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_c2"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_2"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_c2"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_c"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_c2"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_2"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_c2"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_c"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="natarin_3"
+		default_group="Infantry"
+		level="31"
+		name="{=Natarin III}Natarin III"
+		occupation="Soldier"
+		culture="Culture.persian">
+		<face>
+			<face_key_template value="BodyProperty.villager_persian"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_a"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_2"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_t"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_c"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_scorpion"/>
+				<equipment slot="Head" id="Item.punic_helm_plain"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_a"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.punic_sacred_band_spear"/>
+				<equipment slot="Item1" id="Item.hoplon_twb_2"/>
+				<equipment slot="Head" id="Item.bronze_conical_helm"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_t"/>
+				<equipment slot="Body" id="Item.eastern_linothorax_c"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+</NPCCharacters>

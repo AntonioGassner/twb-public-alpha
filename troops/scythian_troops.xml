@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <!-- Factions Troops -->
+    <!-- Scythian Troops -->
+    <NPCCharacter id="scythian_tribesmen"
+                  default_group="Ranged"
+                  level="6"
+                  name="{=ScythianTribesmen}Scythian Tribesmen"
+                  occupation="Soldier"
+                  is_basic_troop="true"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="50"/>
+            <skill id="Bow" value="50"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scythian_spearmen"/>
+            <upgrade_target id="NPCCharacter.scythian_hunter"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_c"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aaa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_d1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_noble_nomad"
+                  default_group="HorseArcher"
+                  level="16"
+                  name="{=ScythianNoble Nomad}Scythian Noble Nomad"
+                  occupation="Soldier"
+                  is_basic_troop="true"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="90"/>
+            <skill id="Riding" value="115"/>
+            <skill id="OneHanded" value="120"/>
+            <skill id="TwoHanded" value="120"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="135"/>
+            <skill id="Crossbow" value="120"/>
+            <skill id="Throwing" value="120"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scythian_noble_rider"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_a"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_helmet_c"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_a"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_helmet_c"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_noble_rider"
+                  default_group="HorseArcher"
+                  level="21"
+                  name="{=ScythianNoble Rider}Scythian Noble Rider"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="90"/>
+            <skill id="Riding" value="145"/>
+            <skill id="OneHanded" value="160"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="170"/>
+            <skill id="Bow" value="175"/>
+            <skill id="Crossbow" value="160"/>
+            <skill id="Throwing" value="160"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scythian_noble_horsemen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_a"/>
+                <equipment slot="Cape" id="Item.wolf_shoulder"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_helmet_c"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_a"/>
+                <equipment slot="Cape" id="Item.wolf_shoulder"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_helmet_c"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_noble_horsemen"
+                  default_group="HorseArcher"
+                  level="26"
+                  name="{=ScythianNoble Horsemen}Scythian Noble Horsemen"
+                  upgrade_requires="ItemCategory.war_horse"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="95"/>
+            <skill id="Riding" value="160"/>
+            <skill id="OneHanded" value="190"/>
+            <skill id="TwoHanded" value="190"/>
+            <skill id="Polearm" value="210"/>
+            <skill id="Bow" value="215"/>
+            <skill id="Crossbow" value="190"/>
+            <skill id="Throwing" value="190"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scythian_noble_companions"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.wolf_shoulder"/>
+                <equipment slot="Body" id="Item.cla_scythian_saka_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_cav_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.wolf_shoulder"/>
+                <equipment slot="Body" id="Item.cla_scythian_saka_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_cav_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+                <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_noble_companions"
+                  default_group="HorseArcher"
+                  level="31"
+                  name="{=ScythianNoble Companions}Scythian Noble Companions"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="160"/>
+            <skill id="OneHanded" value="240"/>
+            <skill id="TwoHanded" value="240"/>
+            <skill id="Polearm" value="250"/>
+            <skill id="Bow" value="260"/>
+            <skill id="Crossbow" value="240"/>
+            <skill id="Throwing" value="240"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_f"/>
+                <equipment slot="Body" id="Item.cla_scythian_saka_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_a"/>
+                <equipment slot="Horse" id="Item.steppe_war_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_f"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_cav_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_c"/>
+                <equipment slot="Horse" id="Item.steppe_war_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_f"/>
+                <equipment slot="Body" id="Item.cla_scythian_saka_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_a"/>
+                <equipment slot="Horse" id="Item.steppe_war_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.steppe_heavy_bow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_f"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_cav_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_c"/>
+                <equipment slot="Horse" id="Item.steppe_war_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_spearmen"
+                  default_group="Infantry"
+                  level="11"
+                  name="{=ScythianSpearmen}Scythian Spearmen"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="90"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scythian_tribal_spearmen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aaa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_d1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_hunter"
+                  default_group="Ranged"
+                  level="11"
+                  name="{=ScythianHunter}Scythian Hunter"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="90"/>
+            <skill id="Bow" value="90"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scythian_slinger"/>
+            <upgrade_target id="NPCCharacter.scythian_horse_bowmen"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aaa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_d1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_slinger"
+                  default_group="Ranged"
+                  level="16"
+                  name="{=ScythianSlinger}Scythian Slinger"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="130"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.AR_sling_b"/>
+                <equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.AR_sling_b"/>
+                <equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.AR_sling_b"/>
+                <equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.AR_sling_b"/>
+                <equipment slot="Item2" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Item3" id="Item.AR_sling_bullets_a1"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aaa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_horse_bowmen"
+                  default_group="HorseArcher"
+                  level="16"
+                  name="{=ScythianHorse Bowman}Scythian Horse Bowman"
+                  upgrade_requires="ItemCategory.horse"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="100"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="135"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_d"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_a1"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item2" id="Item.steppe_bow"/>
+                <equipment slot="Item3" id="Item.range_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aaa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_pants_d1"/>
+                <equipment slot="Horse" id="Item.khuzait_horse"/>
+                <equipment slot="HorseHarness" id="Item.steppe_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_tribal_spearmen"
+                  default_group="Infantry"
+                  level="16"
+                  name="{=ScythianTribal Spearmen}Scythian Tribal Spearmen"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scythian_heavy_spearmen"/>
+            <upgrade_target id="NPCCharacter.scythian_spear_guard"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aaa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_heavy_spearmen"
+                  default_group="Infantry"
+                  level="21"
+                  name="{=ScythianHeavy Spearmen}Scythian Heavy Spearmen"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="170"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_b"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.cla_scythian_saka_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_b"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_cav_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_b"/>
+                <equipment slot="Head" id="Item.cla_scythian_ram_helmet"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+                <equipment slot="Body" id="Item.cla_scythian_saka_armor"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_b"/>
+                <equipment slot="Head" id="Item.cla_scytian_helm_aa"/>
+                <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_armor_cav_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scythian_spear_guard"
+                  default_group="Ranged"
+                  level="21"
+                  name="{=ScythianSpear Guard}Scythian Spear Guard"
+                  occupation="Soldier"
+                  culture="Culture.scythian">
+        <face>
+            <face_key_template value="BodyProperty.villager_khuzait"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="5"/>
+            <skill id="TwoHanded" value="5"/>
+            <skill id="Polearm" value="170"/>
+            <skill id="Bow" value="170"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.nordic_shortbow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a1"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.nordic_shortbow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_c"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_bb"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.nordic_shortbow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_a"/>
+                <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b1"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.cla_scythian_shield_small_a"/>
+                <equipment slot="Item2" id="Item.nordic_shortbow"/>
+                <equipment slot="Item3" id="Item.default_arrows"/>
+                <equipment slot="Head" id="Item.cla_scythian_hat_aaa"/>
+                <equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+                <equipment slot="Body" id="Item.cla_scythian_tunic_b"/>
+                <equipment slot="Leg" id="Item.cla_scythian_scale_pants_bb"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+
+</NPCCharacters>

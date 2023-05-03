@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- Punic Lance T4-->
+  <!-- Highland Axes T3-->
+  <CraftedItem id="highland_raiders_axe"
+               name="{=CaledoneTWBa}Highland Simple Raiders Axe"
+               crafting_template="OneHandedAxe"
+               culture="Culture.battania">
+    <Pieces>
+      <Piece id="axe_craft_20_head"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="axe_craft_2_handle"
+             Type="Handle"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <!-- Highland Axes T4-->
+  <CraftedItem id="highland_vetrens_raiders_axe"
+               name="{=CaledoneTWBb}Veteran Highland Raiders Axe"
+               crafting_template="OneHandedAxe"
+               culture="Culture.battania">
+    <Pieces>
+      <Piece id="axe_craft_11_head"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="axe_craft_24_handle"
+             Type="Handle"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <!-- Celtic Sword T3-->
+  <CraftedItem id="hans_celtic_sword"
+               name="{=CelticTWB}Iron Celtic Sword"
+               crafting_template="OneHandedSword"
+               culture="Culture.battania">
+    <Pieces>
+      <Piece id="battania_blade_3_crude_iron"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="battania_guard_8"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="battania_grip_3"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="aserai_pommel_1"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+ <!-- Celtic Noble Sword T5-->
+ <CraftedItem id="hans_noble_celtic_sword"
+               name="{=CelticTWB84}Noble Celtic Iron Sword"
+               crafting_template="OneHandedSword"
+               culture="Culture.battania">
+    <Pieces>
+      <Piece id="battania_noble_blade_2"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="battania_guard_8"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="battania_grip_1"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="battania_noble_pommel_1"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+<!-- Celtic Spear Length 183 -->
+<CraftedItem id="hans_celtic_spear_a"
+               name="{=hanscelticwrsp}Celtic War Spear"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.battania"
+               modifier_group="polearm">
+    <Pieces>
+      <Piece id="spear_blade_27"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_handle_5"
+             Type="Handle"
+             scale_factor="110" />
+    </Pieces>
+  </CraftedItem>
+
+	<CraftedItem id="twb_celtic_spear_1"
+               name="{=Celtic Long Spear}Celtic Long Spear"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.vlandia"
+               modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_5"
+				   Type="Blade"
+				   scale_factor="70" />
+			<Piece id="spear_handle_26"
+				   Type="Handle"
+				   scale_factor="90" />
+			<Piece id="spear_pommel_10"
+             Type="Pommel"
+             scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="twb_celtic_spear_2"
+		   name="{=Celtic Lancea}Celtic Lancea"
+		   crafting_template="TwoHandedPolearm"
+		   culture="Culture.vlandia"
+		   modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_5"
+				   Type="Blade"
+				   scale_factor="70" />
+			<Piece id="spear_handle_26"
+				   Type="Handle"
+				   scale_factor="120" />
+			<Piece id="spear_pommel_10"
+             Type="Pommel"
+             scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="twb_celtic_spear_3"
+			 name="{=Celtic Leaf Spear}Celtic Leaf Spear"
+			 crafting_template="TwoHandedPolearm"
+			 culture="Culture.empire">
+		<Pieces>
+			<Piece id="spear_blade_42"
+                   Type="Blade"
+                   scale_factor="120"/>
+			<Piece id="spear_handle_5"
+                   Type="Handle"
+                   scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="twb_celtic_spear_4"
+		 name="{=Celtic Simple Spear}Celtic Simple Spear"
+		 crafting_template="TwoHandedPolearm"
+		 culture="Culture.empire">
+		<Pieces>
+			<Piece id="spear_blade_15"
+                   Type="Blade"
+                   scale_factor="100"/>
+			<Piece id="spear_handle_5"
+                   Type="Handle"
+                   scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+  
+</Items>
