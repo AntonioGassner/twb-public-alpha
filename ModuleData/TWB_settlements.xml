@@ -1260,7 +1260,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ES1" name="{=Settlements.Settlement.ECM.castle_ES1}Odrysa Castle" owner="Faction.clan_empire_south_4" posX="460.73" posY="965.648" culture="Culture.etruscan" prosperity="1187" gate_posX="463.4633" gate_posY="967.1517">
+  <Settlement id="castle_ES1" name="{=Settlements.Settlement.ECM.castle_ES1}Odrysa Castle" owner="Faction.clan_empire_south_4" posX="460.73" posY="965.648" culture="Culture.etruscan" prosperity="1250" gate_posX="463.4633" gate_posY="967.1517">
     <Components>
       <Town id="castle_comp_ES1" is_castle="true" level="3" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1283,7 +1283,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ES2" name="{=Settlements.Settlement.ECM.castle_ES2}Verona" owner="Faction.clan_empire_south_5" posX="558.037" posY="991.792" culture="Culture.vlandia" prosperity="1225" gate_posX="557.3226" gate_posY="989.3167">
+  <Settlement id="castle_ES2" name="{=Settlements.Settlement.ECM.castle_ES2}Verona" owner="Faction.clan_empire_south_5" posX="558.037" posY="991.792" culture="Culture.vlandia" prosperity="1250" gate_posX="557.3226" gate_posY="989.3167">
     <Components>
       <Town id="castle_comp_ES2" is_castle="true" level="3" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1319,7 +1319,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ES3" name="{=Settlements.Settlement.ECM.castle_ES3}Tarentum" owner="Faction.clan_empire_south_6" posX="721.519" posY="875.307" culture="Culture.epirus" prosperity="1287" gate_posX="720.2406" gate_posY="878.0064">
+  <Settlement id="castle_ES3" name="{=Settlements.Settlement.ECM.castle_ES3}Tarentum" owner="Faction.clan_empire_south_6" posX="721.519" posY="875.307" culture="Culture.epirus" prosperity="1250" gate_posX="720.2406" gate_posY="878.0064">
     <Components>
       <Town id="castle_comp_ES3" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1355,7 +1355,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ES4" name="{=Settlements.Settlement.ECM.castle_ES4}Aleria" owner="Faction.clan_empire_south_1" posX="518.815" posY="914.911" culture="Culture.empire" prosperity="1212" gate_posX="519.5365" gate_posY="917.3104">
+  <Settlement id="castle_ES4" name="{=Settlements.Settlement.ECM.castle_ES4}Aleria" owner="Faction.clan_empire_south_1" posX="518.815" posY="914.911" culture="Culture.empire" prosperity="1250" gate_posX="519.5365" gate_posY="917.3104">
     <Components>
       <Town id="castle_comp_ES4" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1391,7 +1391,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ES5" name="{=Settlements.Settlement.ECM.castle_ES5}Syrakō" owner="Faction.clan_empire_south_8" posX="654.98" posY="793.134" culture="Culture.syracuse" prosperity="1258" gate_posX="655.3328" gate_posY="790.2151">
+  <Settlement id="castle_ES5" name="{=Settlements.Settlement.ECM.castle_ES5}Syrakō" owner="Faction.clan_empire_south_8" posX="654.98" posY="793.134" culture="Culture.syracuse" prosperity="1250" gate_posX="655.3328" gate_posY="790.2151">
     <Components>
       <Town id="castle_comp_ES5" is_castle="true" level="2" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1460,7 +1460,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ES8" name="{=Settlements.Settlement.ECM.castle_ES8}Turii" owner="Faction.clan_empire_south_7" posX="704.378" posY="845.014" culture="Culture.empire" prosperity="1215" gate_posX="702.1168" gate_posY="846.3303">
+  <Settlement id="castle_ES8" name="{=Settlements.Settlement.ECM.castle_ES8}Turii" owner="Faction.clan_empire_south_7" posX="704.378" posY="845.014" culture="Culture.empire" prosperity="1250" gate_posX="702.1168" gate_posY="846.3303">
     <Components>
       <Town id="castle_comp_ES8" is_castle="true" level="3" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1484,7 +1484,7 @@
     </CommonAreas>
   </Settlement>
   <!-- Imperial subfaction 3 begins -->
-  <Settlement id="town_ES1" name="{=Settlements.Settlement.ECM.town_ES1}Ancona" owner="Faction.clan_empire_south_2" posX="620.083" posY="947.332" culture="Culture.empire" prosperity="5400" gate_posX="618.361" gate_posY="945.5024" text="{=ECM_xkkI7ejQ}The frontier city of Ancona dominates the network of lakes and lagoons known as the Calsea. It has long held the line against incursions by the Aserai and various Darshi shahs and padishahs further to the east. Many an imperial legionary stationed here has scribbled graffiti on its walls cursing the city's sweltering summers, brackish water and the mosquitos that rise from the Calsea, but the inhabitants are proud of their role as border defenders and mock the soldiers wilting in the heat around them.">
+  <Settlement id="town_ES1" name="{=Settlements.Settlement.ECM.town_ES1}Ancona" owner="Faction.clan_empire_south_2" posX="620.083" posY="947.332" culture="Culture.empire" prosperity="5500" gate_posX="618.361" gate_posY="945.5024" text="{=ECM_xkkI7ejQ}The frontier city of Ancona dominates the network of lakes and lagoons known as the Calsea. It has long held the line against incursions by the Aserai and various Darshi shahs and padishahs further to the east. Many an imperial legionary stationed here has scribbled graffiti on its walls cursing the city's sweltering summers, brackish water and the mosquitos that rise from the Calsea, but the inhabitants are proud of their role as border defenders and mock the soldiers wilting in the heat around them.">
     <Components>
       <Town id="town_comp_ES1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_seaside_1" wait_mesh="wait_empire_town" gate_rotation="0.808" />
     </Components>
@@ -1559,7 +1559,7 @@
   </Settlement>
   <!-- Rhogas and Lykaron - west and center of larger southern lake, clan 7, queen-->
   <!-- Rhogas is tight between lake and mountains, like Trebizond -->
-  <Settlement id="town_ES2" name="{=Settlements.Settlement.ECM.town_ES2}Patavium" owner="Faction.clan_empire_south_5" posX="603.038" posY="998.454" culture="Culture.vlandia" prosperity="5434" gate_posX="605.8843" gate_posY="1002.373" text="{=ECM_ytBRXqt8}Venezia was founded by the Calradian mercenary Archacos, one of a number of rogue commanders who broke away from the empire during its expansion. Unlike some, who tried to reproduce the empire's republican heritage, he chose to rule as a god-king. His dynasty lasted for generations, until imperial troops overran it and smashed every haloed statue of Archacos and his successors into rubble. Even today, western and northern imperial senators accuse families from this region of being closet monarchists.">
+  <Settlement id="town_ES2" name="{=Settlements.Settlement.ECM.town_ES2}Patavium" owner="Faction.clan_empire_south_5" posX="603.038" posY="998.454" culture="Culture.vlandia" prosperity="5500" gate_posX="605.8843" gate_posY="1002.373" text="{=ECM_ytBRXqt8}Venezia was founded by the Calradian mercenary Archacos, one of a number of rogue commanders who broke away from the empire during its expansion. Unlike some, who tried to reproduce the empire's republican heritage, he chose to rule as a god-king. His dynasty lasted for generations, until imperial troops overran it and smashed every haloed statue of Archacos and his successors into rubble. Even today, western and northern imperial senators accuse families from this region of being closet monarchists.">
     <Components>
       <Town id="town_comp_ES2" is_castle="false" level="1" background_crop_position="0.45" background_mesh="menu_empire_seaside_2" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1633,7 +1633,7 @@
   </Settlement>
   <!-- Akropora and Halmor, belong to clan 5 varros-->
   <!-- High ford-->
-  <Settlement id="town_ES3" name="{=Settlements.Settlement.ECM.town_ES3}Pánormos" owner="Faction.clan_empire_south_8" posX="617.185" posY="809.446" culture="Culture.syracuse" prosperity="5334" gate_posX="618.6132" gate_posY="807.4665" text="{=ECM_rGXdJybe}The town of Palermo sits near the northern shores of the Perassic Sea. The warm rolling hills of these parts are well suited to the raising of sheep and horses. The herdsmen have a reputation for being proud and violent, but the nobles of the Leonipardes clan who rule this land are careful to respect their autonomy. Livestock rustling and blood feuds are common here, and it is said that the Leonipardes will never interfere unless invited by both parties, but when they do, their judgments will be obeyed by all.">
+  <Settlement id="town_ES3" name="{=Settlements.Settlement.ECM.town_ES3}Pánormos" owner="Faction.clan_empire_south_8" posX="617.185" posY="809.446" culture="Culture.syracuse" prosperity="5500" gate_posX="618.6132" gate_posY="807.4665" text="{=ECM_rGXdJybe}The town of Palermo sits near the northern shores of the Perassic Sea. The warm rolling hills of these parts are well suited to the raising of sheep and horses. The herdsmen have a reputation for being proud and violent, but the nobles of the Leonipardes clan who rule this land are careful to respect their autonomy. Livestock rustling and blood feuds are common here, and it is said that the Leonipardes will never interfere unless invited by both parties, but when they do, their judgments will be obeyed by all.">
     <Components>
       <Town id="town_comp_ES3" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1692,7 +1692,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_ES4" name="{=Settlements.Settlement.ECM.town_ES4}Roma" owner="Faction.clan_empire_south_1" posX="601.043" posY="913.907" culture="Culture.empire" prosperity="5464" gate_posX="596.8077" gate_posY="912.8961" text="{=ECM_WGtzBswe}The natural fortress of Roma sits on a spur jutting out of the great Ornian rock. In the final years of the imperial conquest, the Palaic tribe here negotiated a peaceful federation with the empire, only to see their home seized by the rebel leader Gethuz. The ensuing siege was only the first of many that Roma would undergo in the ensuing centuries, as its nearby silver mines made it a prize for every imperial pretender who ever tried to seize power in a civil war. It is said that the colony of vultures who inhabit the upper reaches of the Rock have dined on the flesh of every people of Calradia.">
+  <Settlement id="town_ES4" name="{=Settlements.Settlement.ECM.town_ES4}Roma" owner="Faction.clan_empire_south_1" posX="601.043" posY="913.907" culture="Culture.empire" prosperity="5500" gate_posX="596.8077" gate_posY="912.8961" text="{=ECM_WGtzBswe}The natural fortress of Roma sits on a spur jutting out of the great Ornian rock. In the final years of the imperial conquest, the Palaic tribe here negotiated a peaceful federation with the empire, only to see their home seized by the rebel leader Gethuz. The ensuing siege was only the first of many that Roma would undergo in the ensuing centuries, as its nearby silver mines made it a prize for every imperial pretender who ever tried to seize power in a civil war. It is said that the colony of vultures who inhabit the upper reaches of the Rock have dined on the flesh of every people of Calradia.">
     <Components>
       <Town id="town_comp_ES4" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_5" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1751,7 +1751,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_ES5" name="{=Settlements.Settlement.ECM.town_ES5}Capua" owner="Faction.clan_empire_south_6" posX="638.533" posY="887.571" culture="Culture.empire" prosperity="5413" gate_posX="637.9388" gate_posY="889.7819" text="{=ECM_4ENGzVaC}The tale of Sarpea of Napoli is one of the epic poems of the eastern frontier. Like many, it seems written to justify the Empire's conquest. Sarpea, a senator's daughter, was seized by a Palaic chieftain and carried to his citadel here. When the imperial armies appeared before its walls years later to rescue her, she begged them to retreat for the sake of her infant son, whom her fearsome husband had threatened to hurl from the walls instead of allowing him to be captured and raised by his mother's people. The legions withdrew, so the story says, but the boy grew into a warrior who joined the Empire and slew his father. It is now the center of a horse-breeding industry on the eastern plains.">
+  <Settlement id="town_ES5" name="{=Settlements.Settlement.ECM.town_ES5}Capua" owner="Faction.clan_empire_south_6" posX="638.533" posY="887.571" culture="Culture.empire" prosperity="5500" gate_posX="637.9388" gate_posY="889.7819" text="{=ECM_4ENGzVaC}The tale of Sarpea of Napoli is one of the epic poems of the eastern frontier. Like many, it seems written to justify the Empire's conquest. Sarpea, a senator's daughter, was seized by a Palaic chieftain and carried to his citadel here. When the imperial armies appeared before its walls years later to rescue her, she begged them to retreat for the sake of her infant son, whom her fearsome husband had threatened to hurl from the walls instead of allowing him to be captured and raised by his mother's people. The legions withdrew, so the story says, but the boy grew into a warrior who joined the Empire and slew his father. It is now the center of a horse-breeding industry on the eastern plains.">
     <Components>
       <Town id="town_comp_ES5" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
     </Components>
@@ -1810,7 +1810,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_ES6" name="{=Settlements.Settlement.ECM.town_ES6}Genua" owner="Faction.clan_empire_south_3" posX="515.711" posY="975.512" culture="Culture.etruscan" prosperity="5537" gate_posX="518.191" gate_posY="974.9539" text="{=ECM_RL2vacqv}Genova sits at the head of the Sethys valley, one of the main grain-producing regions of the central Empire. Once the largest of the Palaic cities, its leaders led a league of the tribes against imperial encroachment into the region. But when the empire's victory looked inevitable, they made their peace. The population, now thoroughly Calradicized, have a reputation for being serious, respectable and trade-minded, dependable if a bit humorless.">
+  <Settlement id="town_ES6" name="{=Settlements.Settlement.ECM.town_ES6}Genua" owner="Faction.clan_empire_south_3" posX="515.711" posY="975.512" culture="Culture.etruscan" prosperity="5500" gate_posX="518.191" gate_posY="974.9539" text="{=ECM_RL2vacqv}Genova sits at the head of the Sethys valley, one of the main grain-producing regions of the central Empire. Once the largest of the Palaic cities, its leaders led a league of the tribes against imperial encroachment into the region. But when the empire's victory looked inevitable, they made their peace. The population, now thoroughly Calradicized, have a reputation for being serious, respectable and trade-minded, dependable if a bit humorless.">
     <Components>
       <Town id="town_comp_ES6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_empire_town" gate_rotation="0.508" />
     </Components>
